@@ -38,7 +38,7 @@ graph LR
    cd exporter
    npm install  # Install dependencies in the exporter directory
    ```
-3. **Start the exporter server:**
+3. **Run the exporter script:**
    ```bash
    npm start  # Run this inside the exporter directory
    ```
