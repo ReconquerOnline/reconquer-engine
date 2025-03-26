@@ -56,7 +56,7 @@ Open your web browser and navigate to http://localhost:3000 to view the applicat
 
 We welcome contributions for the engine itself and for Reconquer Online! Before submitting a pull request, please:
 
-- Agree to the Contributor License Agreement ([Contributor License Agreement](Contributor_License_Agreement.md)).
+- Agree to the Contributor License Agreement ([Contributor License Agreement](CONTRIBUTOR_LICENSE_AGREEMENT.md)).
 
 ## License
 
