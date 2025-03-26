@@ -29,7 +29,7 @@ graph LR
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/reconquer-engine.git
+   git clone https://github.com/ReconquerOnline/reconquer-engine.git
    cd reconquer-engine
    ```
 2. **Install dependencies:**
@@ -46,11 +46,11 @@ graph LR
    ```bash
    cd ..  # Move back to the root directory
    npm run build  # Start build client files (Can also run "npm run watch" in a separate terminal)
-   npm run dev  # Start the development server
+   npm start dev  # Start the development server
    ```
 5. **Access the application:**
 
-Open your web browser and navigate to http://localhost:3000 to view the application.
+Open your web browser and navigate to http://localhost:3000 to view the application. To login with multiple accounts, run them in different profiles in Chrome.
 
 ## Contributing
 
