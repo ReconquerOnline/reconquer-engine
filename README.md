@@ -1,22 +1,20 @@
-# Reconquer Engine
-
 ![alt text](https://github.com/ReconquerOnline/reconquer-engine/blob/master/header.png?raw=true)
 
-🚨 **IMPORTANT:** Before using or contributing, please read the [LICENSE](LICENSE) and [CONTRIBUTOR LICENSE AGREEMENT](CONTRIBUTOR_LICENSE_AGREEMENT.md). Commercial users may have to pay a royalty if they use this software to generate a gross income over $100,000.
+🚨 **IMPORTANT:** Before using or contributing, please read the [LICENSE](LICENSE) and [CONTRIBUTOR LICENSE AGREEMENT](CONTRIBUTOR_LICENSE_AGREEMENT.md).
 
 ## Overview
 
-Reconquer Engine is an MMORPG game engine and framework for creating games with mechanics somewhat similar to Old School Runescape (OSRS). It is currently used for the game [Reconquer Online](https://news.reconquer.online/). This repository contains not only the engine files, but also all the assets for running a local copy of Reconquer Online!
+Reconquer Engine is an MMORPG game engine and framework for creating games with mechanics similiar to Old School Runescape (OSRS). It is currently used for the game [Reconquer Online](https://news.reconquer.online/). This repository contains not only the engine files, but also all the assets for running a local copy of Reconquer Online!
 
-It uses native web technology for user interfaces and (**three.js**) for graphics and therefore runs in a browser or an electron app. The backend uses **Express** and **Socket.io** for a server and real time communication. The exporter, which combines game assets and generates server and client configs, uses **gltf-transform**.
+It uses native web technology for user interfaces and **three.js** for graphics. Therefore it can easily run in a web browser or an Electron app. The backend uses **Express** and **Socket.io** for a server and real time communication. The exporter, which combines game assets and generates configs, uses **gltf-transform**.
 
-This version uses a simple local file database and simple authentication system that should generally be replaced in production deployments.
+This version uses a simple local-file database and simple authentication system that should generally be replaced in production deployments.
 
 ## Architecture
 
 1. **Assets**: Contains all game assets.
 2. **Exporter**: Processes and optimizes assets.
-3. **Client**: Contains browser client code.
+3. **Client**: Contains browser client code, compiled using vite.
 4. **Server**: Node.js server using express and socket.io.
 
 ### How It Looks:
@@ -47,7 +45,7 @@ graph LR
 4. **Start the development environment:**
    ```bash
    cd ..  # Move back to the root directory
-   npm run watch  # Start file watching
+   npm run build  # Start build client files (Can also run "npm run watch" in a separate terminal)
    npm run dev  # Start the development server
    ```
 5. **Access the application:**
@@ -62,7 +60,7 @@ We welcome contributions for the engine itself and for Reconquer Online! Before 
 
 ## License
 
-Reconquer Engine is licensed under a custom license. See the [LICENSE](LICENSE.md) file for details.
+Reconquer Engine is licensed under a custom license similar in principle to the one Unreal Engine uses. Commercial users who gross more than $100,000 USD per year are subject to a 5% royalty. See the [LICENSE](LICENSE.md) file for details.
 
 ## Community & Support
 
