@@ -66,6 +66,6 @@ Reconquer Engine is licensed under a custom license similar in principle to the 
 
 - 📢 **Discord**: [Join our community](https://discord.gg/5VqPUfdMn9)
 - 🛠 **Report Issues**: [GitHub Issues](https://github.com/ReconquerOnline/reconquer-engine/issues)
-- 🌱 **Feature Requests**: Submit ideas in the discussions tab
+- 🌱 **Feature Requests**: Submit ideas in the Discord channel.
 
 🚀 **Happy building!**
