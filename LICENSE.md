@@ -27,7 +27,7 @@ You may use the Software for free under the following conditions:
 ## 5. Use of Graphical Assets
 
 - You may use and modify graphical assets included with the Software as part of your project.
-- External graphical assets that are subject to Creative Commons licenses are listed in the `credits.md` file. You must provide proper attribution as specified in the respective licenses. This may include crediting the creator of the asset in your product or its documentation.
+- External graphical assets that are subject to Creative Commons licenses are listed in the `CREDITS.md` file. You must provide proper attribution as specified in the respective licenses. This may include crediting the creator of the asset in your product or its documentation.
 
 ## 6. Restrictions
 
