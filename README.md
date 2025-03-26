@@ -25,6 +25,10 @@ graph LR
     B --> D[Server]
 ```
 
+## Prerequisites
+
+* Use node.js version 20 or higher (check with `node --version`) using [nvm](https://github.com/nvm-sh/nvm).
+
 ## Getting Started
 
 1. **Clone the repository:**
