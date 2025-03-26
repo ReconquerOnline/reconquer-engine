@@ -1,0 +1,19 @@
+{
+    "itemId": "hog_boots",
+    "itemName": "Hog Boots",
+    "replaceMesh": "leather_boots",
+    "replaceMaterials": {
+        "LeatherMaterial": "PigMaterial"
+    },
+    "price": 8,
+    "wearBehavior": {
+        "slot": "if",
+        "change": {
+            "sf": 1,
+            "sfm": 2
+        },
+        "defense": 10,
+        "skill": "defense",
+        "level": 5
+    }
+}

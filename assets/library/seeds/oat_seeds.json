@@ -1,0 +1,38 @@
+{
+    "itemId": "oat_seeds",
+    "itemName": "Oat Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"OatsMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_oat_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 18,
+            "level": 40,
+            "quantity": 18,
+            "yield": 7,
+            "time": 50,
+            "finalState": 11,
+            "failureChance": 0.45,
+            "yieldsItem": "oats"
+        }
+    ]
+}

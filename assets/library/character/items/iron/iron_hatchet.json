@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_hatchet",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_hatchet",
+    "itemName": "Iron Hatchet",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 4,
+            "swm": 2
+        },
+        "accuracy": 55
+    },
+    "price": 15,
+    "attackParameters": {
+        "animation": "slash"
+    }
+}

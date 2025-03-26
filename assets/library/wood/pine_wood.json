@@ -1,0 +1,25 @@
+{
+    "itemId": "pine_wood",
+    "itemName": "Pine Wood",
+    "useSourceInteractions": [
+        {
+            "type": "ignition_utility",
+            "experience": 1,
+            "level": 1
+        },
+        {
+            "type": "nail_utility",
+            "experience": 1,
+            "level": 1,
+            "produces": "pine_barricade"
+        },
+        {
+            "type": "knife_utility",
+            "result": "wooden_handle",
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1
+        }
+    ]
+}

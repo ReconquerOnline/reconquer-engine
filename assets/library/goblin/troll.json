@@ -1,0 +1,89 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 10,
+        "respawnTime": 35,
+        "distance": 2,
+        "maxDistance": 4,
+        "frequency": 15,
+        "aggressionDistance": 5,
+        "slashDefense": -50,
+        "accuracy":8,
+        "defense":8,
+        "strength":8,
+        "dropTable": [
+            [
+                0,
+                [
+                    "zinc_ore",
+                    1
+                ]
+            ],
+            [
+                400,
+                [
+                    "yarrow_seeds",
+                    5
+                ]
+            ],
+            [
+                600,
+                [
+                    "sardine_meat_raw",
+                    1
+                ]
+            ],
+            [
+                900,
+                [
+                    "brass_sword",
+                    1
+                ]
+            ],
+            [
+                950,
+                [
+                    "troll_essence",
+                    1
+                ]
+            ]
+        ]
+    },
+    "itemName": "Troll",
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "troll_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "troll_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "troll_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "troll_die",
+                    "duration": "0.6",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "itemId": "trout_meat_burnt",
+    "itemName": "Burnt Trout",
+    "rotateThumbnail": true,
+    "scaleMesh": 1.3,
+    "replaceMesh": "sardine_meat_raw",
+    "replaceMaterials": {
+        "SardineTopMaterial": "MeatBurntMaterial",
+        "SardineBottomMaterial": "MeatBurntMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

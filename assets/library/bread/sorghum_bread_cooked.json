@@ -1,0 +1,10 @@
+{
+    "itemName": "Sorghum Bread",
+    "itemId": "sorghum_bread_cooked",
+    "eatBehavior": {
+        "produces": ["sorghum_half", 1],
+        "hitpointsToHeal": 3
+    },
+    "price": 8,
+    "replaceMesh": "bread_cooked"
+}

@@ -1,0 +1,13 @@
+{
+    "itemId": "iron_ore",
+    "itemName": "Iron Ore",
+    "useSourceInteractions": [
+        {
+            "type": "furnace_utility"
+        }
+    ],
+    "replaceMesh": "copper_ore",
+    "replaceMaterials": {
+        "CopperRockMaterial": "IronRockMaterial"
+    }
+}

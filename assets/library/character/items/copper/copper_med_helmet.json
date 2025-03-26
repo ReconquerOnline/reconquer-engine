@@ -1,0 +1,14 @@
+{
+    "itemId": "copper_med_helmet",
+    "itemName": "Copper Med Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 2,
+            "shm": 0
+        },
+        "accuracy": 5,
+        "strength": 5
+    },
+    "price": 15
+}

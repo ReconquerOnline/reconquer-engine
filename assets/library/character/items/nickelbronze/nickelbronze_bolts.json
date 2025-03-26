@@ -1,0 +1,27 @@
+{
+    "replaceMesh": "copper_bolts",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_bolts",
+    "itemName": "Cupric Bolts",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "bolt"
+    },
+    "price": 6,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_bolts_1",
+                "copper_bolts_2",
+                "copper_bolts_3",
+                "copper_bolts_4",
+                "copper_bolts_5"
+            ]
+        }
+    ]
+}

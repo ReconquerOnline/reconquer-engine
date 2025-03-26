@@ -1,0 +1,6 @@
+{
+    "itemName": "Chickpea Half",
+    "itemId": "chickpea_half",
+    "eatBehavior": 12,
+    "replaceMesh": "bread_half"
+}

@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "fire_spout",
+    "frustumCulled": false,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "fire_spout_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "fire_spout_shoot_3t_4",
+                    "duration": "2.4",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

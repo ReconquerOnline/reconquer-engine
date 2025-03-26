@@ -1,0 +1,15 @@
+{
+    "itemName": "Pine Barricade",
+    "isItem": true,
+    "dynamicCollisionSize": 1,
+    "interactions": [
+        {
+            "type": "attack",
+            "interaction": "Attack"
+        },
+        {
+            "type": "examine_monster",
+            "interaction": "Examine"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "itemId": "herb_ginseng",
+    "itemName": "Ginseng",
+    "rotateThumbnail": true,
+    "replaceMesh": "herb_yarrow",
+    "replaceMaterials": {
+        "YarrowMaterial": "GinsengMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "health_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

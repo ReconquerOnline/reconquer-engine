@@ -1,0 +1,31 @@
+{
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "replaceMesh": "idol",
+    "replaceMaterials": {
+        "BronzeMaterial": "PineOuterMaterial"
+    },
+    "scaleMesh": [1,2,1.5],
+    "attackCollision": true,
+    "itemName": "Totem Pole",
+    "experience": 5,
+    "level": 15,
+    "fellingChance": 0,
+    "interactions":[
+        {
+            "type": "chop",
+            "interaction": "Chop"
+        }
+    ],
+    "examineMatch": "A totem pole made out of cedar.",
+    "chopMatch": [
+        {
+            "matchString": "",
+            "result": "cedar_wood",
+            "chance": 1
+        }
+    ]
+}

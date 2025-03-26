@@ -1,0 +1,16 @@
+{
+    "itemId": "crab_essence",
+    "itemName": "Crab Essence",
+    "replaceMesh": "crab",
+    "replaceMaterials": {
+        "CrabMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "crab"
+        }
+    ]
+}

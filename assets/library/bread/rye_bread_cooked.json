@@ -1,0 +1,10 @@
+{
+    "itemName": "Rye Bread",
+    "itemId": "rye_bread_cooked",
+    "eatBehavior": {
+        "produces": ["rye_half", 1],
+        "hitpointsToHeal": 5
+    },
+    "price": 14,
+    "replaceMesh": "bread_cooked"
+}

@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_sword",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_sword",
+    "itemName": "Bronze Sword",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 12,
+            "swm": 1
+        },
+        "strength": 35
+    },
+    "attackParameters": {
+        "animation": "stab"
+    },
+    "price": 35
+}

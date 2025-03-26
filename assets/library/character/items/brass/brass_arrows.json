@@ -1,0 +1,27 @@
+{
+    "replaceMesh": "copper_arrows",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_arrows",
+    "itemName": "Brass Arrows",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "arrow"
+    },
+    "price": 4,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_arrows_1",
+                "copper_arrows_2",
+                "copper_arrows_3",
+                "copper_arrows_4",
+                "copper_arrows_5"
+            ]
+        }
+    ]
+}

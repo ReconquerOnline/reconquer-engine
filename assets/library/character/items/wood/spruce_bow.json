@@ -1,0 +1,25 @@
+{
+    "itemId": "spruce_bow",
+    "itemName": "Spruce Bow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_bow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "SpruceInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 1,
+            "swbm": 1
+        },
+        "accuracy": 15,
+        "level": 5,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "bow",
+        "distance": 5
+    },
+    "price": 5
+}

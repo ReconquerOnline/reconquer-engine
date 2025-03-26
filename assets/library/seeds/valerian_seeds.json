@@ -1,0 +1,23 @@
+{
+    "itemId": "valerian_seeds",
+    "itemName": "Valerian Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "ValerianMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 6,
+            "level": 15,
+            "quantity": 6,
+            "yield": 8,
+            "time": 40,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.2,
+            "yieldsItem": "herb_valerian"
+        }
+    ]
+}

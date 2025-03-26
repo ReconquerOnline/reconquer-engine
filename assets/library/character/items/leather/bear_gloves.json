@@ -1,0 +1,21 @@
+{
+    "itemId": "bear_gloves",
+    "itemName": "Bear Gloves",
+    "rotateThumbnail": true,
+    "replaceMesh": "leather_gloves",
+    "replaceMaterials": {
+        "LeatherMaterial": "BearHideMaterial"
+    },
+    "price": 8,
+    "wearBehavior": {
+        "slot": "ihan",
+        "change": {
+            "shan": 1,
+            "shanm": 4
+        },
+        "accuracy": 20,
+        "strength": 20,
+        "skill": "defense",
+        "level": 15
+    }
+}

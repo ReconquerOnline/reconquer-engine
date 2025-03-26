@@ -1,0 +1,13 @@
+{
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "itemName": "Chest",
+    "interactions": [
+        {
+            "type": "talk",
+            "interaction": "Take from"
+        }
+    ]
+}

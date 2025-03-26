@@ -1,0 +1,148 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawn": false,
+        "distance": 24,
+        "maxDistance": 24,
+        "wander": true,
+        "frequency": 5,
+        "hitpoints": 150,
+        "accuracy": 40,
+        "defense": 40,
+        "strength": 40,
+        "archery": 50,
+        "aggressionDistance": 24,
+        "dropTable": [
+            [
+                [
+                    0,
+                    "dragon_raw"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "dragon_hide"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "iron_hatchet"
+                ],
+                [
+                    110,
+                    "iron_saber"
+                ],
+                [
+                    220,
+                    "iron_scythe"
+                ],
+                [
+                    330,
+                    "iron_knife"
+                ],
+                [
+                    440,
+                    "iron_sword"
+                ],
+                [
+                    550,
+                    "iron_spear"
+                ],
+                [
+                    660,
+                    "iron_hammer"
+                ],
+                [
+                    770,
+                    "iron_mace"
+                ],
+                [
+                    880,
+                    "iron_pickaxe"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "copper_necklace"
+                ],
+                [
+                    250,
+                    "brass_necklace"
+                ],
+                [
+                    500,
+                    "bronze_necklace"
+                ],
+                [
+                    750,
+                    "nickelbronze_necklace"
+                ],
+                [
+                    900,
+                    "draconic_scale"
+                ]
+            ]
+        ]
+    },
+    "replaceMesh": "dragon",
+    "replaceMaterials": {
+        "GreenDragonMaterial": "BlueDragonMaterial"
+    },
+    "scaleMesh": 1.5,
+    "dynamicCollisionSize": 3,
+    "itemName": "Kook",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "dragon_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_walk",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_die",
+                    "duration": "1.2",
+                    "loop": false
+                },
+                {
+                    "name": "dragon_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_fire_bow",
+                    "duration": "1.8",
+                    "loop": true,
+                    "ammoOffset": [0,2.7,2.4]
+                },
+                {
+                    "name": "dragon_wind_bow",
+                    "duration": "1.8",
+                    "loop": true,
+                    "ammoOffset": [0,2.15,0]
+                },
+                {
+                    "name": "dragon_spin",
+                    "duration": "1.8",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_stomp",
+                    "duration": "2.4",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

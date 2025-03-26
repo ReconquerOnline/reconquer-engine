@@ -1,0 +1,8 @@
+{
+    "itemName": "Burnt Bread",
+    "itemId": "bread_burnt",
+    "replaceMesh": "bread_cooked",
+    "replaceMaterials": {
+        "BreadMaterial": "MeatBurntMaterial"
+    }
+}

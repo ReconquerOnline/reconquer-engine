@@ -1,0 +1,22 @@
+{
+    "itemId": "trout_meat_raw",
+    "itemName": "Raw Trout",
+    "rotateThumbnail": true,
+    "replaceMaterials": {
+        "SardineTopMaterial": "TroutTopMaterial"
+    },
+    "replaceMesh": "sardine_meat_raw",
+    "scaleMesh": 1.3,
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "trout_meat_cooked",
+            "failure": "trout_meat_burnt",
+            "experience": 4,
+            "level": 15
+        },
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

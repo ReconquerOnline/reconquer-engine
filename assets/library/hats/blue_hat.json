@@ -1,0 +1,15 @@
+{
+    "itemId": "blue_hat",
+    "itemName": "Blue Hat",
+    "replaceMesh":"crown",
+    "replaceMaterials": {
+        "GoldMaterial": "ClothesBlueMaterial"
+    },
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 6,
+            "shm": 6
+        }
+    }
+}

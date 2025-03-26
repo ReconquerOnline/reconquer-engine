@@ -1,0 +1,19 @@
+{
+    "itemId": "hog_essence",
+    "itemName": "Hog Essence",
+    "replaceMesh": "hog",
+    "replaceMaterials": {
+        "PigMaterial": "FurnaceFireMaterial",
+        "PigSecondaryMaterial": "FurnaceFireMaterial",
+        "PigTuskMaterial": "FurnaceFireMaterial"
+    },
+    "hideMeshes":["hog_mesh_tusk"],
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "hog"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_ingot_huge",
+    "itemName": "Huge Copper Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        }
+    ],
+    "serverState": {
+        "copper_ingot_huge.table": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

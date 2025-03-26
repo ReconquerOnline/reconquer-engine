@@ -1,0 +1,9 @@
+{
+    "itemId": "copper_ore",
+    "itemName": "Copper Ore",
+    "useSourceInteractions": [
+        {
+            "type": "furnace_utility"
+        }
+    ]
+}

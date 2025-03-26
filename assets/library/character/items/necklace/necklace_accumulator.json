@@ -1,0 +1,17 @@
+{
+    "itemId": "necklace_accumulator",
+    "itemName": "Accumulator Necklace",
+    "replaceMesh": "necklace_bear_tooth",
+    "replaceMaterials": {
+        "ToothMaterial": "DragonHideMaterial"
+    },
+    "examineMatch": "This necklace has an attractive pull to it.",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 2,
+            "snm": 7
+        }
+    },
+    "price": 30
+}

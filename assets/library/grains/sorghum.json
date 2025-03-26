@@ -1,0 +1,33 @@
+{
+    "itemId": "sorghum",
+    "itemName": "Sorghum",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 70
+    },
+    "examineMatch": "A bundle of sorghum.",
+    "defaultMap": [
+        {
+            "result": [
+                "sorghum_seeds",
+                7
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "sorghum_seeds",
+                17
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

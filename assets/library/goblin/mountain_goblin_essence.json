@@ -1,0 +1,23 @@
+{
+    "itemId": "mountain_goblin_essence",
+    "itemName": "Mountain Goblin Essence",
+    "replaceMesh": "goblin",
+    "replaceMaterials": {
+        "GoblinSkinMaterial": "FurnaceFireMaterial",
+        "LeatherMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.6,
+    "hideMeshes": [
+        "goblin_square_shield",
+        "goblin_kite_shield",
+        "goblin_sword",
+        "goblin_round_shield"
+    ],
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "mountain_goblin"
+        }
+    ]
+}

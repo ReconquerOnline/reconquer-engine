@@ -1,0 +1,16 @@
+{
+    "itemId": "catfish_meat_cooked",
+    "itemName": "Cooked Catfish",
+    "rotateThumbnail": true,
+    "eatBehavior": 4,
+    "replaceMesh": "catfish_meat_raw",
+    "replaceMaterials": {
+        "CatfishBottomMaterial": "MeatCookedMaterial",
+        "CatfishTopMaterial": "MeatCookedMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

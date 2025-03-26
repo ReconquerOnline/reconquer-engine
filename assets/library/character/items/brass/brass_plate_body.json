@@ -1,0 +1,19 @@
+{
+    "replaceMesh": "copper_plate_body",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_plate_body",
+    "itemName": "Brass Plate Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 2,
+            "ss": 2,
+            "sbm": 3
+        },
+        "defense": 20
+    },
+    "price": 40
+}

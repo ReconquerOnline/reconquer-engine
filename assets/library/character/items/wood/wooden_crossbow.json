@@ -1,0 +1,19 @@
+{
+    "itemId": "wooden_crossbow",
+    "itemName": "Crossbow",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 2,
+            "swbm": 0
+        },
+        "strength": 10
+    },
+    "attackParameters": {
+        "animation": "crossbow",
+        "distance": 5
+    },
+    "price": 8
+}

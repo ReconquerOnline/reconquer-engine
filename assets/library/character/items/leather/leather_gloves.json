@@ -1,0 +1,22 @@
+{
+    "itemId": "leather_gloves",
+    "itemName": "Leather Gloves",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ihan",
+        "change": {
+            "shan": 1,
+            "shanm": 0
+        },
+        "accuracy": 5,
+        "strength": 5
+    },
+    "price": 2,
+    "serverState": {
+        "leather_gloves.table": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

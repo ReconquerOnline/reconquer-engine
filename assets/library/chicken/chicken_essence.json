@@ -1,0 +1,16 @@
+{
+    "itemId": "chicken_essence",
+    "itemName": "Chicken Essence",
+    "replaceMesh": "chicken",
+    "replaceMaterials": {
+        "ChickenMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "chicken"
+        }
+    ]
+}

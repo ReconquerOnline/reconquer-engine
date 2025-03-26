@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_hammer",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_hammer",
+    "itemName": "Iron Hammer",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 3,
+            "swm": 2
+        },
+        "accuracy": 55
+    },
+    "price": 10,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

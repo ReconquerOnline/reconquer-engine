@@ -1,0 +1,13 @@
+{
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "itemName": "Mirror",
+    "interactions": [
+        {
+            "type": "talk",
+            "interaction": "Look into"
+        }
+    ]
+}

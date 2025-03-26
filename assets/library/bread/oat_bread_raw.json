@@ -1,0 +1,14 @@
+{
+    "itemName": "Oat Dough",
+    "itemId": "oat_bread_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "oat_bread_cooked",
+            "failure": "bread_burnt",
+            "experience": 18,
+            "level": 40
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_pickaxe_head",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_pickaxe_head",
+    "itemName": "Bronze Pickaxe Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "bronze_pickaxe",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 10,
+            "experience": 3
+        }
+    ]
+}

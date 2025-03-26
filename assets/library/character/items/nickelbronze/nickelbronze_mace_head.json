@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_mace_head",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_mace_head",
+    "itemName": "Cupric Mace Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "nickelbronze_mace",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 15,
+            "experience": 5
+        }
+    ]
+}

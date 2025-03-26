@@ -1,0 +1,16 @@
+{
+    "itemId": "herb_yarrow",
+    "itemName": "Yarrow",
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "fishing_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

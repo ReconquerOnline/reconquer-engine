@@ -1,0 +1,68 @@
+{
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 30,
+        "respawn": false,
+        "disableHitpointRegeneration": true,
+        "defense": 200,
+        "wander": true,
+        "aggressionDistance": 32,
+        "frequency": 1,
+        "distance": 32,
+        "maxDistance": 32,
+        "dropTable": [
+            [
+                0,
+                [
+                    "bronze_ingot_huge",
+                    1
+                ]
+            ]
+        ]
+    },
+    "immuneToFire": true,
+    "itemName": "Yammer",
+    "dynamicCollisionSize": 1,
+    "replaceMesh": "idol",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "idol_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "idol_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "idol_attack",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "idol_die",
+                    "duration": "0.6",
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "sm",
+            "name": "stateMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "idol"
+            ],
+            "options": [
+                "BronzeMaterial",
+                "IronMaterial"
+            ]
+        }
+    ]
+}

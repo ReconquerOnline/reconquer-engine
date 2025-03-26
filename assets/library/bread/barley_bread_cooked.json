@@ -1,0 +1,10 @@
+{
+    "itemName": "Barley Bread",
+    "itemId": "barley_bread_cooked",
+    "eatBehavior": {
+        "produces": ["barley_half", 1],
+        "hitpointsToHeal": 4
+    },
+    "price": 10,
+    "replaceMesh": "bread_cooked"
+}

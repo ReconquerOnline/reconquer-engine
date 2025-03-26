@@ -1,0 +1,14 @@
+{
+    "itemId": "bear_raw",
+    "itemName": "Raw Bear",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "bear_cooked",
+            "failure": "bear_burnt",
+            "experience": 6,
+            "level": 15
+        }
+    ],
+    "replaceMesh": "beef_raw"
+}

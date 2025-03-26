@@ -1,0 +1,8 @@
+{
+    "itemName": "Burnt Cake",
+    "itemId": "cake_burnt",
+    "replaceMesh": "cake_cooked",
+    "replaceMaterials":{
+        "BreadMaterial": "MeatBurntMaterial"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "itemId": "eel_meat_raw",
+    "itemName": "Raw Lava Eel",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "eel_meat_cooked",
+            "failure": "eel_meat_burnt",
+            "experience": 5,
+            "level": 20
+        },
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

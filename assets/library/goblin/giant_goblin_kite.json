@@ -1,0 +1,74 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 18,
+        "distance": 3,
+        "maxDistance": 12,
+        "frequency": 15,
+        "aggressionDistance": 8,
+        "stabDefense": 0,
+        "slashDefense": 180,
+        "crushDefense": -180,
+        "accuracy":18,
+        "defense":18,
+        "strength":18,
+        "respawn": false
+    },
+    "replaceMesh": "goblin",
+    "replaceMaterials": {
+        "GoblinSkinMaterial": "SkinMediumMaterial"
+    },
+    "scaleMesh": 2,
+    "itemName": "Arena Goblin",
+    "dynamicCollisionSize": 2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "goblin_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_die",
+                    "duration": "0.6",
+                    "loop": false
+                },
+                {
+                    "name": "goblin_stomp",
+                    "duration": "3.0",
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "se",
+            "name": "stateEquipment",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "goblin_square_shield",
+                "goblin_round_shield"
+            ]
+        }
+    ]
+}

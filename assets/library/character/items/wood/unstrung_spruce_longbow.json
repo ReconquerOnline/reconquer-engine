@@ -1,0 +1,29 @@
+{
+    "itemId": "unstrung_spruce_longbow",
+    "itemName": "Unstrung Spruce Longbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "unstrung_wooden_longbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "SpruceInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "spruce_longbow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 10,
+            "experience": 9
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 10,
+            "experience": 9,
+            "alsoProduces": ["arrow_shafts", 18]
+        }
+    ]
+}

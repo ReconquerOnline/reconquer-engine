@@ -1,0 +1,25 @@
+{
+    "itemId": "unstrung_wooden_bow",
+    "itemName": "Unstrung Bow",
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "wooden_bow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 5,
+            "experience": 2
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 1,
+            "experience": 1,
+            "alsoProduces": ["arrow_shafts", 4]
+        }
+    ]
+}

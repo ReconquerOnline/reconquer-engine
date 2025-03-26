@@ -1,0 +1,27 @@
+{
+    "itemId": "dragon_hide",
+    "replaceMesh": "cow_hide",
+    "replaceMaterials": {
+        "CowHideMaterial": "DragonHideMaterial",
+        "CowHideBlackMaterial": "DragonHideMaterial"
+    },
+    "itemName": "Dragon Hide",
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": [
+                "dragon_gloves",
+                "dragon_boots"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "alsoConsumes": [
+                "thread",
+                5
+            ],
+            "experience": 6,
+            "level": 20,
+            "skill": "crafting"
+        }
+    ]
+}

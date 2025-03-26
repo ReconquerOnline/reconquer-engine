@@ -1,0 +1,14 @@
+{
+    "itemId": "dragon_raw",
+    "itemName": "Raw Dragon",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "dragon_cooked",
+            "failure": "dragon_burnt",
+            "experience": 7,
+            "level": 20
+        }
+    ],
+    "replaceMesh": "beef_raw"
+}

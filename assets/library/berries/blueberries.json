@@ -1,0 +1,6 @@
+{
+    "itemId": "blueberries",
+    "itemName": "Blueberries",
+    "examineMatch": "Fresh blueberries.",
+    "eatBehavior": 2
+}

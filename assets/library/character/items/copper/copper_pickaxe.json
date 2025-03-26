@@ -1,0 +1,24 @@
+{
+    "itemId": "copper_pickaxe",
+    "itemName": "Copper Pickaxe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 8,
+            "swm": 0
+        },
+        "strength": 15
+    },
+    "price": 5,
+    "attackParameters": {
+        "animation": "crush"
+    },
+    "serverState": {
+        "copper_pickaxe.table": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

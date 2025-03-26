@@ -1,0 +1,29 @@
+{
+    "itemId": "unstrung_juniper_bow",
+    "itemName": "Unstrung Juniper Bow",
+    "rotateThumbnail": true,
+    "replaceMesh": "unstrung_wooden_bow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "JuniperInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "juniper_bow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 20,
+            "experience": 5
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 5,
+            "animation": "carve",
+            "level": 20,
+            "experience": 5,
+            "alsoProduces": ["arrow_shafts", 8]
+        }
+    ]
+}

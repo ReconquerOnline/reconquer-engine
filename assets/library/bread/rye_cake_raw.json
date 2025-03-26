@@ -1,0 +1,14 @@
+{
+    "itemName": "Rye Cake Dough",
+    "itemId": "rye_cake_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "rye_cake_cooked",
+            "failure": "cake_burnt",
+            "experience": 14,
+            "level": 25
+        }
+    ]
+}

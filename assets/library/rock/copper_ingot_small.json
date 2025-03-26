@@ -1,0 +1,12 @@
+{
+    "itemId": "copper_ingot_small",
+    "itemName": "Small Copper Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        },
+        {
+            "type": "furnace_combining_utility"
+        }
+    ]
+}

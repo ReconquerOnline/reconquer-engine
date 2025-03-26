@@ -1,0 +1,97 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 5,
+        "respawnTime": 25,
+        "distance": 3,
+        "maxDistance": 6,
+        "frequency": 15,
+        "aggressionDistance": 5,
+        "stabDefense": -50,
+        "dropTable": [
+            [
+                0,
+                [
+                    "coins",
+                    2
+                ]
+            ],
+            [
+                300,
+                [
+                    "coins",
+                    3
+                ]
+            ],
+            [
+                600,
+                [
+                    "shrimp_meat_raw",
+                    1
+                ]
+            ],
+            [
+                800,
+                [
+                    "copper_knife",
+                    1
+                ]
+            ],
+            [
+                950,
+                [
+                    "goblin_monster_essence",
+                    1
+                ]
+            ]
+        ]
+    },
+    "replaceMesh": "goblin",
+    "itemName": "Goblin",
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "goblin_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_die",
+                    "duration": "0.6",
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "se",
+            "name": "stateEquipment",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "goblin_square_shield",
+                "goblin_kite_shield"
+            ]
+        }
+    ]
+}

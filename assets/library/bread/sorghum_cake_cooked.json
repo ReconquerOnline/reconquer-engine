@@ -1,0 +1,7 @@
+{
+    "itemName": "Sorghum Cake",
+    "itemId": "sorghum_cake_cooked",
+    "eatBehavior": 5,
+    "price": 12,
+    "replaceMesh": "cake_cooked"
+}

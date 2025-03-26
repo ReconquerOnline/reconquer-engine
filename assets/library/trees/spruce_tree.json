@@ -1,0 +1,93 @@
+{
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "attackCollision": true,
+    "itemName": "Spruce Tree",
+    "experience": 4,
+    "level": 10,
+    "replaceMesh": "pine_tree",
+    "scaleMesh": 1.2,
+    "replaceMaterials":{
+        "GrassMaterial": "SpruceMaterial"
+    },
+    "state": [
+        {
+            "id": "sm",
+            "name": "stateMesh",
+            "behavior": "chooseMesh",
+            "options": [
+                "pine_tree_0",
+                "pine_tree_a",
+                "pine_tree_b",
+                "pine_tree_c"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "chop",
+                        "interaction": "Chop"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "behavior": {
+        "type": "regenerate",
+        "respawnTime": 50
+    },
+    "examineMatch": [
+        {
+            "matchString": "si=1",
+            "result": "A tall spruce."
+        },
+        {
+            "matchString": "",
+            "result": "A stump."
+        }
+    ],
+    "chopMatch": [
+        {
+            "matchString": "si=1",
+            "result": "spruce_wood",
+            "chance": 1
+        }
+    ],
+    "serverState": {
+        "spruce_tree.a": {
+            "pub": {
+                "sm": 1,
+                "si": 1
+            }
+        },
+        "spruce_tree.b": {
+            "pub": {
+                "sm": 2,
+                "si": 1
+            }
+        },
+        "spruce_tree.c": {
+            "pub": {
+                "sm": 3,
+                "si": 1
+            }
+        }
+    }
+}

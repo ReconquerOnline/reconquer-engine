@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_kite_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_kite_shield",
+    "itemName": "Cupric Kite Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 2,
+            "sshm": 4
+        },
+        "defense": 25,
+        "slashDefense": 25,
+        "crushDefense": -25
+    },
+    "price": 64
+}

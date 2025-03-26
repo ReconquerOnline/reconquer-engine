@@ -1,0 +1,20 @@
+{
+    "itemId": "herb_chamomile",
+    "itemName": "Chamomile",
+    "replaceMesh": "herb_yarrow",
+    "replaceMaterials": {
+        "YarrowMaterial": "ChamomileMaterial"
+    },
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "farming_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

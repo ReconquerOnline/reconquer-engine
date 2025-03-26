@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_sword",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_sword",
+    "itemName": "Cupric Sword",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 12,
+            "swm": 4
+        },
+        "strength": 45
+    },
+    "attackParameters": {
+        "animation": "stab"
+    },
+    "price": 32
+}

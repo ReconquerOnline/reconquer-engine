@@ -1,0 +1,33 @@
+{
+    "itemId": "wheat_seeds",
+    "itemName": "Wheat Seeds",
+    "stackable": true,
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 2,
+            "level": 1,
+            "quantity": 18,
+            "yield": 12,
+            "time": 25,
+            "finalState": 5,
+            "yieldsItem": "wheat"
+        }
+    ]
+}

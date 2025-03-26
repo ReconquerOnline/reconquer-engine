@@ -1,0 +1,26 @@
+{
+    "itemName": "Door",
+    "viewableAtDistance": true,
+    "doorCollision": true,
+    "state": [
+        {
+            "id": "sd",
+            "name": "stateDoor",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "door",
+                        "interaction": "Open"
+                    }
+                ],
+                [
+                    {
+                        "type": "door",
+                        "interaction": "Close"
+                    }
+                ]
+            ]
+        }
+    ]
+}

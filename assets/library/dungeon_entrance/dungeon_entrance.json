@@ -1,0 +1,204 @@
+{
+    "viewableAtDistance": true,
+    "interactions": [
+        {
+            "type": "transport",
+            "interaction": "Enter"
+        }
+    ],
+    "state": [
+        {
+            "id": "sb",
+            "name": "stateBack",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "dungeon_entrance_back"
+            ]
+        }
+    ],
+    "serverState": {
+        "dungeon_entrance.500-501": {
+            "pub": {
+                "sb": 1
+            },
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 499,
+                    "segY": 504,
+                    "x": 32,
+                    "y": 24,
+                    "rotation": 2,
+                    "floor": 0,
+                    "instance": true
+                }
+            }
+        },
+        "dungeon_entrance.499-504": {
+            "pub": {
+                "sb": 0
+            },
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": 1,
+                        "rotation": 0
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 1,
+                        "rotation": 0
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 500,
+                    "segY": 501,
+                    "x": 36,
+                    "y": 11,
+                    "rotation": 0,
+                    "floor": 0
+                }
+            }
+        },
+        "dungeon_entrance.485-510": {
+            "pub": {
+                "sb": 1
+            },
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 0,
+                        "rotation": 3
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": -1,
+                        "rotation": 3
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 496,
+                    "segY": 497,
+                    "x": 1,
+                    "y": 30,
+                    "rotation": 3,
+                    "floor": 0
+                }
+            }
+        },
+        "dungeon_entrance.496-497": {
+            "pub": {
+                "sb": 0
+            },
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 0,
+                        "rotation": 1
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 1,
+                        "rotation": 1
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 485,
+                    "segY": 510,
+                    "x": 56,
+                    "y": 32,
+                    "rotation": 1,
+                    "floor": 0
+                }
+            }
+        },
+        "dungeon_entrance.496-499": {
+            "pub": {
+                "sb": 0
+            },
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 485,
+                    "segY": 511,
+                    "x": 16,
+                    "y": 58,
+                    "rotation": 2,
+                    "floor": 0
+                }
+            }
+        },
+        "dungeon_entrance.485-511": {
+            "pub": {
+                "sb": 1
+            },
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": 1,
+                        "rotation": 0
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 1,
+                        "rotation": 0
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 496,
+                    "segY": 499,
+                    "x": 28,
+                    "y": 38,
+                    "rotation": 0,
+                    "floor": 0
+                }
+            }
+        }
+        
+    }
+}

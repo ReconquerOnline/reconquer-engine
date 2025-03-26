@@ -1,0 +1,19 @@
+{
+    "replaceMesh": "copper_plate_body",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_plate_body",
+    "itemName": "Cupric Plate Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 2,
+            "ss": 2,
+            "sbm": 4
+        },
+        "defense": 40
+    },
+    "price": 64
+}

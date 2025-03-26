@@ -1,0 +1,15 @@
+{
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "itemName": "Resource Chest",
+    "replaceMesh": "chest",
+    "viewableAtDistance": true,
+    "interactions": [
+        {
+            "type": "trade",
+            "interaction": "Withdraw"
+        }
+    ]
+}

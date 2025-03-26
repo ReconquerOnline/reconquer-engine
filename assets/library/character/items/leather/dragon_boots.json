@@ -1,0 +1,19 @@
+{
+    "itemId": "dragon_boots",
+    "itemName": "Dragon Boots",
+    "replaceMesh": "leather_boots",
+    "replaceMaterials": {
+        "LeatherMaterial": "DragonHideMaterial"
+    },
+    "price": 20,
+    "wearBehavior": {
+        "slot": "if",
+        "change": {
+            "sf": 1,
+            "sfm": 5
+        },
+        "defense": 25,
+        "skill": "defense",
+        "level": 20
+    }
+}

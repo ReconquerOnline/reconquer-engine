@@ -1,0 +1,14 @@
+{
+    "itemName": "Quinoa Cake Dough",
+    "itemId": "quinoa_cake_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "quinoa_cake_cooked",
+            "failure": "cake_burnt",
+            "experience": 34,
+            "level": 75
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "itemId": "bucket_of_water",
+    "itemName": "Bucket of Water",
+    "defaultMap": ["bucket", 1],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ],
+    "useTargetInteractions": [
+        "bucket_of_water_utility"
+    ],
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_water_utility",
+            "produces": ["bucket", 1]
+        },
+        {
+            "type": "fire_extinguish_utility",
+            "produces": ["bucket", 1]
+        }
+    ]
+}

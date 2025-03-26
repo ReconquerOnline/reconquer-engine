@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_round_shield",
+    "itemName": "Copper Round Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 3,
+            "sshm": 0
+        },
+        "defense": 10,
+        "crushDefense": 10,
+        "stabDefense": -10
+    },
+    "price": 25
+}

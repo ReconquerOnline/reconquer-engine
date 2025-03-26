@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_plate_legs",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_plate_legs",
+    "itemName": "Bronze Platelegs",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "il",
+        "change": {
+            "sl": 1,
+            "slm": 1
+        },
+        "defense": 15
+    },
+    "price": 60
+}

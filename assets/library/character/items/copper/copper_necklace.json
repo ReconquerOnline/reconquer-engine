@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_necklace",
+    "itemName": "Copper Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 1,
+            "snm": 1
+        },
+        "defense": 10
+    },
+    "replaceMesh": "gold_necklace",
+    "replaceMaterials": {
+        "GoldMaterial": "CopperMaterial"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_hatchet_head",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_hatchet_head",
+    "itemName": "Cupric Hatchet Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "nickelbronze_hatchet",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 15,
+            "experience": 5
+        }
+    ]
+}

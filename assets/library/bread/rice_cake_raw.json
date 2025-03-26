@@ -1,0 +1,14 @@
+{
+    "itemName": "Rice Cake Dough",
+    "itemId": "rice_cake_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "rice_cake_cooked",
+            "failure": "cake_burnt",
+            "experience": 30,
+            "level": 65
+        }
+    ]
+}

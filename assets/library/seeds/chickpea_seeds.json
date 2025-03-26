@@ -1,0 +1,38 @@
+{
+    "itemId": "chickpea_seeds",
+    "itemName": "Chickpea Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"ChickpeasMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_chickpea_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 38,
+            "level": 90,
+            "quantity": 18,
+            "yield": 3,
+            "time": 75,
+            "finalState": 15,
+            "failureChance": 1,
+            "yieldsItem": "chickpeas"
+        }
+    ]
+}

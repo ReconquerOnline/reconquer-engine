@@ -1,0 +1,38 @@
+{
+    "itemId": "rice_seeds",
+    "itemName": "Rice Grains",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"RiceMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_rice_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 26,
+            "level": 60,
+            "quantity": 18,
+            "yield": 5,
+            "time": 60,
+            "finalState": 13,
+            "failureChance": 0.55,
+            "yieldsItem": "rice"
+        }
+    ]
+}

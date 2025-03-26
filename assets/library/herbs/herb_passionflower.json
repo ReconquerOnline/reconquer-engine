@@ -1,0 +1,20 @@
+{
+    "itemId": "herb_passionflower",
+    "itemName": "Passionflower",
+    "rotateThumbnail": true,
+    "replaceMesh": "herb_yarrow",
+    "replaceMaterials": {
+        "YarrowMaterial": "PassionflowerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "strength_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

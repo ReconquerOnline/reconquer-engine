@@ -1,0 +1,19 @@
+{
+    "replaceMesh": "copper_plate_body",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_plate_body",
+    "itemName": "Bronze Plate Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 2,
+            "ss": 2,
+            "sbm": 1
+        },
+        "defense": 30
+    },
+    "price": 60
+}

@@ -1,0 +1,7 @@
+{
+    "itemName": "Lentil Cake",
+    "itemId": "lentil_cake_cooked",
+    "eatBehavior": 20,
+    "price": 38,
+    "replaceMesh": "cake_cooked"
+}

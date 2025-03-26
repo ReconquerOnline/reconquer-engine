@@ -1,0 +1,19 @@
+{
+    "itemId": "boar_boots",
+    "itemName": "Boar Boots",
+    "replaceMesh": "leather_boots",
+    "replaceMaterials": {
+        "LeatherMaterial": "BoarMaterial"
+    },
+    "price": 12,
+    "wearBehavior": {
+        "slot": "if",
+        "change": {
+            "sf": 1,
+            "sfm": 3
+        },
+        "defense": 15,
+        "skill": "defense",
+        "level": 10
+    }
+}

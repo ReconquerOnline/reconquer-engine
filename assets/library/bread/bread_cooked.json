@@ -1,0 +1,9 @@
+{
+    "itemName": "Bread",
+    "itemId": "bread_cooked",
+    "eatBehavior": {
+        "produces": ["bread_half", 1],
+        "hitpointsToHeal": 2
+    },
+    "price": 5
+}

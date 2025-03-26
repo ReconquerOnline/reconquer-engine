@@ -1,0 +1,36 @@
+{
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 1,
+        "respawnTime": 30,
+        "distance": 0,
+        "maxDistance": 0,
+        "accuracy": -200,
+        "defense": -200,
+        "retaliate": false,
+        "fidelityReward": 4,
+        "overrideCombatLevel": 0
+    },
+    "itemName": "Idol",
+    "dynamicCollisionSize": 1,
+    "spriteHeight": -20,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "idol_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "idol_die",
+                    "duration": "0.6",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

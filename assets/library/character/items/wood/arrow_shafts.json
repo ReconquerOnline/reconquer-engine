@@ -1,0 +1,35 @@
+{
+    "itemId": "arrow_shafts",
+    "itemName": "Arrow Shafts",
+    "stackable": true,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "arrow_shafts_1",
+                "arrow_shafts_2",
+                "arrow_shafts_3",
+                "arrow_shafts_4",
+                "arrow_shafts_5"
+            ]
+        }
+    ],
+    "useSourceInteractions": [
+        {
+            "type": "feather_utility",
+            "result": "headless_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 1,
+            "experience": 1
+        }
+    ],
+    "useTargetInteractions": [
+        "arrow_shaft_utility"
+    ]
+}

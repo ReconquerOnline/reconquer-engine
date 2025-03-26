@@ -1,0 +1,11 @@
+{
+    "itemName": "Furnace",
+    "staticCollisionBox": [
+        3,
+        2
+    ],
+    "useTargetInteractions": [
+        "furnace_utility",
+        "furnace_combining_utility"
+    ]
+}

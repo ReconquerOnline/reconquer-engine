@@ -1,0 +1,24 @@
+{
+    "replaceMesh": "copper_knife",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_knife",
+    "itemName": "Brass Knife",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 5,
+            "swm": 3
+        },
+        "accuracy": 25
+    },
+    "price": 6,
+    "useTargetInteractions": [
+        "knife_utility"
+    ],
+    "attackParameters": {
+        "animation": "stab"
+    }
+}

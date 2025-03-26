@@ -1,0 +1,10 @@
+{
+    "itemName": "Corn Bread",
+    "itemId": "corn_bread_cooked",
+    "eatBehavior": {
+        "produces": ["corn_half", 1],
+        "hitpointsToHeal": 8
+    },
+    "price": 26,
+    "replaceMesh": "bread_cooked"
+}

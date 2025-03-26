@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_hammer_head",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_hammer_head",
+    "itemName": "Bronze Hammer Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "bronze_hammer",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 10,
+            "experience": 3
+        }
+    ]
+}

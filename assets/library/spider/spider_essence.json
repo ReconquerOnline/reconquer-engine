@@ -1,0 +1,17 @@
+{
+    "itemId": "spider_essence",
+    "itemName": "Spider Essence",
+    "replaceMesh": "spider",
+    "replaceMaterials": {
+        "SpiderBlackMaterial": "FurnaceFireMaterial",
+        "SpiderRedMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "spider"
+        }
+    ]
+}

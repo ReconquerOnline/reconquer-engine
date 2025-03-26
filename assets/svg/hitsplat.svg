@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="radialGradient1166-9-0" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,99.369,284.59)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <linearGradient id="linearGradient1164">
+   <stop stop-color="#e74c3c" offset="0"/>
+   <stop stop-color="#c0392b" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient1166-9-4" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,-44.731,232.89)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <radialGradient id="radialGradient1166-9-89" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,-99.55,115.86)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <radialGradient id="radialGradient1166-9-6" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,-44.268,-27.566)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <radialGradient id="radialGradient1166-9-3" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,126.01,-65.95)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <radialGradient id="radialGradient1166-9-8" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,259.66,35.605)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <radialGradient id="radialGradient1166-9" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(2.5311,0,0,2.5311,234.43,195.99)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+  <radialGradient id="radialGradient1166" cx="68.897" cy="57.866" r="22.339" gradientTransform="matrix(4.1958 0 0 4.1958 -162.19 -119.1)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1164"/>
+ </defs>
+ <circle cx="126.88" cy="123.7" r="93.729" fill="url(#radialGradient1166)" stroke-width="16.652"/>
+ <g transform="matrix(.46921 0 0 .46921 6.7547 3.1945)" stroke-width="10.045">
+  <circle cx="408.81" cy="342.45" r="56.542" fill="url(#radialGradient1166-9)"/>
+  <circle cx="434.04" cy="182.07" r="56.542" fill="url(#radialGradient1166-9-8)"/>
+  <circle cx="300.39" cy="80.511" r="56.542" fill="url(#radialGradient1166-9-3)"/>
+  <circle cx="130.11" cy="118.89" r="56.542" fill="url(#radialGradient1166-9-6)"/>
+  <circle cx="74.832" cy="262.32" r="56.542" fill="url(#radialGradient1166-9-89)"/>
+  <circle cx="129.65" cy="379.35" r="56.542" fill="url(#radialGradient1166-9-4)"/>
+  <circle cx="273.75" cy="431.05" r="56.542" fill="url(#radialGradient1166-9-0)"/>
+ </g>
+ <text id="hitsplat_text" x="126.27494" y="162.75656" fill="#ffffff" font-family="sans-serif" font-size="125.12px" stroke-width=".46921" text-align="center" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="126.27494" y="162.75656" font-family="sans-serif" font-size="125.12px" font-weight="bold" stroke-width=".21216" text-align="center" text-anchor="middle">%NUM%</tspan></text>
+</svg>

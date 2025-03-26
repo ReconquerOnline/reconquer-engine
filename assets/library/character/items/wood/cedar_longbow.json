@@ -1,0 +1,26 @@
+{
+    "itemId": "cedar_longbow",
+    "itemName": "Cedar Longbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_longbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "CedarInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 6,
+            "swbm": 2
+        },
+        "accuracy": 20,
+        "strength": 20,
+        "level": 10,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "longbow",
+        "distance": 8
+    },
+    "price": 15
+}

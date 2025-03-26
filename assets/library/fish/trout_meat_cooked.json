@@ -1,0 +1,17 @@
+{
+    "itemId": "trout_meat_cooked",
+    "itemName": "Cooked Trout",
+    "rotateThumbnail": true,
+    "eatBehavior": 5,
+    "replaceMesh": "sardine_meat_raw",
+    "scaleMesh": 1.3,
+    "replaceMaterials": {
+        "SardineBottomMaterial": "MeatCookedMaterial",
+        "SardineTopMaterial": "MeatCookedMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

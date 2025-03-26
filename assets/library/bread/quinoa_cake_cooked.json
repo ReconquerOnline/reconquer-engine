@@ -1,0 +1,7 @@
+{
+    "itemName": "Quinoa Cake",
+    "itemId": "quinoa_cake_cooked",
+    "eatBehavior": 18,
+    "price": 38,
+    "replaceMesh": "cake_cooked"
+}

@@ -1,0 +1,48 @@
+{
+    "replaceMesh": "copper_arrowheads",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_arrowheads",
+    "itemName": "Iron Arrow Heads",
+    "stackable": true,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_arrowheads_1",
+                "copper_arrowheads_2",
+                "copper_arrowheads_3",
+                "copper_arrowheads_4",
+                "copper_arrowheads_5"
+            ]
+        }
+    ],
+    "useSourceInteractions": [
+        {
+            "type": "headless_arrow_utility",
+            "result": "iron_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 20,
+            "experience": 6
+        },
+        {
+            "type": "arrow_shaft_utility",
+            "result": "iron_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 20,
+            "experience": 7,
+            "alsoConsumes": ["feathers", 5]
+        }
+    ]
+}

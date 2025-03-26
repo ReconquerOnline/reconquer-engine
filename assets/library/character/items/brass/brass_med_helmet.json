@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_med_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_med_helmet",
+    "itemName": "Brass Med Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 2,
+            "shm": 3
+        },
+        "accuracy": 10,
+        "strength": 10
+    },
+    "price": 30
+}

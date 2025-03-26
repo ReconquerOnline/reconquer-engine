@@ -1,0 +1,8 @@
+{
+    "itemName": "Tent",
+    "staticCollisionBox": [
+        2,
+        2
+    ],
+    "viewableAtDistance": true
+}

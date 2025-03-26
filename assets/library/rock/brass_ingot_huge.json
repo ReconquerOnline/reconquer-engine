@@ -1,0 +1,13 @@
+{
+    "itemId": "brass_ingot_huge",
+    "itemName": "Huge Brass Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_huge",
+    "replaceMaterials": {
+        "CopperRockMaterial": "BrassMaterial"
+    }
+}

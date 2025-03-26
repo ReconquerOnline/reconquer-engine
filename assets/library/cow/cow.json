@@ -1,0 +1,72 @@
+{
+    "reverseRotation": [
+        0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 5,
+        "maxDistance": 7,
+        "frequency": 15,
+        "hitpoints": 8,
+        "accuracy": -5,
+        "defense": -5,
+        "strength": 1,
+        "dropTable": [
+            [
+                [
+                    0,
+                    "beef_raw"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "cow_hide"
+                ]
+            ],
+            [
+                [
+                    950,
+                    "cow_essence"
+                ]
+            ]
+        ]
+    },
+    "dynamicCollisionSize": 2,
+    "itemName": "Cow",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "cow_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "cow_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "cow_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "cow_die",
+                    "duration": "1.2",
+                    "loop": false,
+                    "effect": "cow_die"
+                }
+            ]
+        }
+    ],
+    "useTargetInteractions": ["milk_source"]
+}

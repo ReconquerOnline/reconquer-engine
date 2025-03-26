@@ -1,0 +1,18 @@
+{
+    "itemId": "iron_necklace",
+    "itemName": "Iron Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 1,
+            "snm": 3
+        },
+        "accuracy": 20,
+        "strength": 20,
+        "defense": 20
+    },
+    "replaceMesh": "gold_necklace",
+    "replaceMaterials": {
+        "GoldMaterial": "IronMaterial"
+    }
+}

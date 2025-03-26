@@ -1,0 +1,61 @@
+{
+    "itemName": "Ship",
+    "replaceMesh": "dock",
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        2,
+        4
+    ],
+    "interactions": [
+        {
+            "type": "transport",
+            "interaction": "Sail"
+        }
+    ],
+    "state": [
+        {
+            "id": "ss",
+            "name": "stateSailboat",
+            "behavior": "chooseMesh",
+            "options": [
+                "dock_sailboat",
+                "dock_canoe"
+            ]
+        }
+    ],
+    "serverState": {
+        "dock_completed.486-510": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 0,
+                        "rotation": 3
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 1,
+                        "rotation": 3
+                    },
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 2,
+                        "rotation": 3
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 500,
+                    "segY": 500,
+                    "x": 31,
+                    "y": 35,
+                    "rotation": 3,
+                    "floor": 0
+                }
+            }
+        }
+    }
+}

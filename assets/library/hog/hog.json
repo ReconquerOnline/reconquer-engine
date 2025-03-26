@@ -1,0 +1,73 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 5,
+        "maxDistance": 7,
+        "frequency": 15,
+        "hitpoints": 6,
+        "accuracy": 4,
+        "defense": 4,
+        "strength": 2,
+        "dropTable": [
+            [
+                [
+                    0,
+                    "pork_raw"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "hog_hide"
+                ]
+            ],
+            [
+                [
+                    950,
+                    "hog_essence"
+                ]
+            ]
+        ]
+    },
+    "dynamicCollisionSize": 2,
+    "itemName": "Hog",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "hog_idle",
+                    "duration": "12.0",
+                    "loop": true
+                },
+                {
+                    "name": "hog_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "hog_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "hog_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "st",
+            "name": "stateTusk",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "hog_mesh_tusk"
+            ]
+        }
+    ]
+}

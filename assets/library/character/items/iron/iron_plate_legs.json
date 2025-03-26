@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_plate_legs",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_plate_legs",
+    "itemName": "Iron Platelegs",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "il",
+        "change": {
+            "sl": 1,
+            "slm": 2
+        },
+        "defense": 25
+    },
+    "price": 60
+}

@@ -1,0 +1,7 @@
+{
+    "itemName": "Chickpea Cake",
+    "itemId": "chickpea_cake_cooked",
+    "eatBehavior": 22,
+    "price": 42,
+    "replaceMesh": "cake_cooked"
+}

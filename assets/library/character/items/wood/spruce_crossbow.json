@@ -1,0 +1,25 @@
+{
+    "itemId": "spruce_crossbow",
+    "itemName": "Spruce Crossbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_crossbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "SpruceInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 2,
+            "swbm": 1
+        },
+        "strength": 15,
+        "level": 5,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "crossbow",
+        "distance": 5
+    },
+    "price": 10
+}

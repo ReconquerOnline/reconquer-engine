@@ -1,0 +1,14 @@
+{
+    "itemName": "Chickpea Dough",
+    "itemId": "chickpea_bread_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "chickpea_bread_cooked",
+            "failure": "bread_burnt",
+            "experience": 38,
+            "level": 90
+        }
+    ]
+}

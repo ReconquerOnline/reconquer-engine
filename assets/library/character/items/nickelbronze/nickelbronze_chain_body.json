@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_chain_body",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_chain_body",
+    "itemName": "Cupric Chain Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 1,
+            "ss": 1,
+            "sbm": 4
+        },
+        "accuracy": 20,
+        "strength": 20
+    },
+    "price": 48
+}

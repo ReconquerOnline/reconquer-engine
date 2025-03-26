@@ -1,0 +1,44 @@
+{
+    "itemId": "copper_arrowheads",
+    "itemName": "Copper Arrow Heads",
+    "stackable": true,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_arrowheads_1",
+                "copper_arrowheads_2",
+                "copper_arrowheads_3",
+                "copper_arrowheads_4",
+                "copper_arrowheads_5"
+            ]
+        }
+    ],
+    "useSourceInteractions": [
+        {
+            "type": "headless_arrow_utility",
+            "result": "copper_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 1,
+            "experience": 1
+        },
+        {
+            "type": "arrow_shaft_utility",
+            "result": "copper_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 1,
+            "experience": 2,
+            "alsoConsumes": ["feathers", 5]
+        }
+    ]
+}

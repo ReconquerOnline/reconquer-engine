@@ -1,0 +1,28 @@
+{
+    "itemId": "empty_vial",
+    "itemName": "Empty Vial",
+    "replaceMesh": "poison_vial",
+    "replaceMaterials": {
+        "PoisonMaterial": "GlassMaterial"
+    },
+    "price": 5,
+    "useSourceInteractions": [
+        {
+            "type": "water_source",
+            "result": "vial_of_water",
+            "ticks": 2,
+            "animation": "carve"
+        }
+    ],
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 180
+    },
+    "serverState": {
+        "empty_vial.table": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

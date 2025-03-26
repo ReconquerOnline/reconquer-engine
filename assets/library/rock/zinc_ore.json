@@ -1,0 +1,13 @@
+{
+    "itemId": "zinc_ore",
+    "itemName": "Zinc Ore",
+    "useSourceInteractions": [
+        {
+            "type": "furnace_utility"
+        }
+    ],
+    "replaceMesh": "copper_ore",
+    "replaceMaterials": {
+        "CopperRockMaterial": "ZincRockMaterial"
+    }
+}

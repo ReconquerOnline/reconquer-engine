@@ -1,0 +1,27 @@
+{
+    "itemId": "boar_hide",
+    "replaceMesh": "cow_hide",
+    "replaceMaterials": {
+        "CowHideMaterial": "BoarMaterial",
+        "CowHideBlackMaterial": "BoarMaterial"
+    },
+    "itemName": "Boar Skin",
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": [
+                "boar_gloves",
+                "boar_boots"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "alsoConsumes": [
+                "thread",
+                5
+            ],
+            "experience": 3,
+            "level": 10,
+            "skill": "crafting"
+        }
+    ]
+}

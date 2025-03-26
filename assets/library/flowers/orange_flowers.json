@@ -1,0 +1,15 @@
+{
+    "itemId": "orange_flowers",
+    "itemName": "Orange Flowers",
+    "replaceMesh": "white_flowers",
+    "replaceMaterials": {
+        "WhiteFlowerMaterial": "OrangeFlowerMaterial"
+    },
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 3600
+    },
+    "despawnConfig" : {
+        "despawnTime": 21600
+    }
+}

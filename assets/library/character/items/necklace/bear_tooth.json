@@ -1,0 +1,19 @@
+{
+    "itemId": "bear_tooth",
+    "itemName": "Bear Tooth",
+    "collectionLog": true,
+    "rotateThumbnail": true,
+    "examineMatch": "I can make this into a necklace.",
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "necklace_bear_tooth",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 15,
+            "experience": 5
+        }
+    ]
+}

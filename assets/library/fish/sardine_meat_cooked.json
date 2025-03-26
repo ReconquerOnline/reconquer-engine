@@ -1,0 +1,16 @@
+{
+    "itemId": "sardine_meat_cooked",
+    "itemName": "Cooked Sardine",
+    "rotateThumbnail": true,
+    "eatBehavior": 3,
+    "replaceMesh": "sardine_meat_raw",
+    "replaceMaterials": {
+        "SardineBottomMaterial": "MeatCookedMaterial",
+        "SardineTopMaterial": "MeatCookedMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

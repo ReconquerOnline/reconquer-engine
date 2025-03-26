@@ -1,0 +1,16 @@
+{
+    "itemId": "iron_ingot_large",
+    "itemName": "Large Iron Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        },
+        {
+            "type": "furnace_combining_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_large",
+    "replaceMaterials": {
+        "CopperRockMaterial": "IronMaterial"
+    }
+}

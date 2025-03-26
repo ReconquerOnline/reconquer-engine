@@ -1,0 +1,76 @@
+{
+    "behavior": {
+        "type": "monster",
+        "distance": 5,
+        "frequency": 15,
+        "hitpoints": 3,
+        "respawnTime": 40,
+        "aggressionDistance": 4,
+        "crushDefense": -20,
+        "defense": -20,
+        "accuracy": -20,
+        "dropTable": [
+            [
+                0,
+                [
+                    "coins",
+                    1
+                ]
+            ],
+            [
+                700,
+                [
+                    "coins",
+                    2
+                ]
+            ],
+            [
+                850,
+                [
+                    "copper_med_helmet",
+                    1
+                ]
+            ],
+            [
+                950,
+                [
+                    "crab_essence",
+                    1
+                ]
+            ]
+        ]
+    },
+    "maxLevelForXp": 5,
+    "itemName": "Crab",
+    "dynamicCollisionSize": 1,
+    "replaceMesh": "crab",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "crab_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "crab_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "crab_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "crab_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "itemId": "eel_meat_cooked",
+    "itemName": "Cooked Lava Eel",
+    "eatBehavior": 6,
+    "replaceMesh": "eel_meat_raw",
+    "replaceMaterials": {
+        "LavaMaterial": "MeatCookedMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

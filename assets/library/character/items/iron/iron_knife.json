@@ -1,0 +1,24 @@
+{
+    "replaceMesh": "copper_knife",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_knife",
+    "itemName": "Iron Knife",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 5,
+            "swm": 2
+        },
+        "accuracy": 55
+    },
+    "price": 15,
+    "useTargetInteractions": [
+        "knife_utility"
+    ],
+    "attackParameters": {
+        "animation": "stab"
+    }
+}

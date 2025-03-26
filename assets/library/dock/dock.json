@@ -1,0 +1,39 @@
+{
+    "itemName": "Dock",
+    "localInstance": true,
+    "staticCollisionBox": [
+        2,
+        4
+    ],
+    "state": [
+        {
+            "id": "ss",
+            "name": "stateSailboat",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "dock_sailboat",
+                "dock_canoe"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "q000_build",
+                        "interaction": "Build"
+                    }
+                ],
+                [
+                    {
+                        "type": "q000_sail",
+                        "interaction": "Sail"
+                    }
+                ]
+            ]
+        }
+    ]
+}

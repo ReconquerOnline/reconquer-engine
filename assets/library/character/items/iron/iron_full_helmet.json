@@ -1,0 +1,17 @@
+{
+    "replaceMesh": "copper_full_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_full_helmet",
+    "itemName": "Iron Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 1,
+            "shm": 2
+        },
+        "defense": 50
+    },
+    "price": 40
+}

@@ -1,0 +1,70 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawn": false,
+        "distance": 32,
+        "maxDistance": 32,
+        "wander": true,
+        "hitpoints": 25,
+        "accuracy": 30,
+        "defense": 30,
+        "strength": 30,
+        "archery": 30,
+        "archeryDefense": -600,
+        "aggressionDistance": 32,
+        "dropTable": [
+            [
+                [0, "dragon_raw"]
+            ],
+            [
+                [0, "dragon_raw"]
+            ],
+            [
+                [0, "dragon_raw"]
+            ],
+            [
+                [0, "dragon_raw"]
+            ]
+        ]
+    },
+    "dynamicCollisionSize": 2,
+    "replaceMesh": "dragon",
+    "itemName": "Baby Dragon",
+    "scaleMesh": 0.7,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "dragon_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_die",
+                    "duration": "1.2",
+                    "loop": false
+                },
+                {
+                    "name": "dragon_fire_bow",
+                    "duration": "1.8",
+                    "loop": true,
+                    "ammoOffset": [0,1,0.7]
+                },
+                {
+                    "name": "dragon_wind_bow",
+                    "duration": "1.8",
+                    "loop": true,
+                    "ammoOffset": [0,1,0]
+                }
+            ]
+        }
+    ]
+}

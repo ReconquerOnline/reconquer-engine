@@ -1,0 +1,16 @@
+{
+    "itemId": "shrimp_meat_raw",
+    "itemName": "Raw Shrimp",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "shrimp_meat_cooked",
+            "failure": "shrimp_meat_burnt",
+            "experience": 1,
+            "level": -10
+        },
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

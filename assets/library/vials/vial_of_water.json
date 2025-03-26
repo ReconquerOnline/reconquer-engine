@@ -1,0 +1,21 @@
+{
+    "itemId": "vial_of_water",
+    "itemName": "Vial of Water",
+    "replaceMesh": "poison_vial",
+    "defaultMap": ["empty_vial", 1],
+    "replaceMaterials": {
+        "PoisonMaterial": "WaterMaterial"
+    },
+    "useTargetInteractions": [
+        "vial_of_water_utility"
+    ],
+    "price": 5,
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ]
+}

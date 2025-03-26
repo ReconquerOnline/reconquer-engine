@@ -1,0 +1,29 @@
+{
+    "itemId": "unstrung_juniper_longbow",
+    "itemName": "Unstrung Juniper Longbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "unstrung_wooden_longbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "JuniperInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "juniper_longbow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 20,
+            "experience": 15
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 20,
+            "experience": 15,
+            "alsoProduces": ["arrow_shafts", 26]
+        }
+    ]
+}

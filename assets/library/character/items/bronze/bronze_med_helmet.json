@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_med_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_med_helmet",
+    "itemName": "Bronze Med Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 2,
+            "shm": 1
+        },
+        "accuracy": 15,
+        "strength": 15
+    },
+    "price": 45
+}

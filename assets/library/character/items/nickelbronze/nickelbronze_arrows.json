@@ -1,0 +1,27 @@
+{
+    "replaceMesh": "copper_arrows",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_arrows",
+    "itemName": "Cupric Arrows",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "arrow"
+    },
+    "price": 6,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_arrows_1",
+                "copper_arrows_2",
+                "copper_arrows_3",
+                "copper_arrows_4",
+                "copper_arrows_5"
+            ]
+        }
+    ]
+}

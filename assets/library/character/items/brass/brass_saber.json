@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_saber",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_saber",
+    "itemName": "Brass Saber",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 9,
+            "swm": 3
+        },
+        "strength": 25
+    },
+    "attackParameters": {
+        "animation": "slash"
+    },
+    "price": 25
+}

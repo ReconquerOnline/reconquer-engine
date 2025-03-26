@@ -1,0 +1,19 @@
+{
+    "itemName": "Cedar Barricade",
+    "isItem": true,
+    "dynamicCollisionSize": 1,
+    "replaceMesh": "pine_barricade",
+    "replaceMaterials":{
+        "PineInnerMaterial": "CedarInnerMaterial"
+    },
+    "interactions": [
+        {
+            "type": "attack",
+            "interaction": "Attack"
+        },
+        {
+            "type": "examine_monster",
+            "interaction": "Examine"
+        }
+    ]
+}

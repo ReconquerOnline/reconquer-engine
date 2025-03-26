@@ -1,0 +1,16 @@
+{
+    "itemId": "brass_necklace",
+    "itemName": "Brass Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 1,
+            "snm": 4
+        },
+        "accuracy": 15
+    },
+    "replaceMesh": "gold_necklace",
+    "replaceMaterials": {
+        "GoldMaterial": "BrassMaterial"
+    }
+}

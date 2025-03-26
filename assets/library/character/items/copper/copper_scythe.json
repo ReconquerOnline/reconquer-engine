@@ -1,0 +1,19 @@
+{
+    "itemId": "copper_scythe",
+    "itemName": "Copper Scythe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 10,
+            "swm": 0
+        },
+        "accuracy": 15,
+        "strength": 15
+    },
+    "attackParameters": {
+        "animation": "2h_slash"
+    },
+    "price": 5
+}

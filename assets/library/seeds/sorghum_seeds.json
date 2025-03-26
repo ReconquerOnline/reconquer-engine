@@ -1,0 +1,37 @@
+{
+    "itemId": "sorghum_seeds",
+    "itemName": "Sorghum Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"SorghumMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_sorghum_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 4,
+            "level": 5,
+            "quantity": 18,
+            "yield": 11,
+            "time": 30,
+            "finalState": 7,
+            "yieldsItem": "sorghum"
+        }
+    ]
+}

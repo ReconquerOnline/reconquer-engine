@@ -1,0 +1,12 @@
+*.blend
+*.blend1
+*Zone.Identifier
+exporter/node_modules/
+node_modules/
+dist/
+server/config.json
+*.log
+nohup.out
+server/version.js
+public/assets/*.zip
+database.json

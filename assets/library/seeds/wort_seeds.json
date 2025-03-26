@@ -1,0 +1,23 @@
+{
+    "itemId": "wort_seeds",
+    "itemName": "Wort Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "WortMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 12,
+            "level": 30,
+            "quantity": 6,
+            "yield": 6,
+            "time": 70,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.5,
+            "yieldsItem": "herb_wort"
+        }
+    ]
+}

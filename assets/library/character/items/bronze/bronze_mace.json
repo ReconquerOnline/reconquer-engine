@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "copper_mace",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_mace",
+    "itemName": "Bronze Mace",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 7,
+            "swm": 1
+        },
+        "accuracy": 35,
+        "strength": 35
+    },
+    "attackParameters": {
+        "animation": "2h_crush"
+    },
+    "price": 30
+}

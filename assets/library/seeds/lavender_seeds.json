@@ -1,0 +1,23 @@
+{
+    "itemId": "lavender_seeds",
+    "itemName": "Lavender Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "LavenderMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience":24,
+            "level": 60,
+            "quantity": 6,
+            "yield": 3,
+            "time": 100,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.9,
+            "yieldsItem": "herb_lavender"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "itemId": "copper_saber",
+    "itemName": "Copper Saber",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 9,
+            "swm": 0
+        },
+        "strength": 15
+    },
+    "attackParameters": {
+        "animation": "slash"
+    },
+    "price": 15
+}

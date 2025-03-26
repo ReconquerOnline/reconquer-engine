@@ -1,0 +1,74 @@
+{
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "attackCollision": true,
+    "itemName": "Cedar Tree",
+    "experience": 5,
+    "level": 15,
+    "state": [
+        {
+            "id": "sm",
+            "name": "stateMesh",
+            "behavior": "chooseMesh",
+            "options": [
+                "cedar_tree_0",
+                "cedar_tree_a"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "chop",
+                        "interaction": "Chop"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "behavior": {
+        "type": "regenerate",
+        "respawnTime": 60
+    },
+    "examineMatch": [
+        {
+            "matchString": "si=1",
+            "result": "A tall spruce."
+        },
+        {
+            "matchString": "",
+            "result": "A stump."
+        }
+    ],
+    "chopMatch": [
+        {
+            "matchString": "si=1",
+            "result": "cedar_wood",
+            "chance": 1
+        }
+    ],
+    "serverState": {
+        "cedar_tree.a": {
+            "pub": {
+                "sm": 1,
+                "si": 1
+            }
+        }
+    }
+}

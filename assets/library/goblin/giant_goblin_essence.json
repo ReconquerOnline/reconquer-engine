@@ -1,0 +1,22 @@
+{
+    "itemId": "giant_goblin_essence",
+    "itemName": "Giant Goblin Essence",
+    "replaceMesh": "goblin",
+    "replaceMaterials": {
+        "GoblinSkinMaterial": "FurnaceFireMaterial",
+        "LeatherMaterial": "FurnaceFireMaterial",
+        "BronzeMaterial": "FurnaceFireMaterial",
+        "GoldMaterial": "FurnaceFireMaterial"
+    },
+    "hideMeshes": [
+        "goblin_square_shield",
+        "goblin_kite_shield"
+    ],
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "giant_goblin"
+        }
+    ]
+}

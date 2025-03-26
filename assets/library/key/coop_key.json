@@ -1,0 +1,16 @@
+{
+    "itemId": "coop_key",
+    "itemName": "Coop Key",
+    "rotateThumbnail": true,
+    "scaleMesh": 0.5,
+    "replaceMesh": "key",
+    "replaceMaterials": {
+        "GoldMaterial": "IronMaterial"
+    },
+    "stackable": true,
+    "useSourceInteractions": [
+        {
+            "type": "chicken_boss_utility"
+        }
+    ]
+}

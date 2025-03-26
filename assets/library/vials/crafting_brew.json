@@ -1,0 +1,24 @@
+{
+    "itemId": "crafting_brew",
+    "itemName": "Crafting Brew",
+    "replaceMesh": "poison_vial",
+    "defaultMap": ["empty_vial", 1],
+    "replaceMaterials": {
+        "PoisonMaterial": "RosemaryMaterial"
+    },
+    "eatBehavior": {
+        "interactionName": "Drink",
+        "produces": ["empty_vial", 1],
+        "boost": [
+            {"skill": "crafting", "amount": 5}
+        ]
+    },
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ]
+}

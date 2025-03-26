@@ -1,0 +1,33 @@
+{
+    "itemId": "rice",
+    "itemName": "Rice",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 120
+    },
+    "examineMatch": "A bundle of rice.",
+    "defaultMap": [
+        {
+            "result": [
+                "rice_seeds",
+                2
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "rice_seeds",
+                11
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

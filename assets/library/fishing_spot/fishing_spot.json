@@ -1,0 +1,28 @@
+{
+    "dynamicCollisionSize": 1,
+    "itemName": "Fishing Spot",
+    "interactions": [
+        {
+            "type": "fish",
+            "interaction": "Fish"
+        }
+    ],
+    "useTargetInteractions": [
+        "water_source"
+    ],
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "fishing_spot_splash",
+                    "duration": "60",
+                    "loop": true,
+                    "randomOffset": true
+                }
+            ]
+        }
+    ]
+}

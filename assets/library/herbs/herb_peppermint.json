@@ -1,0 +1,20 @@
+{
+    "itemId": "herb_peppermint",
+    "itemName": "Peppermint",
+    "rotateThumbnail": true,
+    "replaceMesh": "herb_yarrow",
+    "replaceMaterials": {
+        "YarrowMaterial": "PeppermintMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "smithing_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

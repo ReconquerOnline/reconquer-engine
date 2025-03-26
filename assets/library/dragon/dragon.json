@@ -1,0 +1,45 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 16,
+        "maxDistance": 16,
+        "frequency": 15,
+        "hitpoints": 150,
+        "accuracy": -5,
+        "defense": -5,
+        "strength": 1,
+        "aggressionDistance": 16
+    },
+    "dynamicCollisionSize": 2,
+    "itemName": "Dragon",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "dragon_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_die",
+                    "duration": "1.2",
+                    "loop": false
+                },
+                {
+                    "name": "dragon_attack",
+                    "duration": "1.2",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

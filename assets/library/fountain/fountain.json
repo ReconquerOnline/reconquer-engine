@@ -1,0 +1,9 @@
+{
+    "itemName": "Fountain",
+    "examineMatch": "Looks like a nice thing.",
+    "dynamicCollisionSize": 2,
+    "viewableAtDistance": true,
+    "useTargetInteractions": [
+        "water_source"
+    ]
+}

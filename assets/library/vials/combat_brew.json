@@ -1,0 +1,28 @@
+{
+    "itemId": "combat_brew",
+    "itemName": "Combat Brew",
+    "replaceMesh": "poison_vial",
+    "defaultMap": ["empty_vial", 1],
+    "replaceMaterials": {
+        "PoisonMaterial": "ElderberryMaterial"
+    },
+    "eatBehavior": {
+        "interactionName": "Drink",
+        "produces": ["empty_vial", 1],
+        "boost": [
+            {"skill": "accuracy", "amount": 2},
+            {"skill": "strength", "amount": 2},
+            {"skill": "defense", "amount": 2},
+            {"skill": "health", "amount": 2},
+            {"skill": "archery", "amount": 2}
+        ]
+    },
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ]
+}

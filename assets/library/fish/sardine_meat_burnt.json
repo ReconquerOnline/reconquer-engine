@@ -1,0 +1,15 @@
+{
+    "itemId": "sardine_meat_burnt",
+    "itemName": "Burnt Sardine",
+    "rotateThumbnail": true,
+    "replaceMesh": "sardine_meat_raw",
+    "replaceMaterials": {
+        "SardineTopMaterial": "MeatBurntMaterial",
+        "SardineBottomMaterial": "MeatBurntMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "itemId": "goldenseal_seeds",
+    "itemName": "Goldenseal Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "GoldensealMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 18,
+            "level": 45,
+            "quantity": 6,
+            "yield": 5,
+            "time": 100,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.8,
+            "yieldsItem": "herb_goldenseal"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "itemId": "dragon_gloves",
+    "itemName": "Dragon Gloves",
+    "rotateThumbnail": true,
+    "replaceMesh": "leather_gloves",
+    "replaceMaterials": {
+        "LeatherMaterial": "DragonHideMaterial"
+    },
+    "price": 10,
+    "wearBehavior": {
+        "slot": "ihan",
+        "change": {
+            "shan": 1,
+            "shanm": 5
+        },
+        "accuracy": 25,
+        "strength": 25,
+        "skill": "defense",
+        "level": 20
+    }
+}

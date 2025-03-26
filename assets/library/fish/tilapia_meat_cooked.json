@@ -1,0 +1,17 @@
+{
+    "itemId": "tilapia_meat_cooked",
+    "itemName": "Cooked Tilapia",
+    "rotateThumbnail": true,
+    "eatBehavior": 7,
+    "replaceMesh": "sardine_meat_raw",
+    "scaleMesh": [0.7, 1, 1.2],
+    "replaceMaterials": {
+        "SardineBottomMaterial": "MeatCookedMaterial",
+        "SardineTopMaterial": "MeatCookedMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

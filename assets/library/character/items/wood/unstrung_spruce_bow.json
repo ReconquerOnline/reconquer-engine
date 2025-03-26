@@ -1,0 +1,29 @@
+{
+    "itemId": "unstrung_spruce_bow",
+    "itemName": "Unstrung Spruce Bow",
+    "rotateThumbnail": true,
+    "replaceMesh": "unstrung_wooden_bow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "SpruceInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "spruce_bow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 10,
+            "experience": 3
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 10,
+            "experience": 3,
+            "alsoProduces": ["arrow_shafts", 6]
+        }
+    ]
+}

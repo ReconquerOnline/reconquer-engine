@@ -1,0 +1,78 @@
+{
+    "replaceMesh": "crab",
+    "replaceMaterials": {
+        "CrabMaterial": "SandCrabMaterial"
+    },
+    "behavior": {
+        "type": "monster",
+        "distance": 4,
+        "maxDistance": 15,
+        "frequency": 15,
+        "hitpoints": 15,
+        "defense": 35,
+        "respawnTime": 15,
+        "crushDefense": -100,
+        "accuracy": -10,
+        "dropTable": [
+            [
+                500,
+                [
+                    "coins",
+                    1
+                ]
+            ],
+            [
+                800,
+                [
+                    "coins",
+                    2
+                ]
+            ],
+            [
+                925,
+                [
+                    "brass_med_helmet",
+                    1
+                ]
+            ],
+            [
+                950,
+                [
+                    "sand_crab_essence",
+                    1
+                ]
+            ]
+        ]
+    },
+    "itemName": "Sand Crab",
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "crab_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "crab_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "crab_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "crab_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

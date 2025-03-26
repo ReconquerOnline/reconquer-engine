@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_hatchet",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_hatchet",
+    "itemName": "Bronze Hatchet",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 4,
+            "swm": 1
+        },
+        "accuracy": 35
+    },
+    "price": 15,
+    "attackParameters": {
+        "animation": "slash"
+    }
+}

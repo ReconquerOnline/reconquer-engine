@@ -1,0 +1,14 @@
+{
+    "itemName": "Millet Cake Dough",
+    "itemId": "millet_cake_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "millet_cake_cooked",
+            "failure": "cake_burnt",
+            "experience": 18,
+            "level": 35
+        }
+    ]
+}

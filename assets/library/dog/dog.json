@@ -1,0 +1,29 @@
+{
+    "behavior": {
+        "type": "dog"
+    },
+    "itemName": "Dog",
+    "dynamicCollisionSize": 1,
+    "examineMatch": "He looks a little bit hungry.",
+    "cameraHeight": 0.4,
+    "cameraAngle": 0.2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "dog_idle",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "dog_walk",
+                    "duration": "0.6",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

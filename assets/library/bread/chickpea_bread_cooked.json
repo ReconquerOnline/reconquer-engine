@@ -1,0 +1,10 @@
+{
+    "itemName": "Chickpea Bread",
+    "itemId": "chickpea_bread_cooked",
+    "eatBehavior": {
+        "produces": ["chickpea_half", 1],
+        "hitpointsToHeal": 12
+    },
+    "price": 42,
+    "replaceMesh": "bread_cooked"
+}

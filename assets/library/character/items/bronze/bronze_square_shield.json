@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_square_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_square_shield",
+    "itemName": "Bronze Square Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 1,
+            "sshm": 1
+        },
+        "defense": 20,
+        "stabDefense": 20,
+        "slashDefense": -20
+    },
+    "price": 60
+}

@@ -1,0 +1,9 @@
+{
+    "itemId": "bear_cooked",
+    "itemName": "Cooked Bear",
+    "eatBehavior": 5,
+    "replaceMesh": "beef_raw",
+    "replaceMaterials": {
+        "BeefRawMaterial": "MeatCookedMaterial"
+    }
+}

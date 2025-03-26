@@ -1,0 +1,28 @@
+{
+    "itemName": "Fire",
+    "isItem": true,
+    "useTargetInteractions": [
+        "cooking_utility",
+        "fire_extinguish_utility"
+    ],
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "fire_burn",
+                    "duration": "0.6",
+                    "loop": true
+                }
+            ]
+        }
+    ],
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 5,
+        "damage": 5,
+        "damageTicks": 999
+    }
+}

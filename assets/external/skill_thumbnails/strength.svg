@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="height: 512px; width: 512px;"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="biceps.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1756">
+      <stop
+         style="stop-color:#e67e22;stop-opacity:1;"
+         offset="0"
+         id="stop1752" />
+      <stop
+         style="stop-color:#f1c40f;stop-opacity:1;"
+         offset="1"
+         id="stop1754" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1756"
+       id="radialGradient1758"
+       cx="254.93405"
+       cy="259.4805"
+       fx="254.93405"
+       fy="259.4805"
+       r="236.93405"
+       gradientTransform="matrix(1,0,0,0.98980921,0,2.644312)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.4183568"
+     inkscape:cx="355.34078"
+     inkscape:cy="8.1079742"
+     inkscape:window-width="1350"
+     inkscape:window-height="1230"
+     inkscape:window-x="1080"
+     inkscape:window-y="115"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <g
+     class=""
+     style="fill-opacity:1;fill:url(#radialGradient1758)"
+     transform="translate(0,0)"
+     id="g6">
+    <path
+       d="m 211.832,39.06 c -15.022,15.31 -15.894,22.83 -23.473,43.903 2.69,9.14 20.66491,40.19336 24.65891,48.38336 5.158,0.283 10.92051,-1.88794 15.49751,-1.92794 -23.39452,-79.115384 -34.10971,-26.12949 4.29336,-2.15811 3.032,-0.334 12.74042,-1.95149 15.55942,-2.38349 -16.86095,-73.495276 -29.32667,-28.78648 4.5541,-2.24297 4.658,-1.043 17.91976,1.2822 22.56376,-0.009 -11.85166,-74.360659 -22.03808,11.5457 27.02408,-1.79514 0,0 2.94657,-20.877392 10.46533,17.57803 53.65399,46.73352 39.4006,91.71865 70.15953,140.34526 -3.713,-2.387 -7.586,-4.844 -11.692,-7.37 -11.397,-7.01 -23.832,-14.214 -34.98,-19.802 -16.012,-7.8 -31.367,-18.205 -47.73,-20.523 -22.552,-2.967 -62.09711,-17.55623 -90.55719,22.67817 25.83728,15.7106 47.67851,28.64098 14.38919,8.43983 -32.554,-17.48 -65.39,-48.227 -100.438,-49.99 -30.56,-1.092 -59.952,14.955 -89.677,38.568 L 18,254.293 19.994158,492.00584 49.963,494 c 45.184,-17.437 80.287,-57.654 97.03,-94.52 l 0.25,-0.564 0.325,-0.52 c 57.71397,-120.62931 56.51155,-52.03615 150.547,-49.743 198.76902,-10.46588 -166.73254,-93.69236 -161.09127,23.0248 78.02083,71.13134 243.64607,67.69783 285.28149,-11.10138 -80.6236,5.26624 27.92224,-0.52874 55.98178,-0.29842 4.084,-0.02 7.213,-0.453 8.7,-0.886 14.167,-51.072 -4.095,-97.893 -34.294,-145.216 -30.263,-47.425 -72.18,-94.107 -101.896,-143.04 -21.1,-17.257 -24.67011,-42.422868 -77.522,-46.175 -20.386,4.25 -41.026,9.336 -61.443,14.1 z"
+       fill="#fff"
+       fill-opacity="1"
+       id="path4"
+       style="fill:url(#radialGradient1758);fill-opacity:1"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

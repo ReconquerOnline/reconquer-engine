@@ -1,0 +1,19 @@
+{
+    "itemId": "wooden_handle",
+    "itemName": "Wooden Handle",
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 1,
+            "experience": 1,
+            "alsoProduces": ["arrow_shafts", 4]
+        }
+    ],
+    "useTargetInteractions": [
+        "wooden_handle_utility"
+    ]
+}

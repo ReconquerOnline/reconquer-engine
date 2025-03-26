@@ -1,0 +1,10 @@
+{
+    "itemName": "Oat Bread",
+    "itemId": "oat_bread_cooked",
+    "eatBehavior": {
+        "produces": ["oat_half", 1],
+        "hitpointsToHeal": 7
+    },
+    "price": 22,
+    "replaceMesh": "bread_cooked"
+}

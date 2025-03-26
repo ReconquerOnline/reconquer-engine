@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_mace_head",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_mace_head",
+    "itemName": "Iron Mace Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "iron_mace",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 20,
+            "experience": 6
+        }
+    ]
+}

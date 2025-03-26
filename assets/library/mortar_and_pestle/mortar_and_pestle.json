@@ -1,0 +1,18 @@
+{
+    "itemId": "mortar_and_pestle",
+    "itemName": "Mortar and Pestle",
+    "useTargetInteractions": [
+        "crushing_utility"
+    ],
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 60
+    },
+    "serverState": {
+        "mortar_and_pestle.500-500": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

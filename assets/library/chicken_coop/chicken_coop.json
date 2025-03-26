@@ -1,0 +1,12 @@
+{
+    "itemName": "Coop",
+    "staticCollisionBox": [
+        3,
+        2
+    ],
+    "viewableAtDistance": true,
+    "examineMatch": "Home to a big mean hen.",
+    "useTargetInteractions": [
+        "chicken_boss_utility"
+    ]
+}

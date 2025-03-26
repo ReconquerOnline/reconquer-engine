@@ -1,0 +1,33 @@
+{
+    "itemId": "poplar_wood",
+    "itemName": "Poplar Wood",
+    "replaceMesh": "pine_wood",
+    "replaceMaterials": {
+        "PineInnerMaterial": "PoplarInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "ignition_utility",
+            "experience": 3,
+            "level": 5
+        },
+        {
+            "type": "nail_utility",
+            "experience": 3,
+            "level": 5,
+            "produces": "poplar_barricade"
+        },
+        {
+            "type": "knife_utility",
+            "result": [
+                "unstrung_wooden_bow",
+                "unstrung_wooden_crossbow",
+                "unstrung_wooden_longbow"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 2,
+            "level": 5
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "itemId": "straw_hat",
+    "itemName": "Straw Hat",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 7
+        }
+    }
+}

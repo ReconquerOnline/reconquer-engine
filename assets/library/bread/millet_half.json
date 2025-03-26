@@ -1,0 +1,6 @@
+{
+    "itemName": "Millet Half",
+    "itemId": "millet_half",
+    "eatBehavior": 6,
+    "replaceMesh": "bread_half"
+}

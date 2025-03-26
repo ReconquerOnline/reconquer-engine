@@ -1,0 +1,20 @@
+{
+    "itemId": "copper_knife",
+    "itemName": "Copper Knife",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 5,
+            "swm": 0
+        },
+        "accuracy": 15
+    },
+    "price": 3,
+    "useTargetInteractions": [
+        "knife_utility"
+    ],
+    "attackParameters": {
+        "animation": "stab"
+    }
+}

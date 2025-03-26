@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "copper_scythe",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_scythe",
+    "itemName": "Iron Scythe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 10,
+            "swm": 2
+        },
+        "accuracy": 55,
+        "strength": 55
+    },
+    "attackParameters": {
+        "animation": "2h_slash"
+    },
+    "price": 20
+}

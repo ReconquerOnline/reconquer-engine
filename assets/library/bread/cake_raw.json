@@ -1,0 +1,14 @@
+{
+    "itemName": "Cake Dough",
+    "itemId": "cake_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "cake_cooked",
+            "failure": "cake_burnt",
+            "experience": 6,
+            "level": 5
+        }
+    ]
+}

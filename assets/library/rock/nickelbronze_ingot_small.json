@@ -1,0 +1,16 @@
+{
+    "itemId": "nickelbronze_ingot_small",
+    "itemName": "Small Cupric Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        },
+        {
+            "type": "furnace_combining_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_small",
+    "replaceMaterials": {
+        "CopperRockMaterial": "NickelBronzeMaterial"
+    }
+}

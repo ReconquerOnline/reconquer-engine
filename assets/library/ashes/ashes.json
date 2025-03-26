@@ -1,0 +1,9 @@
+{
+    "itemId": "ashes",
+    "itemName": "Ashes",
+    "useSourceInteractions": [
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

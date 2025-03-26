@@ -1,0 +1,71 @@
+{
+    "behavior": {
+        "type": "monster",
+
+        "respawnTime": 30,
+        "distance": 8,
+        "maxDistance": 16,
+        "frequency": 15,
+        "hitpoints": 30,
+        "accuracy": 30,
+        "defense": 30,
+        "strength": 30,
+        "aggressionDistance": 8,
+
+        "dropTable": [
+            [
+                0,
+                "wolf_raw"
+            ],
+            [
+                400,
+                "wolf_hide"
+            ],
+            [
+                800,
+                ["chamomile_seeds", 8]
+            ],
+            [
+                900,
+                "great_wolf_essence"
+            ]
+        ]
+    },
+    "itemName": "Great Wolf",
+    "replaceMesh": "wolf",
+    "replaceMaterials":{
+        "WolfLightMaterial": "DesertWolfLightMaterial",
+        "WolfDarkMaterial": "DesertWolfDarkMaterial"
+    },
+    "scaleMesh": 1.3,
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "wolf_idle",
+                    "duration": "12",
+                    "loop": true
+                },
+                {
+                    "name": "wolf_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "wolf_attack",
+                    "duration": "1.8",
+                    "loop": true
+                },
+                {
+                    "name": "wolf_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

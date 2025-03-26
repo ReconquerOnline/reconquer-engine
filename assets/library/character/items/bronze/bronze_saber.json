@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_saber",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_saber",
+    "itemName": "Bronze Saber",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 9,
+            "swm": 1
+        },
+        "strength": 35
+    },
+    "attackParameters": {
+        "animation": "slash"
+    },
+    "price": 45
+}

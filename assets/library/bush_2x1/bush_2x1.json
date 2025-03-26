@@ -1,0 +1,86 @@
+{
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "examineMatch": [
+        {
+            "matchString": "sf=2",
+            "result": "A bush full of blueberries."
+        },
+        {
+            "matchString": "sf=1",
+            "result": "A bush full of strawberries."
+        },
+        {
+            "matchString": "sf=0",
+            "result": "An empty bush. Someone must have picked the berries."
+        }
+    ],
+    "pickMatch": [
+        {
+            "matchString": "sf=1",
+            "result": "strawberries"
+        },
+        {
+            "matchString": "sf=2",
+            "result": "blueberries"
+        }
+    ],
+    "behavior": {
+        "type": "regenerate",
+        "respawnTime": 30
+    },
+    "state": [
+        {
+            "id": "sf",
+            "name": "stateFruit",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "bush_2x1_strawberries",
+                "bush_2x1_blueberries"
+            ]
+        },
+        {
+            "id": "sp",
+            "name": "statePick",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "pick",
+                        "interaction": "Pick"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "serverState": {
+        "bush_2x1.strawberries": {
+            "pub": {
+                "dn": "Strawberry Bush",
+                "sf": 1,
+                "sp": 1
+            }
+        },
+        "bush_2x1.blueberries": {
+            "pub": {
+                "dn": "Blueberry Bush",
+                "sf": 2,
+                "sp": 1
+            }
+        }
+    }
+}

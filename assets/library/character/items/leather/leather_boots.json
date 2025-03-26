@@ -1,0 +1,20 @@
+{
+    "itemId": "leather_boots",
+    "itemName": "Leather Boots",
+    "wearBehavior": {
+        "slot": "if",
+        "change": {
+            "sf": 1,
+            "sfm": 0
+        },
+        "defense": 5
+    },
+    "price": 4,
+    "serverState": {
+        "leather_boots.table": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

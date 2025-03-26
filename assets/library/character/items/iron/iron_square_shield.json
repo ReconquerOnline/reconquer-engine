@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_square_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_square_shield",
+    "itemName": "Iron Square Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 1,
+            "sshm": 2
+        },
+        "defense": 30,
+        "stabDefense": 30,
+        "slashDefense": -30
+    },
+    "price": 80
+}

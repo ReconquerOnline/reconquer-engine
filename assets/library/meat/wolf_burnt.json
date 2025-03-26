@@ -1,0 +1,8 @@
+{
+    "itemId": "wolf_burnt",
+    "itemName": "Burnt Wolf",
+    "replaceMesh": "beef_raw",
+    "replaceMaterials": {
+        "BeefRawMaterial": "MeatBurntMaterial"
+    }
+}

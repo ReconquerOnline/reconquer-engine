@@ -1,0 +1,17 @@
+{
+    "itemId": "copper_sword",
+    "itemName": "Copper Sword",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 12,
+            "swm": 0
+        },
+        "strength": 15
+    },
+    "attackParameters": {
+        "animation": "stab"
+    },
+    "price": 15
+}

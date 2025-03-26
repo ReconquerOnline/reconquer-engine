@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_plate_legs",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_plate_legs",
+    "itemName": "Cupric Platelegs",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "il",
+        "change": {
+            "sl": 1,
+            "slm": 4
+        },
+        "defense": 20
+    },
+    "price": 48
+}

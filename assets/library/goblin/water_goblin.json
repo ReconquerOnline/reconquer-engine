@@ -1,0 +1,109 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "immuneToFire": true,
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 50,
+        "respawnTime": 60,
+        "distance": 5,
+        "maxDistance": 8,
+        "frequency": 15,
+        "archeryDefense": 2000,
+        "stabDefense": 2000,
+        "slashDefense": 2000,
+        "crushDefense": 2000,
+        "aggressionDistance": 8,
+        "archery": 30,
+        "disappearTicks": 24,
+        "dropTable": [
+            [
+                0,
+                [
+                    "key_loop",
+                    1
+                ]
+            ]
+        ]
+    },
+    "spriteHeight": 1.2,
+    "replaceMesh": "goblin",
+    "replaceMaterials": {
+        "GoblinSkinMaterial": "ClothesBlueMaterial",
+        "LeatherMaterial": "ClothesDarkBlueMaterial"
+    },
+    "scaleMesh": 1.2,
+    "itemName": "Water Goblin",
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "goblin_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_die",
+                    "duration": "0.6",
+                    "loop": false
+                },
+                {
+                    "name": "goblin_bow",
+                    "useAnimation": "goblin_slash",
+                    "duration": "1.8",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_longbow",
+                    "useAnimation": "goblin_stomp",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_disappear",
+                    "useAnimation": "goblin_disappear",
+                    "duration": "0.6",
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "se",
+            "name": "stateEquipment",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "goblin_round_shield",
+                "goblin_sword",
+                "goblin_square_shield",
+                "goblin_kite_shield"
+            ]
+        }
+    ],
+    "serverState": {
+        "water_goblin": {
+            "priv": {
+                "iw": "wooden_longbow",
+                "i0": ["water_ball", 999999999]
+            }
+        }
+    }
+}

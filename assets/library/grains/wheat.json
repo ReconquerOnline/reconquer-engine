@@ -1,0 +1,33 @@
+{
+    "itemId": "wheat",
+    "itemName": "Wheat",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 60
+    },
+    "examineMatch": "A bundle of wheat.",
+    "defaultMap": [
+        {
+            "result": [
+                "wheat_seeds",
+                8
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "wheat_seeds",
+                18
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

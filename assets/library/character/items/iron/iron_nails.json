@@ -1,0 +1,26 @@
+{
+    "replaceMesh": "copper_nails",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_nails",
+    "itemName": "Iron Nails",
+    "stackable": true,
+    "useTargetInteractions": [
+        "nail_utility"
+    ],
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_nails_1",
+                "copper_nails_2",
+                "copper_nails_3",
+                "copper_nails_4",
+                "copper_nails_5"
+            ]
+        }
+    ]
+}

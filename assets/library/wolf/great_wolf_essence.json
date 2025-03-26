@@ -1,0 +1,19 @@
+{
+    "itemId": "great_wolf_essence",
+    "itemName": "Great Wolf Essence",
+    "replaceMesh": "wolf",
+    "replaceMaterials": {
+        "WolfDarkMaterial": "FurnaceFireMaterial",
+        "WolfLightMaterial": "FurnaceFireMaterial",
+        "WolfEyesMaterial": "FurnaceFireMaterial",
+        "WolfNoseMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.65,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "great_wolf"
+        }
+    ]
+}

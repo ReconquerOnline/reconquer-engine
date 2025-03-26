@@ -1,0 +1,13 @@
+{
+    "itemId": "nickelbronze_ingot_huge",
+    "itemName": "Huge Cupric Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_huge",
+    "replaceMaterials": {
+        "CopperRockMaterial": "NickelBronzeMaterial"
+    }
+}

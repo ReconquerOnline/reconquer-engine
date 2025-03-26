@@ -1,0 +1,19 @@
+{
+    "itemName": "Juniper Barricade",
+    "isItem": true,
+    "dynamicCollisionSize": 1,
+    "replaceMesh": "pine_barricade",
+    "replaceMaterials":{
+        "PineInnerMaterial": "JuniperInnerMaterial"
+    },
+    "interactions": [
+        {
+            "type": "attack",
+            "interaction": "Attack"
+        },
+        {
+            "type": "examine_monster",
+            "interaction": "Examine"
+        }
+    ]
+}

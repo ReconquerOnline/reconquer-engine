@@ -1,0 +1,20 @@
+{
+    "itemId": "thread",
+    "itemName": "Thread",
+    "stackable": true,
+    "defaultMap": [
+        "string",
+        1
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Braid",
+            "animation": "carve",
+            "ticks": 3,
+            "inputQuantity": 5,
+            "level": 1,
+            "experience": 1
+        }
+    ]
+}

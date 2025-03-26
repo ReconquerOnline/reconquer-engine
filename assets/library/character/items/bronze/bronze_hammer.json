@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_hammer",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_hammer",
+    "itemName": "Bronze Hammer",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 3,
+            "swm": 1
+        },
+        "accuracy": 35
+    },
+    "price": 15,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

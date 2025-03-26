@@ -1,0 +1,16 @@
+{
+    "itemId": "bear_essence",
+    "itemName": "Bear Essence",
+    "replaceMesh": "bear",
+    "replaceMaterials": {
+        "BearMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "bear"
+        }
+    ]
+}

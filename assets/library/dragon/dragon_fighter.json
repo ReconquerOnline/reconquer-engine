@@ -1,0 +1,66 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawn": false,
+        "distance": 32,
+        "maxDistance": 32,
+        "wander": true,
+        "hitpoints": 25,
+        "accuracy": 30,
+        "defense": -30,
+        "archeryDefense": 600,
+        "strength": 30,
+        "archery": 30,
+        "aggressionDistance": 32,
+        "dropTable": [
+            [
+                [0, "dragon_raw"]
+            ],
+            [
+                [0, "dragon_raw"]
+            ],
+            [
+                [0, "dragon_raw"]
+            ],
+            [
+                [0, "dragon_raw"]
+            ]
+        ]
+    },
+    "dynamicCollisionSize": 2,
+    "replaceMesh": "dragon",
+    "replaceMaterials": {
+        "GreenDragonMaterial": "RedDragonMaterial"
+    },
+    "scaleMesh": 0.7,
+    "itemName": "Baby Dragon",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "dragon_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "dragon_die",
+                    "duration": "1.2",
+                    "loop": false
+                },
+                {
+                    "name": "dragon_attack",
+                    "duration": "1.2",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

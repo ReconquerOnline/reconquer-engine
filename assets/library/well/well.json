@@ -1,0 +1,9 @@
+{
+    "itemName": "Well",
+    "examineMatch": "I bet I can fill a bucket here.",
+    "dynamicCollisionSize": 2,
+    "viewableAtDistance": true,
+    "useTargetInteractions": [
+        "water_source"
+    ]
+}

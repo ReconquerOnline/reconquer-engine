@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_hatchet",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_hatchet",
+    "itemName": "Cupric Hatchet",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 4,
+            "swm": 4
+        },
+        "accuracy": 45
+    },
+    "price": 12,
+    "attackParameters": {
+        "animation": "slash"
+    }
+}

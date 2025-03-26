@@ -1,0 +1,16 @@
+{
+    "itemId": "sand_crab_essence",
+    "itemName": "Sand Crab Essence",
+    "replaceMesh": "crab",
+    "replaceMaterials": {
+        "CrabMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "sand_crab"
+        }
+    ]
+}

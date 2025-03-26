@@ -1,0 +1,19 @@
+{
+    "itemId": "tilapia_meat_raw",
+    "itemName": "Raw Tilapia",
+    "rotateThumbnail": true,
+    "replaceMesh": "sardine_meat_raw",
+    "scaleMesh": [0.7, 1, 1.2],
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "tilapia_meat_cooked",
+            "failure": "tilapia_meat_burnt",
+            "experience": 5,
+            "level": 20
+        },
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

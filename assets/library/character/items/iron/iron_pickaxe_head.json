@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_pickaxe_head",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_pickaxe_head",
+    "itemName": "Iron Pickaxe Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "iron_pickaxe",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 20,
+            "experience": 6
+        }
+    ]
+}

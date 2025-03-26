@@ -1,0 +1,21 @@
+{
+    "itemId": "flax_seeds",
+    "itemName": "Flax Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "FlaxSeedMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "grain_plot_utility",
+            "experience": 2,
+            "level": 1,
+            "quantity": 18,
+            "yield": 10,
+            "time": 30,
+            "finalState": 6,
+            "yieldsItem": "flax"
+        }
+    ]
+}

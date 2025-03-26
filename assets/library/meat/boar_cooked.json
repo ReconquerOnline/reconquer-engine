@@ -1,0 +1,9 @@
+{
+    "itemId": "boar_cooked",
+    "itemName": "Cooked Boar",
+    "eatBehavior": 4,
+    "replaceMesh": "beef_raw",
+    "replaceMaterials": {
+        "BeefRawMaterial": "PorkCookedMaterial"
+    }
+}

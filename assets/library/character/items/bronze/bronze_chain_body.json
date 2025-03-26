@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_chain_body",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_chain_body",
+    "itemName": "Bronze Chain Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 1,
+            "ss": 1,
+            "sbm": 1
+        },
+        "accuracy": 15,
+        "strength": 15
+    },
+    "price": 45
+}

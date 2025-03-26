@@ -1,0 +1,10 @@
+{
+    "itemName": "Quinoa Bread",
+    "itemId": "quinoa_bread_cooked",
+    "eatBehavior": {
+        "produces": ["quinoa_half", 1],
+        "hitpointsToHeal": 10
+    },
+    "price": 34,
+    "replaceMesh": "bread_cooked"
+}

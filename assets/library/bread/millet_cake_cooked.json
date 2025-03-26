@@ -1,0 +1,7 @@
+{
+    "itemName": "Millet Cake",
+    "itemId": "millet_cake_cooked",
+    "eatBehavior": 10,
+    "price": 22,
+    "replaceMesh": "cake_cooked"
+}

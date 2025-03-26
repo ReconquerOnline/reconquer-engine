@@ -1,0 +1,20 @@
+{
+    "itemId": "herb_goldenseal",
+    "itemName": "Goldenseal",
+    "rotateThumbnail": true,
+    "replaceMesh": "herb_yarrow",
+    "replaceMaterials": {
+        "YarrowMaterial": "GoldensealMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "fidelity_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "itemId": "wolf_essence",
+    "itemName": "Wolf Essence",
+    "replaceMesh": "wolf",
+    "replaceMaterials": {
+        "WolfDarkMaterial": "FurnaceFireMaterial",
+        "WolfLightMaterial": "FurnaceFireMaterial",
+        "WolfEyesMaterial": "FurnaceFireMaterial",
+        "WolfNoseMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "wolf"
+        }
+    ]
+}

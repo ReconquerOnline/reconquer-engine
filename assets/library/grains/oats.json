@@ -1,0 +1,33 @@
+{
+    "itemId": "oats",
+    "itemName": "Oats",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 110
+    },
+    "examineMatch": "A bundle of oats.",
+    "defaultMap": [
+        {
+            "result": [
+                "oat_seeds",
+                3
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "oat_seeds",
+                13
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "itemId": "copper_ingot_large",
+    "itemName": "Large Copper Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        },
+        {
+            "type": "furnace_combining_utility"
+        }
+    ]
+}

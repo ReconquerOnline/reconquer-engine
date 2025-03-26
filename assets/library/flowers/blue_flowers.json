@@ -1,0 +1,15 @@
+{
+    "itemId": "blue_flowers",
+    "itemName": "Blue Flowers",
+    "replaceMesh": "white_flowers",
+    "replaceMaterials": {
+        "WhiteFlowerMaterial": "BlueFlowerMaterial"
+    },
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 1800
+    },
+    "despawnConfig" : {
+        "despawnTime": 21600
+    }
+}

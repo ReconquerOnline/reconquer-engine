@@ -1,0 +1,17 @@
+{
+    "itemId": "catfish_meat_raw",
+    "itemName": "Raw Catfish",
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "catfish_meat_cooked",
+            "failure": "catfish_meat_burnt",
+            "experience": 3,
+            "level": 10
+        },
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

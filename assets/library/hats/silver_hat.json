@@ -1,0 +1,15 @@
+{
+    "itemId": "silver_hat",
+    "itemName": "Silver Hat",
+    "replaceMesh":"crown",
+    "replaceMaterials": {
+        "GoldMaterial": "ClothesGrayMaterial"
+    },
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 6,
+            "shm": 13
+        }
+    }
+}

@@ -1,0 +1,1318 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "removeMeshes": [
+        "character_full_base_low_poly"
+    ],
+    "dynamicCollisionSize": 1,
+    "spriteHeight": 1.9,
+    "cameraHeight": 1.7,
+    "useTargetInteractions": [
+        "food_utility"
+    ],
+    "state": [
+        {
+            "id": "sha",
+            "name": "stateHair",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "character_hair_medium",
+                "character_hair_short",
+                "character_hair_long",
+                "character_hair_bald",
+                "character_hair_bowl",
+                "character_hair_medium_bangs",
+                "character_hair_messy",
+                "character_hair_woman",
+                "character_hair_braid",
+                "character_hair_bun"
+            ]
+        },
+        {
+            "id": "sham",
+            "name": "stateHairMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_hair_medium",
+                "character_hair_short",
+                "character_hair_long",
+                "character_hair_bald",
+                "character_eyes_round",
+                "character_eyes_angry",
+                "character_beard_half",
+                "character_beard_handlebar",
+                "character_beard_long",
+                "character_beard_mouth",
+                "character_beard_short",
+                "character_beard_short_mustache",
+                "character_hair_bowl",
+                "character_hair_medium_bangs",
+                "character_beard_curtain",
+                "character_beard_mutton",
+                "character_hair_messy",
+                "character_hair_woman",
+                "character_hair_braid",
+                "character_hair_bun"
+
+            ],
+            "options": [
+                "HairLightBrownMaterial",
+                "HairDarkBrownMaterial",
+                "HairBlondeMaterial",
+                "HairRedMaterial",
+                "HairGrayMaterial"
+            ]
+        },
+        {
+            "id": "se",
+            "name": "stateEyes",
+            "behavior": "chooseMesh",
+            "options": [
+                "character_eyes_round",
+                "character_eyes_angry"
+            ]
+        },
+        {
+            "id": "sem",
+            "name": "stateEyesMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_eyes_round",
+                "character_eyes_angry"
+            ],
+            "options": [
+                "EyesBlueMaterial",
+                "EyesDarkBlueMaterial",
+                "EyesGreenMaterial",
+                "EyesDarkGreenMaterial",
+                "EyesBrownMaterial",
+                "EyesDarkBrownMaterial"
+            ]
+        },
+        {
+            "id": "sno",
+            "name": "stateNose",
+            "behavior": "chooseMesh",
+            "options": [
+                "character_nose_medium",
+                "character_nose_small"
+            ]
+        },
+        {
+            "id": "sbe",
+            "name": "stateBeard",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "character_beard_half",
+                "character_beard_handlebar",
+                "character_beard_long",
+                "character_beard_short",
+                "character_beard_short_mustache",
+                "character_beard_curtain",
+                "character_beard_mutton"
+            ]
+        },
+        {
+            "id": "sshim",
+            "name": "stateShirtMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_shirt",
+                "character_shirt_chain_body",
+                "character_shirt_plate_body",
+                "character_shirt_hood",
+                "character_shirt_woman",
+                "character_shirt_chain_body_woman",
+                "character_shirt_plate_body_woman"
+            ],
+            "options": [
+                "ClothesBlueMaterial",
+                "ClothesRedMaterial",
+                "ClothesWhiteMaterial",
+                "ClothesYellowMaterial",
+                "ClothesGreenMaterial",
+                "ClothesBlackMaterial",
+                "ClothesBrownMaterial",
+                "ClothesGrayMaterial"
+            ]
+        },
+        {
+            "id": "spm",
+            "name": "statePantsMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_pants",
+                "character_robe",
+                "character_pants_woman"
+            ],
+            "options": [
+                "ClothesDarkBlueMaterial",
+                "ClothesDarkRedMaterial",
+                "ClothesGrayMaterial",
+                "ClothesDarkYellowMaterial",
+                "ClothesDarkGreenMaterial",
+                "ClothesBlackMaterial",
+                "ClothesBrownMaterial"
+            ]
+        },
+        {
+            "id": "ssm",
+            "name": "stateSkinMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_head",
+                "character_hands",
+                "character_feet",
+                "character_nose_small",
+                "character_nose_medium"
+            ],
+            "options": [
+                "SkinMediumMaterial",
+                "SkinLightMaterial",
+                "SkinVeryLightMaterial"
+            ]
+        },
+        {
+            "id": "she",
+            "name": "stateHelmet",
+            "behavior": "chooseMesh",
+            "slot": "ihe",
+            "options": [
+                null,
+                "character_full_helmet",
+                "character_med_helmet",
+                "character_chef_hat",
+                "character_jester_hat",
+                "character_archer_hat",
+                "character_crown",
+                "character_strawhat"
+            ]
+        },
+        {
+            "id": "shm",
+            "name": "stateHelmetMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_full_helmet",
+                "character_med_helmet",
+                "character_crown"
+            ],
+            "options": [
+                "CopperMaterial",
+                "BronzeMaterial",
+                "IronMaterial",
+                "BrassMaterial",
+                "NickelBronzeMaterial",
+                "GoldMaterial",
+
+                "ClothesBlueMaterial",
+                "ClothesRedMaterial",
+                "ClothesWhiteMaterial",
+                "ClothesYellowMaterial",
+                "ClothesGreenMaterial",
+                "ClothesBlackMaterial",
+                "ClothesBrownMaterial",
+                "ClothesGrayMaterial",
+                "ClothesOrangeMaterial"
+            ]
+        },
+        {
+            "id": "sn",
+            "name": "stateNecklace",
+            "behavior": "chooseMesh",
+            "slot": "in",
+            "options": [
+                null,
+                "character_necklace",
+                "character_necklace_jewel"
+            ]
+        },
+        {
+            "id": "snm",
+            "name": "stateNecklaceMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_necklace",
+                "character_necklace_jewel"
+            ],
+            "options": [
+                "GoldMaterial",
+                "CopperMaterial",
+                "BronzeMaterial",
+                "IronMaterial",
+                "BrassMaterial",
+                "NickelBronzeMaterial",
+                "ToothMaterial",
+                "DragonHideMaterial"
+            ]
+        },
+        {
+            "id": "ss",
+            "name": "stateShirt",
+            "behavior": "chooseMesh",
+            "options": [
+                "character_shirt",
+                "character_shirt_chain_body",
+                "character_shirt_plate_body",
+                "character_shirt_hood",
+                "character_shirt_woman",
+                "character_shirt_chain_body_woman",
+                "character_shirt_plate_body_woman"
+            ]
+        },
+        {
+            "id": "sb",
+            "name": "stateBody",
+            "behavior": "chooseMesh",
+            "slot": "ib",
+            "options": [
+                null,
+                "character_chain_body",
+                "character_plate_body"
+            ]
+        },
+        {
+            "id": "sbm",
+            "name": "stateBodyMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_chain_body",
+                "character_plate_body"
+            ],
+            "options": [
+                "CopperMaterial",
+                "BronzeMaterial",
+                "IronMaterial",
+                "BrassMaterial",
+                "NickelBronzeMaterial"
+            ]
+        },
+        {
+            "id": "sl",
+            "name": "stateLegs",
+            "behavior": "chooseMesh",
+            "slot": "il",
+            "options": [
+                "character_pants",
+                "character_plate_legs",
+                "character_robe",
+                "character_pants_woman"
+            ]
+        },
+        {
+            "id": "slm",
+            "name": "stateLegsMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_plate_legs"
+            ],
+            "options": [
+                "CopperMaterial",
+                "BronzeMaterial",
+                "IronMaterial",
+                "BrassMaterial",
+                "NickelBronzeMaterial"
+            ]
+        },
+        {
+            "id": "sf",
+            "name": "stateFeet",
+            "behavior": "chooseMesh",
+            "slot": "if",
+            "options": [
+                "character_feet",
+                "character_boots"
+            ]
+        },
+        {
+            "id": "sfm",
+            "name": "stateFeetMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_boots"
+            ],
+            "options": [
+                "LeatherMaterial",
+                "ClothesYellowMaterial",
+                "PigMaterial",
+                "BoarMaterial",
+                "BearHideMaterial",
+                "DragonHideMaterial",
+                "DesertWolfDarkMaterial"
+            ]
+        },
+        {
+            "id": "shan",
+            "name": "stateHands",
+            "behavior": "chooseMesh",
+            "slot": "ihan",
+            "options": [
+                "character_hands",
+                "character_gloves"
+            ]
+        },
+        {
+            "id": "shanm",
+            "name": "stateHandsMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_gloves"
+            ],
+            "options": [
+                "LeatherMaterial",
+                "ClothesYellowMaterial",
+                "PigMaterial",
+                "BoarMaterial",
+                "BearHideMaterial",
+                "DragonHideMaterial",
+                "DesertWolfDarkMaterial"
+            ]
+        },
+        {
+            "id": "sw",
+            "name": "stateWeapon",
+            "behavior": "chooseMesh",
+            "slot": "iw",
+            "options": [
+                null,
+                "character_bow",
+                "character_crossbow",
+                "character_hammer",
+                "character_hatchet",
+                "character_knife",
+                "character_longbow",
+                "character_mace",
+                "character_pickaxe",
+                "character_saber",
+                "character_scythe",
+                "character_spear",
+                "character_sword",
+                "character_fishing_rod"
+            ]
+        },
+        {
+            "id": "swm",
+            "name": "stateWeaponsMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_hammer",
+                "character_hatchet",
+                "character_knife",
+                "character_longbow",
+                "character_mace",
+                "character_pickaxe",
+                "character_saber",
+                "character_scythe",
+                "character_spear",
+                "character_sword"
+            ],
+            "options": [
+                "CopperMaterial",
+                "BronzeMaterial",
+                "IronMaterial",
+                "BrassMaterial",
+                "NickelBronzeMaterial"
+            ]
+        },
+        {
+            "id": "swbm",
+            "name": "stateWeaponsBowMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_bow",
+                "character_longbow",
+                "character_crossbow"
+            ],
+            "options": [
+                "PoplarInnerMaterial",
+                "SpruceInnerMaterial",
+                "CedarInnerMaterial",
+                "JuniperInnerMaterial"
+            ]
+        },
+        {
+            "id": "ssh",
+            "name": "stateShield",
+            "behavior": "chooseMesh",
+            "slot": "ish",
+            "options": [
+                null,
+                "character_square_shield",
+                "character_kite_shield",
+                "character_round_shield"
+            ]
+        },
+        {
+            "id": "sshm",
+            "name": "stateShieldMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "character_square_shield",
+                "character_kite_shield",
+                "character_round_shield"
+            ],
+            "options": [
+                "CopperMaterial",
+                "BronzeMaterial",
+                "IronMaterial",
+                "BrassMaterial",
+                "NickelBronzeMaterial"
+            ]
+        },
+        {
+            "id": "sam",
+            "name": "stateAmmo",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "character_arrow",
+                "character_bolt"
+            ]
+        },
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "character_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "character_walk",
+                    "duration": "0.72",
+                    "loop": true
+                },
+                {
+                    "name": "character_turn",
+                    "duration": "0.6",
+                    "loop": false
+                },
+                {
+                    "name": "character_slash",
+                    "duration": "1.2",
+                    "loop": true,
+                    "effect": "slash"
+                },
+                {
+                    "name": "character_stab",
+                    "duration": "1.2",
+                    "loop": true,
+                    "effect": "stab"
+                },
+                {
+                    "name": "character_crush",
+                    "duration": "1.2",
+                    "loop": true,
+                    "effect": "crush"
+                },
+                {
+                    "name": "character_bow",
+                    "duration": "1.8",
+                    "loop": true,
+                    "effect": "arrow"
+                },
+                {
+                    "name": "character_longbow",
+                    "useAnimation": "character_bow",
+                    "duration": "2.4",
+                    "loop": true,
+                    "effect": "arrow"
+                },
+                {
+                    "name": "character_crossbow",
+                    "duration": "1.8",
+                    "loop": true,
+                    "effect": "arrow"
+                },
+                {
+                    "name": "character_2h_slash",
+                    "duration": "1.8",
+                    "loop": true,
+                    "overrideState": {
+                        "ssh": 0
+                    },
+                    "effect": "slash"
+                },
+                {
+                    "name": "character_2h_stab",
+                    "duration": "1.8",
+                    "loop": true,
+                    "overrideState": {
+                        "ssh": 0
+                    },
+                    "effect": "stab"
+                },
+                {
+                    "name": "character_2h_crush",
+                    "duration": "1.8",
+                    "loop": true,
+                    "overrideState": {
+                        "ssh": 0
+                    },
+                    "effect": "crush"
+                },
+                {
+                    "name": "character_die",
+                    "useAnimation": "character_crouch",
+                    "duration": "1.2",
+                    "loop": false,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    },
+                    "effect": "die"
+                },
+                {
+                    "name": "character_eat",
+                    "duration": "0.6",
+                    "loop": true,
+                    "overrideState": {
+                        "sw": 0
+                    },
+                    "effect": "eat"
+                },
+                {
+                    "name": "character_pick",
+                    "duration": "1.2",
+                    "loop": false,
+                    "overrideState": {
+                        "sw": 0
+                    },
+                    "effect": "pick"
+                },
+                {
+                    "name": "character_cook",
+                    "duration": "1.8",
+                    "loop": false,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    },
+                    "effect": "cook"
+                },
+                {
+                    "name": "character_crouch",
+                    "duration": "1.2",
+                    "loop": false,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    }
+                },
+                {
+                    "name": "character_carve",
+                    "duration": "1.8",
+                    "loop": false,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    },
+                    "effect": "attach"
+                },
+                {
+                    "name": "character_hammer",
+                    "duration": "3.0",
+                    "loop": false,
+                    "overrideState": {
+                        "ssh": 0
+                    },
+                    "effect": "hammer"
+                },
+                {
+                    "name": "character_attach",
+                    "duration": "1.2",
+                    "loop": false,
+                    "overrideState": {
+                        "ssh": 0
+                    },
+                    "effect": "attach"
+                },
+                {
+                    "name": "character_fish",
+                    "duration": "1.8",
+                    "loop": true,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    }
+                },
+                {
+                    "name": "character_sitting",
+                    "duration": "15",
+                    "loop": true,
+                    "overrideState": {
+                        "ssh": 0
+                    }
+                },
+                {
+                    "name": "character_praying",
+                    "duration": "6",
+                    "loop": true,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    }
+                },
+                {
+                    "name": "character_push",
+                    "duration": "0.6",
+                    "loop": false,
+                    "overrideState": {
+                        "sw": 0,
+                        "ssh": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "follow",
+                        "interaction": "Follow"
+                    },
+                    {
+                        "type": "trade_player",
+                        "interaction": "Trade"
+                    },
+                    {
+                        "type": "attack",
+                        "interaction": "Attack"
+                    }
+                ],
+                [
+                    {
+                        "type": "talk",
+                        "interaction": "Talk to"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "talk",
+                        "interaction": "Talk to"
+                    },
+                    {
+                        "type": "trade",
+                        "interaction": "Trade with"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "attack",
+                        "interaction": "Attack"
+                    },
+                    {
+                        "type": "examine_monster",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "examineMatch": [
+        {
+            "matchString": "id=character.beggar",
+            "result": "The man looks raggedy."
+        },
+        {
+            "matchString": "id=character.friend",
+            "result": "Your good friend."
+        },
+        {
+            "matchString": "id=character.smith",
+            "result": "A smith."
+        },
+        {
+            "matchString": "id=character.hero",
+            "result": "A shining knight."
+        },
+        {
+            "matchString": "id=character.baker",
+            "result": "A man who bakes."
+        },
+        {
+            "matchString": "id=character.jester",
+            "result": "A humorous fellow."
+        },
+        {
+            "matchString": "id=character.sage",
+            "result": "A truly wise man."
+        }
+    ],
+    "behaviors": {
+        "character.friend": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.jester": {
+            "type": "walk",
+            "distance": 5,
+            "frequency": 24
+        },
+        "character.jester2": {
+            "type": "walk",
+            "distance": 5,
+            "frequency": 24
+        },
+        "character.baker": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.archer": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.hero": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 18
+        },
+        "character.fisher2": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.king": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.brother": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.gardener": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.farmer": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.thief": {
+            "type": "monster",
+            "hitpoints": 10,
+            "respawnTime": 40,
+            "distance": 3,
+            "maxDistance": 6,
+            "frequency": 15,
+            "aggressionDistance": 5,
+            "accuracy": 12,
+            "defense": 12,
+            "strength": 12,
+            "dropTable": [
+                [
+                    0,
+                    [
+                        "coins",
+                        2
+                    ]
+                ],
+                [
+                    400,
+                    [
+                        "coins",
+                        4
+                    ]
+                ],
+                [
+                    800,
+                    [
+                        "bronze_med_helmet",
+                        1
+                    ]
+                ],
+                [
+                    900,
+                    [
+                        "bronze_chain_body",
+                        1
+                    ]
+                ],
+                [
+                    950,
+                    [
+                        "thief_essence",
+                        1
+                    ]
+                ]
+            ]
+        },
+        "character.thief2": {
+            "type": "monster",
+            "hitpoints": 14,
+            "respawnTime": 40,
+            "distance": 3,
+            "maxDistance": 6,
+            "frequency": 15,
+            "aggressionDistance": 5,
+            "accuracy": 30,
+            "defense": 30,
+            "strength": 30,
+            "disableHitpointRegeneration": true,
+            "dropTable": [
+                [
+                    0,
+                    [
+                        "coins",
+                        1
+                    ]
+                ],
+                [
+                    500,
+                    [
+                        "coins",
+                        2
+                    ]
+                ]
+            ]
+        },
+        "character.victim": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.resourceA": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 24
+        },
+        "character.sage": {
+            "type": "walk",
+            "distance": 1,
+            "frequency": 12
+        }
+    },
+    "serverState": {
+        "character.hero": {
+            "pub": {
+                "dn": "Hero",
+                "si": 1,
+                "sf": 1,
+                "shan": 1,
+                "she": 1,
+                "shm": 2,
+                "sn": 1,
+                "ss": 2,
+                "sb": 2,
+                "sbm": 2,
+                "sl": 1,
+                "slm": 2,
+                "sw": 12,
+                "swm": 2,
+                "ssh": 3,
+                "sshm": 2
+            }
+        },
+        "character.baker": {
+            "pub": {
+                "dn": "Baker",
+                "si": 1,
+                "sf": 1,
+                "sha": 4,
+                "sham": 2,
+                "spm": 2,
+                "sshim": 2,
+                "ssm": 1,
+                "she": 3,
+                "sbe": 2
+            }
+        },
+        "character.fisher": {
+            "pub": {
+                "dn": "Fisher",
+                "si": 1,
+                "sf": 1,
+                "sha": 3,
+                "spm": 5,
+                "sshim": 2,
+                "ssm": 2,
+                "sem": 5,
+                "sbe": 5,
+                "sa": 20
+            }
+        },
+        "character.fisher2": {
+            "pub": {
+                "dn": "Fisher",
+                "si": 2,
+                "sw": 13,
+                "sf": 1,
+                "sha": 3,
+                "spm": 5,
+                "sshim": 2,
+                "ssm": 2,
+                "sem": 5,
+                "sbe": 5
+            },
+            "priv": {
+                "shop": {
+                    "mi0": {
+                        "itemId": "fishing_rod",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi1": {
+                        "itemId": "feathers",
+                        "quantity": 200,
+                        "respawnAmount": 2
+                    }
+                }
+            }
+        },
+        "character.friend": {
+            "pub": {
+                "dn": "Friend",
+                "sha": 2,
+                "si": 1,
+                "sbe": 4,
+                "sf": 1
+            }
+        },
+        "character.beggar": {
+            "pub": {
+                "dn": "Beggar",
+                "si": 1,
+                "sa": 21,
+                "sbe": 3,
+                "sem": 5,
+                "sha": 3,
+                "sham": 4,
+                "spm": 2,
+                "sshim": 2,
+                "ssm": 1
+            }
+        },
+        "character.smith": {
+            "pub": {
+                "dn": "Smith",
+                "sw": 3,
+                "si": 2,
+                "sbe": 2,
+                "spm": 5,
+                "sshim": 1,
+                "sf": 1,
+                "shan": 1
+            },
+            "priv": {
+                "shop": {
+                    "mi0": {
+                        "itemId": "copper_pickaxe",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi1": {
+                        "itemId": "copper_hatchet",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi2": {
+                        "itemId": "copper_hammer",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi3": {
+                        "itemId": "copper_knife",
+                        "quantity": 10,
+                        "respawnAmount": 2
+                    },
+                    "mi4": {},
+                    "mi5": {},
+                    "mi6": {},
+                    "mi7": {}
+                }
+            }
+        },
+        "character.archer": {
+            "pub": {
+                "dn": "Archer",
+                "sw": 1,
+                "si": 2,
+                "sbe": 4,
+                "sha": 4,
+                "sno": 1,
+                "spm": 4,
+                "sshim": 4,
+                "sf": 1,
+                "shan": 1,
+                "she": 5
+            },
+            "priv": {
+                "shop": {
+                    "mi0": {
+                        "itemId": "wooden_bow",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi1": {
+                        "itemId": "wooden_crossbow",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi2": {
+                        "itemId": "wooden_longbow",
+                        "quantity": 10,
+                        "respawnAmount": 1
+                    },
+                    "mi3": {
+                        "itemId": "copper_arrows",
+                        "quantity": 300,
+                        "respawnAmount": 2
+                    },
+                    "mi4": {
+                        "itemId": "copper_bolts",
+                        "quantity": 300,
+                        "respawnAmount": 2
+                    },
+                    "mi5": {},
+                    "mi6": {},
+                    "mi7": {}
+                }
+            }
+        },
+        "character.jester": {
+            "pub": {
+                "dn": "Jester",
+                "sem": 2,
+                "spm": 1,
+                "sshim": 3,
+                "ssm": 1,
+                "she": 4,
+                "sbe": 1,
+                "sn": 1,
+                "snm": 1,
+                "si": 1,
+                "sf": 1,
+                "sfm": 1,
+                "shan": 1,
+                "shanm": 1
+            }
+        },
+        "character.jester2": {
+            "pub": {
+                "dn": "Jester",
+                "sem": 2,
+                "spm": 1,
+                "sshim": 3,
+                "ssm": 1,
+                "she": 4,
+                "sbe": 1,
+                "sn": 1,
+                "snm": 1,
+                "si": 1,
+                "sf": 1,
+                "sfm": 1,
+                "shan": 1,
+                "shanm": 1
+            }
+        },
+        "character.king": {
+            "pub": {
+                "dn": "King",
+                "sha": 3,
+                "sno": 1,
+                "spm": 1,
+                "sshim": 1,
+                "ssm": 2,
+                "si": 1,
+                "sf": 1,
+                "sfm": 2,
+                "she": 6,
+                "shm": 5
+            }
+        },
+        "character.brother": {
+            "pub": {
+                "dn": "Brother Martin",
+                "sbe": 3,
+                "sem": 4,
+                "sha": 4,
+                "spm": 6,
+                "ssm": 1,
+                "sshim": 6,
+                "sf": 1,
+                "sfm": 0,
+                "si": 1,
+                "sl": 2,
+                "ss": 3
+            }
+        },
+        "character.thief": {
+            "pub": {
+                "dn": "Thief",
+                "sbe": 3,
+                "sem": 4,
+                "spm": 5,
+                "ssm": 1,
+                "sshim": 5,
+                "sf": 1,
+                "sfm": 0,
+                "si": 3,
+                "ss": 1,
+                "she": 2,
+                "shm": 1,
+                "sb": 1,
+                "sbm": 1,
+                "sw": 12,
+                "swm": 1,
+                "sl": 0,
+                "shan": 0,
+                "se": 0,
+                "sno": 0
+            }
+        },
+        "character.thief2": {
+            "pub": {
+                "dn": "Thief",
+                "sbe": 3,
+                "sem": 4,
+                "spm": 5,
+                "ssm": 1,
+                "sshim": 5,
+                "sf": 1,
+                "sfm": 0,
+                "si": 3,
+                "ss": 1,
+                "she": 2,
+                "shm": 2,
+                "sb": 1,
+                "sbm": 2,
+                "sw": 7,
+                "swm": 2
+            }
+        },
+        "character.victim": {
+            "pub": {
+                "dn": "Victim",
+                "sbe": 1,
+                "sham": 4,
+                "spm": 5,
+                "sshim": 1,
+                "ssm": 1,
+                "sf": 1,
+                "sfm": 0,
+                "si": 1
+            }
+        },
+        "character.gardener": {
+            "pub": {
+                "cid": "gardener",
+                "dn": "Gardener",
+                "sem": 5,
+                "sha": 1,
+                "sham": 1,
+                "spm": 4,
+                "sf": 1,
+                "sfm": 0,
+                "si": 1,
+                "she": 7
+            }
+        },
+        "character.knight": {
+            "pub": {
+                "dn": "Knight",
+                "sem": 3,
+                "sha": 2,
+                "sham": 2,
+                "spm": 1,
+                "sf": 1,
+                "si": 1,
+                "sshim": 1,
+                "shan": 1,
+                "sn": 1,
+                "snm": 2,
+                "ss": 1,
+                "sb": 1,
+                "sbm": 1,
+                "sl": 1,
+                "slm": 1,
+                "sw": 12,
+                "swm": 1,
+                "ssh": 3,
+                "sshm": 1
+            }
+        },
+        "character.resourceA": {
+            "pub": {
+                "dn": "Fisher",
+                "si": 1,
+                "sf": 1,
+                "sha": 6,
+                "spm": 5,
+                "sshim": 2,
+                "ssm": 2,
+                "sem": 5,
+                "sbe": 7,
+                "sw": 13
+            }
+        },
+        "character.resourceB": {
+            "pub": {
+                "dn": "Miner",
+                "si": 1,
+                "sf": 1,
+                "sha": 4,
+                "spm": 5,
+                "sshim": 7,
+                "se": 1,
+                "sem": 5,
+                "sbe": 4,
+                "sw": 8,
+                "sa": 11,
+                "shan": 1,
+                "sham": 3
+            }
+        },
+        "character.farmer": {
+            "pub": {
+                "dn": "Farmer",
+                "sha": 2,
+                "si": 1,
+                "sbe": 6,
+                "sf": 1,
+                "sw": 10,
+                "she": 7,
+                "sshim": 3,
+                "spm": 3
+            }
+        },
+        "character.sage": {
+            "pub": {
+                "dn": "Sage",
+                "sha": 3,
+                "sham": 4,
+                "sem": 1,
+                "sbe": 3,
+                "sshim": 7,
+                "sl": 2,
+                "spm": 2,
+                "si": 1
+            }
+        }
+    }
+}

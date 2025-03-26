@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_plate_legs",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_plate_legs",
+    "itemName": "Brass Platelegs",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "il",
+        "change": {
+            "sl": 1,
+            "slm": 3
+        },
+        "defense": 10
+    },
+    "price": 40
+}

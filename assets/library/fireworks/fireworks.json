@@ -1,0 +1,17 @@
+{
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "fireworks_idle",
+                    "duration": "1.2",
+                    "loop": true,
+                    "effect": "level_up"
+                }
+            ]
+        }
+    ]
+}

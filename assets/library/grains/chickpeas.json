@@ -1,0 +1,33 @@
+{
+    "itemId": "chickpeas",
+    "itemName": "Chickpeas",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 160
+    },
+    "examineMatch": "A bundle of chickpeas.",
+    "defaultMap": [
+        {
+            "result": [
+                "chickpea_seeds",
+                2
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "chickpea_seeds",
+                8
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

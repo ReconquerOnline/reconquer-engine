@@ -1,0 +1,16 @@
+{
+    "itemId": "brass_ingot_medium",
+    "itemName": "Medium Brass Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        },
+        {
+            "type": "furnace_combining_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_medium",
+    "replaceMaterials": {
+        "CopperRockMaterial": "BrassMaterial"
+    }
+}

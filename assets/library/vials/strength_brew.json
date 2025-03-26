@@ -1,0 +1,24 @@
+{
+    "itemId": "strength_brew",
+    "itemName": "Strength Brew",
+    "replaceMesh": "poison_vial",
+    "defaultMap": ["empty_vial", 1],
+    "replaceMaterials": {
+        "PoisonMaterial": "PassionflowerMaterial"
+    },
+    "eatBehavior": {
+        "interactionName": "Drink",
+        "produces": ["empty_vial", 1],
+        "boost": [
+            {"skill": "strength", "amount": 5}
+        ]
+    },
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ]
+}

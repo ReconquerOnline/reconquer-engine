@@ -1,0 +1,9 @@
+{
+    "itemId": "invisible_fire_ball",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "arrow",
+        "class": "fire"
+    },
+    "replaceMesh": "empty"
+}

@@ -1,0 +1,7 @@
+{
+    "itemName": "Rye Cake",
+    "itemId": "rye_cake_cooked",
+    "eatBehavior": 8,
+    "price": 18,
+    "replaceMesh": "cake_cooked"
+}

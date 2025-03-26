@@ -1,0 +1,16 @@
+{
+    "itemId": "bronze_necklace",
+    "itemName": "Bronze Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 1,
+            "snm": 2
+        },
+        "strength": 20
+    },
+    "replaceMesh": "gold_necklace",
+    "replaceMaterials": {
+        "GoldMaterial": "BronzeMaterial"
+    }
+}

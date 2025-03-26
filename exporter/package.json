@@ -1,0 +1,22 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@remote:game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gltf-transform/core": "^3.1.2",
+    "@gltf-transform/extensions": "^3.1.2",
+    "@gltf-transform/functions": "^3.1.2",
+    "three": "^0.151.3"
+  },
+  "type": "module"
+}

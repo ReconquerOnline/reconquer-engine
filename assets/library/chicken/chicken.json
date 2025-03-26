@@ -1,0 +1,89 @@
+{
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 3,
+        "respawnTime": 10,
+        "distance": 3,
+        "maxDistance": 3,
+        "accuracy": -40,
+        "defense": -20,
+        "dropTable": [
+            [
+                0,
+                "chicken_meat_raw"
+            ],
+            [
+                350,
+                "egg"
+            ],
+            [
+                500,
+                [
+                    "feathers",
+                    1
+                ]
+            ],
+            [
+                750,
+                [
+                    "feathers",
+                    3
+                ]
+            ],
+            [
+                850,
+                [
+                    "feathers",
+                    5
+                ]
+            ],
+            [
+                900,
+                [
+                    "chicken_essence",
+                    1
+                ]
+            ],
+            [
+                950,
+                [
+                    "coop_key",
+                    1
+                ]
+            ]
+        ]
+    },
+    "itemName": "Chicken",
+    "dynamicCollisionSize": 1,
+    "spriteHeight": 1.2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "chicken_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "chicken_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "chicken_attack",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "chicken_die",
+                    "duration": "0.6",
+                    "loop": false,
+                    "effect": "chicken_die"
+                }
+            ]
+        }
+    ]
+}

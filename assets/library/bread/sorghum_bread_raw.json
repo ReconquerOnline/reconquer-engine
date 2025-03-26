@@ -1,0 +1,14 @@
+{
+    "itemName": "Sorghum Dough",
+    "itemId": "sorghum_bread_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "sorghum_bread_cooked",
+            "failure": "bread_burnt",
+            "experience": 4,
+            "level": 5
+        }
+    ]
+}

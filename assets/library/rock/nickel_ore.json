@@ -1,0 +1,13 @@
+{
+    "itemId": "nickel_ore",
+    "itemName": "Nickel Ore",
+    "useSourceInteractions": [
+        {
+            "type": "furnace_utility"
+        }
+    ],
+    "replaceMesh": "copper_ore",
+    "replaceMaterials": {
+        "CopperRockMaterial": "NickelRockMaterial"
+    }
+}

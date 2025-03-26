@@ -1,0 +1,15 @@
+{
+    "itemId": "black_hat",
+    "itemName": "Black Hat",
+    "replaceMesh":"crown",
+    "replaceMaterials": {
+        "GoldMaterial": "ClothesBlackMaterial"
+    },
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 6,
+            "shm": 11
+        }
+    }
+}

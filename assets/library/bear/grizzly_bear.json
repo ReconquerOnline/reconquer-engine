@@ -1,0 +1,78 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 10,
+        "maxDistance": 10,
+        "frequency": 15,
+        "hitpoints": 24,
+        "accuracy": 25,
+        "defense": 25,
+        "strength": 25,
+        "aggressionDistance": 5,
+        "dropTable": [
+            [
+                [
+                    0,
+                    "bear_raw"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "bear_hide"
+                ]
+            ],
+            [
+                [
+                    680,
+                    "nickel_ore"
+                ],
+                [
+                    930,
+                    "grizzly_bear_essence"
+                ],
+                [
+                    980,
+                    "bear_tooth"
+                ]
+            ]
+        ]
+    },
+    "replaceMesh": "bear",
+    "replaceMaterials": {
+        "BearMaterial": "GrizzlyBearMaterial"
+    },
+    "scaleMesh": 1.1,
+    "dynamicCollisionSize": 2,
+    "itemName": "Grizzly Bear",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "bear_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "bear_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "bear_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "bear_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

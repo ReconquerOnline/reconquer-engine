@@ -1,0 +1,19 @@
+{
+    "replaceMesh": "copper_plate_body",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_plate_body",
+    "itemName": "Iron Plate Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 2,
+            "ss": 2,
+            "sbm": 2
+        },
+        "defense": 50
+    },
+    "price": 80
+}

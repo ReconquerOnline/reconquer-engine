@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_kite_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_kite_shield",
+    "itemName": "Brass Kite Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 2,
+            "sshm": 3
+        },
+        "defense": 15,
+        "slashDefense": 15,
+        "crushDefense": -15
+    },
+    "price": 40
+}

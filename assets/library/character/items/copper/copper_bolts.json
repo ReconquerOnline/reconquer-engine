@@ -1,0 +1,23 @@
+{
+    "itemId": "copper_bolts",
+    "itemName": "Copper Bolts",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "bolt"
+    },
+    "price": 2,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_bolts_1",
+                "copper_bolts_2",
+                "copper_bolts_3",
+                "copper_bolts_4",
+                "copper_bolts_5"
+            ]
+        }
+    ]
+}

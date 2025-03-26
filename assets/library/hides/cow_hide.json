@@ -1,0 +1,22 @@
+{
+    "itemId": "cow_hide",
+    "itemName": "Cowhide",
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": [
+                "leather_gloves",
+                "leather_boots"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "alsoConsumes": [
+                "thread",
+                5
+            ],
+            "experience": 1,
+            "level": 1,
+            "skill": "crafting"
+        }
+    ]
+}

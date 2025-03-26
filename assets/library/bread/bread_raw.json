@@ -1,0 +1,13 @@
+{
+    "itemName": "Bread Dough",
+    "itemId": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "bread_cooked",
+            "failure": "bread_burnt",
+            "experience": 3,
+            "level": 1
+        }
+    ]
+}

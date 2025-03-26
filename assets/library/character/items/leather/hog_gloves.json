@@ -1,0 +1,21 @@
+{
+    "itemId": "hog_gloves",
+    "itemName": "Hog Gloves",
+    "rotateThumbnail": true,
+    "replaceMesh": "leather_gloves",
+    "replaceMaterials": {
+        "LeatherMaterial": "PigMaterial"
+    },
+    "price": 4,
+    "wearBehavior": {
+        "slot": "ihan",
+        "change": {
+            "shan": 1,
+            "shanm": 2
+        },
+        "accuracy": 10,
+        "strength": 10,
+        "skill": "defense",
+        "level": 5
+    }
+}

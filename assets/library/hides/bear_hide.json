@@ -1,0 +1,27 @@
+{
+    "itemId": "bear_hide",
+    "replaceMesh": "cow_hide",
+    "replaceMaterials": {
+        "CowHideMaterial": "BearHideMaterial",
+        "CowHideBlackMaterial": "BearHideMaterial"
+    },
+    "itemName": "Bear Skin",
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": [
+                "bear_gloves",
+                "bear_boots"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "alsoConsumes": [
+                "thread",
+                5
+            ],
+            "experience": 5,
+            "level": 15,
+            "skill": "crafting"
+        }
+    ]
+}

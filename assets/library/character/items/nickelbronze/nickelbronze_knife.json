@@ -1,0 +1,24 @@
+{
+    "replaceMesh": "copper_knife",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_knife",
+    "itemName": "Cupric Knife",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 5,
+            "swm": 4
+        },
+        "accuracy": 45
+    },
+    "price": 12,
+    "useTargetInteractions": [
+        "knife_utility"
+    ],
+    "attackParameters": {
+        "animation": "stab"
+    }
+}

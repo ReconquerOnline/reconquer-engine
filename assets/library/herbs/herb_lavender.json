@@ -1,0 +1,20 @@
+{
+    "itemId": "herb_lavender",
+    "itemName": "Lavender",
+    "rotateThumbnail": true,
+    "replaceMesh": "herb_yarrow",
+    "replaceMaterials": {
+        "YarrowMaterial": "LavenderMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "vial_of_water_utility",
+            "result": [
+                "archery_brew"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "consumesTarget": true
+        }
+    ]
+}

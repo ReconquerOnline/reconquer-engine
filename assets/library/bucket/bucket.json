@@ -1,0 +1,24 @@
+{
+    "itemId": "bucket",
+    "itemName": "Bucket",
+    "useSourceInteractions": [
+        {
+            "type": "water_source",
+            "result": "bucket_of_water",
+            "ticks": 2,
+            "animation": "carve"
+        },
+        {
+            "type": "salt_water_source",
+            "result": "bucket_of_salt_water",
+            "ticks": 2,
+            "animation": "carve"
+        },
+        {
+            "type": "milk_source",
+            "result": "bucket_of_milk",
+            "ticks": 4,
+            "animation": "carve"
+        }
+    ]
+}

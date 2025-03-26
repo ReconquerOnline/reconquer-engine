@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_mace_head",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_mace_head",
+    "itemName": "Bronze Mace Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "bronze_mace",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 10,
+            "experience": 3
+        }
+    ]
+}

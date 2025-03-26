@@ -1,0 +1,11 @@
+{
+    "itemId": "gold_necklace",
+    "itemName": "Gold Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 1,
+            "snm": 0
+        }
+    }
+}

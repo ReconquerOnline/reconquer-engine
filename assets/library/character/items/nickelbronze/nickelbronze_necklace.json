@@ -1,0 +1,17 @@
+{
+    "itemId": "nickelbronze_necklace",
+    "itemName": "Cupric Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 1,
+            "snm": 5
+        },
+        "accuracy": 20,
+        "strength": 20
+    },
+    "replaceMesh": "gold_necklace",
+    "replaceMaterials": {
+        "GoldMaterial": "NickelBronzeMaterial"
+    }
+}

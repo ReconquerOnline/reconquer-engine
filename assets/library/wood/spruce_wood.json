@@ -1,0 +1,33 @@
+{
+    "itemId": "spruce_wood",
+    "itemName": "Spruce Wood",
+    "replaceMesh": "pine_wood",
+    "replaceMaterials": {
+        "PineInnerMaterial": "SpruceInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "ignition_utility",
+            "experience": 4,
+            "level": 10
+        },
+        {
+            "type": "nail_utility",
+            "experience": 4,
+            "level": 10,
+            "produces": "spruce_barricade"
+        },
+        {
+            "type": "knife_utility",
+            "result": [
+                "unstrung_spruce_bow",
+                "unstrung_spruce_crossbow",
+                "unstrung_spruce_longbow"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 3,
+            "level": 10
+        }
+    ]
+}

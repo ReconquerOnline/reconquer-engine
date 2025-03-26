@@ -1,0 +1,9 @@
+{
+    "itemId": "pine_nuts",
+    "itemName": "Pine Nuts",
+    "eatBehavior": 1,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "PineSeedMaterial"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "itemId": "smithing_brew",
+    "itemName": "Smithing Brew",
+    "replaceMesh": "poison_vial",
+    "defaultMap": ["empty_vial", 1],
+    "replaceMaterials": {
+        "PoisonMaterial": "PeppermintMaterial"
+    },
+    "eatBehavior": {
+        "interactionName": "Drink",
+        "produces": ["empty_vial", 1],
+        "boost": [
+            {"skill": "smithing", "amount": 5}
+        ]
+    },
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ]
+}

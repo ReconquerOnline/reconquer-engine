@@ -1,0 +1,90 @@
+{
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "interactions": [
+        {
+            "type": "transport",
+            "interaction": "Climb Down"
+        }
+    ],
+    "serverState": {
+        "ladder_top.500-500": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 0,
+                    "deltaY": -1,
+                    "deltaF": -1,
+                    "rotation": 2
+                }
+            }
+        },
+        "ladder_top.485-510a": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 0,
+                        "rotation": 1
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 1,
+                    "deltaY": 0,
+                    "deltaF": -1,
+                    "rotation": 1
+                }
+            }
+        },
+        "ladder_top.485-510b": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": 1,
+                        "rotation": 0
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 0,
+                    "deltaY": 1,
+                    "deltaF": -1,
+                    "rotation": 0
+                }
+            }
+        },
+        "ladder_top.485-510c": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 0,
+                    "deltaY": -1,
+                    "deltaF": -1,
+                    "rotation": 2
+                }
+            }
+        }
+    }
+}

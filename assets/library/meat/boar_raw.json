@@ -1,0 +1,17 @@
+{
+    "itemId": "boar_raw",
+    "itemName": "Raw Boar",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "boar_cooked",
+            "failure": "pork_burnt",
+            "experience": 4,
+            "level": 10
+        }
+    ],
+    "replaceMesh": "beef_raw",
+    "replaceMaterials": {
+        "BeefRawMaterial": "PorkRawMaterial"
+    }
+}

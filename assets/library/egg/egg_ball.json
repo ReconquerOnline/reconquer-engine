@@ -1,0 +1,9 @@
+{
+    "itemId": "egg_ball",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "arrow"
+    },
+    "scaleMesh": 2,
+    "replaceMesh": "egg"
+}

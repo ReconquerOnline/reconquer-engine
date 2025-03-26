@@ -1,0 +1,24 @@
+{
+    "replaceMesh": "copper_knife",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_knife",
+    "itemName": "Bronze Knife",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 5,
+            "swm": 1
+        },
+        "accuracy": 35
+    },
+    "price": 9,
+    "useTargetInteractions": [
+        "knife_utility"
+    ],
+    "attackParameters": {
+        "animation": "stab"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "viewableAtDistance": true,
+    "itemName": "Essence Forge",
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "useTargetInteractions": [
+        "essence_forge_utility"
+    ],
+    "interactions":[
+        {
+            "type": "examine_resource",
+            "interaction": "Examine"
+        }
+    ],
+    "state":[
+        {
+            "id": "sem",
+            "name": "stateEssenceMaterial",
+            "behavior": "chooseMaterial",
+            "target": [
+                "essence_forge"
+
+            ],
+            "options": [
+                "EssenceMaterial",
+                "FurnaceFireMaterial"
+            ]
+        }
+    ]
+}

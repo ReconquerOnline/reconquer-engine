@@ -1,0 +1,67 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 20,
+        "distance": 6,
+        "maxDistance": 6,
+        "frequency": 15,
+        "aggressionDistance": 6,
+        "accuracy":10,
+        "defense": 0,
+        "strength":10,
+        "respawnTime": 30,
+        "dropTable": [
+            [
+                0,
+                [
+                    "coins",
+                    10
+                ]
+            ]
+        ]
+    },
+    "replaceMesh": "troll",
+    "scaleMesh": 1.5,
+    "itemName": "Troll King",
+    "dynamicCollisionSize": 2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "troll_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "troll_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "troll_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "troll_die",
+                    "duration": "0.6",
+                    "loop": false
+                },
+                {
+                    "name": "troll_stomp",
+                    "duration": "3.0",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

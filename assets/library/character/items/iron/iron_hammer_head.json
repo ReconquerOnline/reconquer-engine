@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_hammer_head",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_hammer_head",
+    "itemName": "Iron Hammer Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "iron_hammer",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 20,
+            "experience": 6
+        }
+    ]
+}

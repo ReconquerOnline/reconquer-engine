@@ -1,0 +1,22 @@
+{
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "viewableAtDistance": true,
+    "itemName": "Rock",
+    "level": 20,
+    "experience": 6,
+    "interactions": [
+        {
+            "type": "mine",
+            "interaction": "Mine"
+        }
+    ],
+    "examineMatch": "A shiny gray rock.",
+    "mineMatch": "iron_ore",
+    "replaceMesh": "copper_rock",
+    "replaceMaterials": {
+        "CopperRockMaterial": "IronRockMaterial"
+    }
+}

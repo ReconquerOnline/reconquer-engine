@@ -1,0 +1,19 @@
+{
+    "itemId": "wooden_bow",
+    "itemName": "Bow",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 1,
+            "swbm": 0
+        },
+        "accuracy": 10
+    },
+    "attackParameters": {
+        "animation": "bow",
+        "distance": 5
+    },
+    "price": 5
+}

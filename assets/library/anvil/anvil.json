@@ -1,0 +1,10 @@
+{
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "itemName": "Anvil",
+    "useTargetInteractions": [
+        "anvil_utility"
+    ]
+}

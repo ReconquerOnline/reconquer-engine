@@ -1,0 +1,10 @@
+{
+    "itemName": "Golden Egg",
+    "itemId": "golden_egg",
+    "price": 2000,
+    "replaceMesh": "egg",
+    "replaceMaterials": {
+        "EggMaterial": "GoldMaterial"
+    },
+    "collectionLog": true
+}

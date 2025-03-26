@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_square_shield",
+    "itemName": "Copper Square Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 1,
+            "sshm": 0
+        },
+        "defense": 10,
+        "stabDefense": 10,
+        "slashDefense": -10
+    },
+    "price": 25
+}

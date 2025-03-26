@@ -1,0 +1,16 @@
+{
+    "itemId": "tilapia_meat_burnt",
+    "itemName": "Burnt Tilapia",
+    "rotateThumbnail": true,
+    "scaleMesh": [0.7, 1, 1.2],
+    "replaceMesh": "sardine_meat_raw",
+    "replaceMaterials": {
+        "SardineTopMaterial": "MeatBurntMaterial",
+        "SardineBottomMaterial": "MeatBurntMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

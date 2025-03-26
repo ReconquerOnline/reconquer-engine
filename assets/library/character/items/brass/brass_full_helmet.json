@@ -1,0 +1,17 @@
+{
+    "replaceMesh": "copper_full_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_full_helmet",
+    "itemName": "Brass Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 1,
+            "shm": 3
+        },
+        "defense": 20
+    },
+    "price": 22
+}

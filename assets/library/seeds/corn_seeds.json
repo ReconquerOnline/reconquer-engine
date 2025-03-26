@@ -1,0 +1,38 @@
+{
+    "itemId": "corn_seeds",
+    "itemName": "Corn Kernels",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"CornMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_corn_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 22,
+            "level": 50,
+            "quantity": 18,
+            "yield": 6,
+            "time": 55,
+            "finalState": 12,
+            "failureChance": 0.50,
+            "yieldsItem": "corn"
+        }
+    ]
+}

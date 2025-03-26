@@ -1,0 +1,24 @@
+{
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "itemName": "Lever",
+    "state": [
+        {
+            "id": "ssw",
+            "name": "stateSwitch",
+            "behavior": "chooseMesh",
+            "options": [
+                "lever_off",
+                "lever_on"
+            ]
+        }
+    ],
+    "interactions": [
+        {
+            "type": "toggle",
+            "interaction": "Toggle"
+        }
+    ]
+}

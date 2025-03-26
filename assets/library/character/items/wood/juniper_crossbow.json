@@ -1,0 +1,25 @@
+{
+    "itemId": "juniper_crossbow",
+    "itemName": "Juniper Crossbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_crossbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "JuniperInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 2,
+            "swbm": 3
+        },
+        "strength": 25,
+        "level": 15,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "crossbow",
+        "distance": 5
+    },
+    "price": 14
+}

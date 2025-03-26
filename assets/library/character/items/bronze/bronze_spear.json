@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "copper_spear",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_spear",
+    "itemName": "Bronze Spear",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 11,
+            "swm": 1
+        },
+        "accuracy": 35,
+        "strength": 35
+    },
+    "attackParameters": {
+        "animation": "2h_stab"
+    },
+    "price": 15
+}

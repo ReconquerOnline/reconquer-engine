@@ -1,0 +1,14 @@
+{
+    "itemName": "Lentil Dough",
+    "itemId": "lentil_bread_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "lentil_bread_cooked",
+            "failure": "bread_burnt",
+            "experience": 34,
+            "level": 80
+        }
+    ]
+}

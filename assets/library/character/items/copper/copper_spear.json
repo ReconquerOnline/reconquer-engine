@@ -1,0 +1,19 @@
+{
+    "itemId": "copper_spear",
+    "itemName": "Copper Spear",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 11,
+            "swm": 0
+        },
+        "accuracy": 15,
+        "strength": 15
+    },
+    "attackParameters": {
+        "animation": "2h_stab"
+    },
+    "price": 5
+}

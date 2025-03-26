@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_chain_body",
+    "itemName": "Copper Chain Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 1,
+            "ss": 1,
+            "sbm": 0
+        },
+        "accuracy": 5,
+        "strength": 5
+    },
+    "price": 20
+}

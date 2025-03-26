@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_saber",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_saber",
+    "itemName": "Cupric Saber",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 9,
+            "swm": 4
+        },
+        "strength": 45
+    },
+    "attackParameters": {
+        "animation": "slash"
+    },
+    "price": 32
+}

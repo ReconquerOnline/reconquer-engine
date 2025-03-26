@@ -1,0 +1,23 @@
+{
+    "itemId": "string",
+    "itemName": "String",
+    "stackable": true,
+    "defaultMap": [
+        "rope",
+        1
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Braid",
+            "animation": "carve",
+            "ticks": 3,
+            "inputQuantity": 5,
+            "level": 1,
+            "experience": 5
+        }
+    ],
+    "useTargetInteractions": [
+        "string_utility"
+    ]
+}

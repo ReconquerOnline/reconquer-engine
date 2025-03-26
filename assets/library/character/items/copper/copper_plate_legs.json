@@ -1,0 +1,14 @@
+{
+    "itemId": "copper_plate_legs",
+    "itemName": "Copper Platelegs",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "il",
+        "change": {
+            "sl": 1,
+            "slm": 0
+        },
+        "defense": 5
+    },
+    "price": 20
+}

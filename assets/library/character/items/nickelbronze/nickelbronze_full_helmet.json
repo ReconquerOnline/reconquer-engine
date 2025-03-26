@@ -1,0 +1,17 @@
+{
+    "replaceMesh": "copper_full_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_full_helmet",
+    "itemName": "Cupric Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 1,
+            "shm": 4
+        },
+        "defense": 40
+    },
+    "price": 32
+}

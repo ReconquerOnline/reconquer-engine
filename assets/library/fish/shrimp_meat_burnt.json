@@ -1,0 +1,14 @@
+{
+    "itemId": "shrimp_meat_burnt",
+    "itemName": "Burnt Shrimp",
+    "replaceMesh": "shrimp_meat_raw",
+    "replaceMaterials": {
+        "ShrimpRawMaterial": "MeatBurntMaterial",
+        "ShrimpSecondaryMaterial": "MeatBurntMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

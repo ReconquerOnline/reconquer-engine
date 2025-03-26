@@ -1,0 +1,14 @@
+{
+    "itemName": "Barley Dough",
+    "itemId": "barley_bread_raw",
+    "replaceMesh": "bread_raw",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "barley_bread_cooked",
+            "failure": "bread_burnt",
+            "experience": 6,
+            "level": 10
+        }
+    ]
+}

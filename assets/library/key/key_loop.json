@@ -1,0 +1,15 @@
+{
+    "itemId": "key_loop",
+    "itemName": "Key Loop",
+    "rotateThumbnail": true,
+
+    "useSourceInteractions": [
+        {
+            "type": "key_teeth_source",
+            "result": "key",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "viewableAtDistance": true,
+    "itemName": "Rock",
+    "level": 1,
+    "experience": 1,
+    "interactions": [
+        {
+            "type": "mine",
+            "interaction": "Mine"
+        }
+    ],
+    "examineMatch": "A copper-colored rock.",
+    "mineMatch": "copper_ore"
+}

@@ -1,0 +1,99 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 15,
+        "distance": 3,
+        "maxDistance": 6,
+        "frequency": 15,
+        "aggressionDistance": 6,
+        "stabDefense": -50,
+        "dropTable": [
+            [
+                0,
+                [
+                    "brass_arrows",
+                    5
+                ]
+            ],
+            [
+                300,
+                [
+                    "brass_bolts",
+                    5
+                ]
+            ],
+            [
+                600,
+                [
+                    "coins",
+                    7
+                ]
+            ],
+            [
+                900,
+                [
+                    "catfish_meat_raw",
+                    1
+                ]
+            ]
+        ],
+        "accuracy":10,
+        "defense":0,
+        "strength":10,
+        "respawnTime": 30
+    },
+    "replaceMesh": "goblin",
+    "scaleMesh": 2,
+    "itemName": "Giant Goblin",
+    "dynamicCollisionSize": 2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "goblin_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_die",
+                    "duration": "0.6",
+                    "loop": false
+                },
+                {
+                    "name": "goblin_stomp",
+                    "duration": "3.0",
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "se",
+            "name": "stateEquipment",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "goblin_square_shield",
+                "goblin_kite_shield"
+            ]
+        }
+    ]
+}

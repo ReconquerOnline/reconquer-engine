@@ -1,0 +1,28 @@
+{
+    "replaceMesh": "copper_pickaxe",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_pickaxe",
+    "itemName": "Brass Pickaxe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 8,
+            "swm": 3
+        },
+        "strength": 25
+    },
+    "price": 10,
+    "attackParameters": {
+        "animation": "crush"
+    },
+    "serverState": {
+        "brass_pickaxe.499-505": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

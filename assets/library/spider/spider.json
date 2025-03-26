@@ -1,0 +1,68 @@
+{
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 10,
+        "respawnTime": 60,
+        "distance": 6,
+        "maxDistance": 8,
+        "frequency": 8,
+        "accuracy": 100,
+        "defense": -50,
+        "strength": 100,
+        "aggressionDistance": 8,
+        "dropTable": [[
+            0,
+            [
+                "electric_worms",
+                4
+            ]
+        ],
+        [
+            500,
+            [
+                "electric_worms",
+                12
+            ]
+        ],
+        [
+            950,
+            [
+                "spider_essence",
+                1
+            ]
+        ]
+    ]
+    },
+    "scaleMesh": 2,
+    "itemName": "Spider",
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "spider_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "spider_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "spider_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "spider_die",
+                    "duration": "0.6",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "itemId": "bucket_of_flour",
+    "itemName": "Bucket of Flour",
+    "defaultMap": ["bucket", 1],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ],
+    "useSourceInteractions": [
+        {
+            "type": "water_source",
+            "result": [
+                "bread_raw"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "alsoProduces":["bucket",1]
+        },
+        {
+            "type": "bucket_of_water_utility",
+            "result": [
+                "bread_raw"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "consumesTarget": true,
+            "alsoProduces":["bucket",2]
+        },
+        {
+            "type": "bucket_of_milk_utility",
+            "result": [
+                "cake_raw"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 2,
+            "level": 5,
+            "skill": "cooking",
+            "consumesTarget": true,
+            "alsoConsumes": ["egg", 1],
+            "alsoProduces":["bucket",2]
+        }
+    ]
+}

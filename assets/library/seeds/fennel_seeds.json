@@ -1,0 +1,23 @@
+{
+    "itemId": "fennel_seeds",
+    "itemName": "Fennel Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "FennelMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 10,
+            "level": 25,
+            "quantity": 6,
+            "yield": 7,
+            "time": 60,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.4,
+            "yieldsItem": "herb_fennel"
+        }
+    ]
+}

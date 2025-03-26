@@ -1,0 +1,8 @@
+{
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "itemName": "Chest",
+    "replaceMesh": "chest"
+}

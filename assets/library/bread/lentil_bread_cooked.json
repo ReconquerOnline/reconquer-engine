@@ -1,0 +1,10 @@
+{
+    "itemName": "Lentil Bread",
+    "itemId": "lentil_bread_cooked",
+    "eatBehavior": {
+        "produces": ["lentil_half", 1],
+        "hitpointsToHeal": 11
+    },
+    "price": 38,
+    "replaceMesh": "bread_cooked"
+}

@@ -1,0 +1,15 @@
+{
+    "itemId": "necklace_bear_tooth",
+    "itemName": "Bear Tooth Necklace",
+    "wearBehavior": {
+        "slot": "in",
+        "change": {
+            "sn": 2,
+            "snm": 6
+        },
+        "accuracy": 15,
+        "strength": 15,
+        "defense": 15
+    },
+    "price": 20
+}

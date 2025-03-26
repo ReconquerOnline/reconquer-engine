@@ -1,0 +1,22 @@
+{
+    "itemId": "yarrow_seeds",
+    "itemName": "Yarrow Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "YarrowMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 4,
+            "level": 10,
+            "quantity": 6,
+            "yield": 8,
+            "time": 30,
+            "finalState": 5,
+            "failureChance": 0,
+            "yieldsItem": "herb_yarrow"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "itemId": "flax",
+    "itemName": "Flax",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 30
+    },
+    "defaultMap": [
+        {
+            "result": [
+                "thread",
+                5
+            ],
+            "chance": 0.7
+        },
+        {
+            "result": [
+                "thread",
+                7
+            ],
+            "chance": 0.7
+        },
+        {
+            "result": [
+                "flax_seeds",
+                24
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "flax_seeds",
+                32
+            ],
+            "chance": 1
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3,
+            "level": 1,
+            "experience": 1
+        }
+    ]
+}

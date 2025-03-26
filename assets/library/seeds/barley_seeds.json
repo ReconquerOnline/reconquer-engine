@@ -1,0 +1,38 @@
+{
+    "itemId": "barley_seeds",
+    "itemName": "Barley Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"BarleyMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_barley_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 6,
+            "level": 10,
+            "quantity": 18,
+            "yield": 10,
+            "time": 35,
+            "finalState": 8,
+            "failureChance": 0.3,
+            "yieldsItem": "barley"
+        }
+    ]
+}

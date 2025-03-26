@@ -1,0 +1,13 @@
+{
+    "itemId": "bronze_ingot_huge",
+    "itemName": "Huge Bronze Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_huge",
+    "replaceMaterials": {
+        "CopperRockMaterial": "BronzeMaterial"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_chain_body",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_chain_body",
+    "itemName": "Iron Chain Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 1,
+            "ss": 1,
+            "sbm": 2
+        },
+        "accuracy": 25,
+        "strength": 25
+    },
+    "price": 60
+}

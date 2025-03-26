@@ -1,0 +1,9 @@
+{
+    "itemId": "chicken_meat_cooked",
+    "itemName": "Cooked Chicken",
+    "eatBehavior": 2,
+    "replaceMesh": "chicken_meat_raw",
+    "replaceMaterials": {
+        "MeatRawMaterial": "MeatCookedMaterial"
+    }
+}

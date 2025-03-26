@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_hammer",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_hammer",
+    "itemName": "Cupric Hammer",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 3,
+            "swm": 4
+        },
+        "accuracy": 45
+    },
+    "price": 8,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 12,
+        "respawnTime": 40,
+        "distance": 10,
+        "maxDistance": 20,
+        "accuracy": 10,
+        "defense":1,
+        "strength":10,
+        "frequency": 10,
+        "aggressionDistance": 12,
+        "dropTable": [
+            [
+                900,
+                "wolf_essence"
+            ]
+        ]
+    },
+    "itemName": "Wolf",
+    "dynamicCollisionSize": 1,
+    "spriteHeight": 1.2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "wolf_idle",
+                    "duration": "12",
+                    "loop": true
+                },
+                {
+                    "name": "wolf_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "wolf_attack",
+                    "duration": "1.8",
+                    "loop": true
+                },
+                {
+                    "name": "wolf_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

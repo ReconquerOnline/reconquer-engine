@@ -1,0 +1,92 @@
+{
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "attackCollision": true,
+    "itemName": "Pine Tree",
+    "experience": 1,
+    "level": 1,
+    "state": [
+        {
+            "id": "sm",
+            "name": "stateMesh",
+            "behavior": "chooseMesh",
+            "options": [
+                "pine_tree_0",
+                "pine_tree_a",
+                "pine_tree_b",
+                "pine_tree_c"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "chop",
+                        "interaction": "Chop"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "behavior": {
+        "type": "regenerate",
+        "respawnTime": 30
+    },
+    "examineMatch": [
+        {
+            "matchString": "si=1",
+            "result": "A tall pine tree."
+        },
+        {
+            "matchString": "",
+            "result": "A stump."
+        }
+    ],
+    "chopMatch": [
+        {
+            "matchString": "si=1",
+            "result": "pine_wood",
+            "chance": 0.9
+        },
+        {
+            "matchString": "si=1",
+            "result": "pine_nuts"
+        }
+    ],
+    "serverState": {
+        "pine_tree.a": {
+            "pub": {
+                "sm": 1,
+                "si": 1
+            }
+        },
+        "pine_tree.b": {
+            "pub": {
+                "sm": 2,
+                "si": 1
+            }
+        },
+        "pine_tree.c": {
+            "pub": {
+                "sm": 3,
+                "si": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 5,
+        "maxDistance": 7,
+        "frequency": 200,
+        "hitpoints": 32,
+        "accuracy": 25,
+        "archery": 80,
+        "defense": 20,
+        "aggressionDistance": 8,
+        "dropTable": [
+            [
+                0,
+                [
+                    "key_teeth",
+                    1
+                ]
+            ]
+        ],
+        "dropOffset": [0, -5]
+    },
+    "spriteHeight": 2.5,
+    "dynamicCollisionSize": 2,
+    "itemName": "Pydar",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "pidar_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "pidar_right_bow",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "pidar_left_bow",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "pidar_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ],
+    "serverState": {
+        "pidar": {
+            "priv": {
+                "iw": "wooden_longbow",
+                "i0": ["water_ball", 999999999]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "itemId": "unstrung_wooden_crossbow",
+    "itemName": "Unstrung Crossbow",
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "wooden_crossbow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 5,
+            "experience": 4
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 1,
+            "experience": 2,
+            "alsoProduces": ["arrow_shafts", 9]
+        }
+    ]
+}

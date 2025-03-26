@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_hatchet_head",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_hatchet_head",
+    "itemName": "Brass Hatchet Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "brass_hatchet",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 5,
+            "experience": 2
+        }
+    ]
+}

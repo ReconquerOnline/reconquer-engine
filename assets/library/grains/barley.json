@@ -1,0 +1,33 @@
+{
+    "itemId": "barley",
+    "itemName": "Barley",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 80
+    },
+    "examineMatch": "A bundle of barley.",
+    "defaultMap": [
+        {
+            "result": [
+                "barley_seeds",
+                6
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "barley_seeds",
+                16
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

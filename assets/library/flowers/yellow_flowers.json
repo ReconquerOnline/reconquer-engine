@@ -1,0 +1,15 @@
+{
+    "itemId": "yellow_flowers",
+    "itemName": "Yellow Flowers",
+    "replaceMesh": "white_flowers",
+    "replaceMaterials": {
+        "WhiteFlowerMaterial": "YellowFlowerMaterial"
+    },
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 3600
+    },
+    "despawnConfig" : {
+        "despawnTime": 21600
+    }
+}

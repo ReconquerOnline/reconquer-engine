@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_square_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_square_shield",
+    "itemName": "Cupric Square Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 1,
+            "sshm": 1
+        },
+        "defense": 25,
+        "stabDefense": 25,
+        "slashDefense": -25
+    },
+    "price": 64
+}

@@ -1,0 +1,23 @@
+{
+    "itemId": "chamomile_seeds",
+    "itemName": "Chamomile Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "ChamomileMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 8,
+            "level": 20,
+            "quantity": 6,
+            "yield": 7,
+            "time": 50,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.3,
+            "yieldsItem": "herb_chamomile"
+        }
+    ]
+}

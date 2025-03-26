@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_hatchet_head",
+    "itemName": "Copper Hatchet Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "copper_hatchet",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 1,
+            "experience": 1
+        }
+    ]
+}

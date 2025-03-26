@@ -1,0 +1,6 @@
+{
+    "itemName": "Cake Bread",
+    "itemId": "cake_cooked",
+    "eatBehavior": 4,
+    "price": 10
+}

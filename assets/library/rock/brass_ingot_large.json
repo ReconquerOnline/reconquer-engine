@@ -1,0 +1,16 @@
+{
+    "itemId": "brass_ingot_large",
+    "itemName": "Large Brass Ingot",
+    "useSourceInteractions": [
+        {
+            "type": "anvil_utility"
+        },
+        {
+            "type": "furnace_combining_utility"
+        }
+    ],
+    "replaceMesh": "copper_ingot_large",
+    "replaceMaterials": {
+        "CopperRockMaterial": "BrassMaterial"
+    }
+}

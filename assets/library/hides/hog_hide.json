@@ -1,0 +1,27 @@
+{
+    "itemId": "hog_hide",
+    "replaceMesh": "cow_hide",
+    "replaceMaterials": {
+        "CowHideMaterial": "PigMaterial",
+        "CowHideBlackMaterial": "PigMaterial"
+    },
+    "itemName": "Hog Skin",
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": [
+                "hog_gloves",
+                "hog_boots"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "alsoConsumes": [
+                "thread",
+                5
+            ],
+            "experience": 2,
+            "level": 5,
+            "skill": "crafting"
+        }
+    ]
+}

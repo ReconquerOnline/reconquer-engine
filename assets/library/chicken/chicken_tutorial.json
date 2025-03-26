@@ -1,0 +1,84 @@
+{
+    "replaceMesh": "chicken",
+    "maxLevelForXp": 5,
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 3,
+        "respawnTime": 10,
+        "distance": 3,
+        "maxDistance": 3,
+        "accuracy": -40,
+        "defense": -20,
+        "dropTable": [
+            [
+                0,
+                "chicken_meat_raw"
+            ],
+            [
+                400,
+                "egg"
+            ],
+            [
+                700,
+                [
+                    "feathers",
+                    1
+                ]
+            ],
+            [
+                800,
+                [
+                    "feathers",
+                    3
+                ]
+            ],
+            [
+                900,
+                [
+                    "feathers",
+                    5
+                ]
+            ],
+            [
+                950,
+                [
+                    "chicken_essence",
+                    1
+                ]
+            ]
+        ]
+    },
+    "itemName": "Chicken",
+    "dynamicCollisionSize": 1,
+    "spriteHeight": 1.2,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "chicken_idle",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "chicken_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "chicken_attack",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "chicken_die",
+                    "duration": "0.6",
+                    "loop": false,
+                    "effect": "chicken_die"
+                }
+            ]
+        }
+    ]
+}

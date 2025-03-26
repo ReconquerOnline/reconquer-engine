@@ -1,0 +1,21 @@
+{
+    "itemId": "wolf_gloves",
+    "itemName": "Wolf Gloves",
+    "rotateThumbnail": true,
+    "replaceMesh": "leather_gloves",
+    "replaceMaterials": {
+        "LeatherMaterial": "DesertWolfDarkMaterial"
+    },
+    "price": 11,
+    "wearBehavior": {
+        "slot": "ihan",
+        "change": {
+            "shan": 1,
+            "shanm": 6
+        },
+        "accuracy": 30,
+        "strength": 30,
+        "skill": "defense",
+        "level": 25
+    }
+}

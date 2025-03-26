@@ -1,0 +1,23 @@
+{
+    "itemId": "peppermint_seeds",
+    "itemName": "Peppermint Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "PeppermintMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 14,
+            "level": 35,
+            "quantity": 6,
+            "yield": 6,
+            "time": 80,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.6,
+            "yieldsItem": "herb_peppermint"
+        }
+    ]
+}

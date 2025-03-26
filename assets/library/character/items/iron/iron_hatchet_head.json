@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_hatchet_head",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_hatchet_head",
+    "itemName": "Iron Hatchet Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "iron_hatchet",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 20,
+            "experience": 6
+        }
+    ]
+}

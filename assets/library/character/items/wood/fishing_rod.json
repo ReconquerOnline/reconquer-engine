@@ -1,0 +1,17 @@
+{
+    "itemId": "fishing_rod",
+    "itemName": "Fishing Rod",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 13
+        },
+        "skill": "fishing",
+        "level": 5
+    },
+    "attackParameters": {
+        "animation": "slash"
+    },
+    "price": 10
+}

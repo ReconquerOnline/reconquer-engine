@@ -1,0 +1,22 @@
+{
+    "itemId": "headless_arrows",
+    "itemName": "Headless Arrows",
+    "stackable": true,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "headless_arrows_1",
+                "headless_arrows_2",
+                "headless_arrows_3",
+                "headless_arrows_4",
+                "headless_arrows_5"
+            ]
+        }
+    ],
+    "useTargetInteractions": [
+        "headless_arrow_utility"
+    ]
+}

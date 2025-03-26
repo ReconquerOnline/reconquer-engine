@@ -1,0 +1,16 @@
+{
+    "itemId": "grizzly_bear_essence",
+    "itemName": "Grizzly Bear Essence",
+    "replaceMesh": "bear",
+    "replaceMaterials": {
+        "BearMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.6,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "grizzly_bear"
+        }
+    ]
+}

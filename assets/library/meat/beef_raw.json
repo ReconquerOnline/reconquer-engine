@@ -1,0 +1,13 @@
+{
+    "itemId": "beef_raw",
+    "itemName": "Raw Beef",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "beef_cooked",
+            "failure": "beef_burnt",
+            "experience": 2,
+            "level": 1
+        }
+    ]
+}

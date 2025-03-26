@@ -1,0 +1,6 @@
+{
+    "itemName": "Door",
+    "replaceMesh": "door",
+    "examineMatch": "The door is connected to a lever.",
+    "doorCollision": true
+}

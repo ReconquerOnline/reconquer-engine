@@ -1,0 +1,20 @@
+{
+    "itemName": "Ship",
+    "replaceMesh": "dock",
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        2,
+        4
+    ],
+    "state": [
+        {
+            "id": "ss",
+            "name": "stateSailboat",
+            "behavior": "chooseMesh",
+            "options": [
+                "dock_sailboat",
+                "dock_canoe"
+            ]
+        }
+    ]
+}

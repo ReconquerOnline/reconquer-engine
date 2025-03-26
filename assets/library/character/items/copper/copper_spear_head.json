@@ -1,0 +1,16 @@
+{
+    "itemId": "copper_spear_head",
+    "itemName": "Copper Spear Head",
+    "useSourceInteractions": [
+        {
+            "type": "wooden_handle_utility",
+            "result": "copper_spear",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 1,
+            "experience": 1
+        }
+    ]
+}

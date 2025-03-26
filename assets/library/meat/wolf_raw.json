@@ -1,0 +1,14 @@
+{
+    "itemId": "wolf_raw",
+    "itemName": "Raw Wolf",
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "wolf_cooked",
+            "failure": "wolf_burnt",
+            "experience": 8,
+            "level": 25
+        }
+    ],
+    "replaceMesh": "beef_raw"
+}

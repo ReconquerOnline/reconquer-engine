@@ -1,0 +1,7 @@
+{
+    "itemId": "electric_worms",
+    "itemName": "Spider Eggs",
+    "replaceMesh": "spider_eggs",
+    "stackable": true,
+    "examineMatch": "Maybe this could be used for bait."
+}

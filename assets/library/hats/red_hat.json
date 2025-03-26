@@ -1,0 +1,15 @@
+{
+    "itemId": "red_hat",
+    "itemName": "Red Hat",
+    "replaceMesh":"crown",
+    "replaceMaterials": {
+        "GoldMaterial": "ClothesRedMaterial"
+    },
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 6,
+            "shm": 7
+        }
+    }
+}

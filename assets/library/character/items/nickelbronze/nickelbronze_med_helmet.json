@@ -1,0 +1,18 @@
+{
+    "replaceMesh": "copper_med_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_med_helmet",
+    "itemName": "Cupric Med Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 2,
+            "shm": 4
+        },
+        "accuracy": 20,
+        "strength": 20
+    },
+    "price": 32
+}

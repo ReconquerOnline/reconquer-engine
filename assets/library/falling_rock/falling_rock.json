@@ -1,0 +1,24 @@
+{
+    "frustumCulled": false,
+    "castShadow": false,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "falling_rock_fall",
+                    "duration": "2.4",
+                    "loop": false
+                },
+                {
+                    "name": "falling_rock_fast",
+                    "duration": "1.8",
+                    "loop": false,
+                    "useAnimation": "falling_rock_fall"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "itemId": "draconic_scale",
+    "itemName": "Draconic Scale",
+    "collectionLog": true,
+    "rotateThumbnail": true,
+    "examineMatch": "I can make this into a necklace.",
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "necklace_accumulator",
+            "consumesTarget": true,
+            "quantity": 1,
+            "ticks": 3,
+            "animation": "attach",
+            "level": 20,
+            "experience": 6
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 5,
+        "maxDistance": 7,
+        "frequency": 15,
+        "hitpoints": 10,
+        "accuracy": 8,
+        "defense": 8,
+        "strength": 8,
+        "aggressionDistance": 5,
+        "dropTable": [
+            [
+                [
+                    0,
+                    "boar_raw"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "boar_hide"
+                ]
+            ],
+            [
+                [
+                    950,
+                    "boar_essence"
+                ]
+            ]
+        ]
+    },
+    "dynamicCollisionSize": 2,
+    "itemName": "Boar",
+    "replaceMesh": "hog",
+    "replaceMaterials": {
+        "PigMaterial": "BoarMaterial"
+    },
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "hog_idle",
+                    "duration": "12.0",
+                    "loop": true
+                },
+                {
+                    "name": "hog_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "hog_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "hog_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

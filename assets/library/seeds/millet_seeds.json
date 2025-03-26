@@ -1,0 +1,38 @@
+{
+    "itemId": "millet_seeds",
+    "itemName": "Millet Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"MilletMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_millet_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 14,
+            "level": 30,
+            "quantity": 18,
+            "yield": 8,
+            "time": 45,
+            "finalState": 10,
+            "failureChance": 0.4,
+            "yieldsItem": "millet"
+        }
+    ]
+}

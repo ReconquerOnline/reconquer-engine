@@ -1,0 +1,22 @@
+{
+    "itemId": "fire_ball",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "arrow",
+        "class": "fire"
+    },
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "fire_ball_idle",
+                    "duration": "3",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "itemId": "quinoa",
+    "itemName": "Quinoa",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 130
+    },
+    "examineMatch": "A bundle of quinoa.",
+    "defaultMap": [
+        {
+            "result": [
+                "quinoa_seeds",
+                2
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "quinoa_seeds",
+                10
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

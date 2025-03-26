@@ -1,0 +1,8 @@
+{
+    "itemId": "feathers",
+    "itemName": "Feathers",
+    "stackable": true,
+    "useTargetInteractions": [
+        "feather_utility"
+    ]
+}

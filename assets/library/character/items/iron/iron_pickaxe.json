@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_pickaxe",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_pickaxe",
+    "itemName": "Iron Pickaxe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 8,
+            "swm": 2
+        },
+        "strength": 55
+    },
+    "price": 20,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

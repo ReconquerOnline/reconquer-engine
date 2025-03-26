@@ -1,0 +1,26 @@
+{
+    "itemId": "juniper_longbow",
+    "itemName": "Juniper Longbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_longbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "JuniperInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 6,
+            "swbm": 3
+        },
+        "accuracy": 25,
+        "strength": 25,
+        "level": 15,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "longbow",
+        "distance": 8
+    },
+    "price": 18
+}

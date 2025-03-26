@@ -1,0 +1,10 @@
+{
+    "itemName": "Millet Bread",
+    "itemId": "millet_bread_cooked",
+    "eatBehavior": {
+        "produces": ["millet_half", 1],
+        "hitpointsToHeal": 6
+    },
+    "price": 18,
+    "replaceMesh": "bread_cooked"
+}

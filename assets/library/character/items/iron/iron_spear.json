@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "copper_spear",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_spear",
+    "itemName": "Iron Spear",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 11,
+            "swm": 2
+        },
+        "accuracy": 55,
+        "strength": 55
+    },
+    "attackParameters": {
+        "animation": "2h_stab"
+    },
+    "price": 10
+}

@@ -1,0 +1,39 @@
+{
+    "behaviors": {
+        "tornado.a": {
+            "type": "projectile",
+            "damage": 5,
+            "relativePath": [[1,0],[1,0],[1,0],[1,0],[1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[1,0],[1,0],[1,0],[1,0]]
+        },
+        "tornado.b": {
+            "type": "projectile",
+            "damage": 5,
+            "relativePath": [[1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[1,0]]
+        },
+        "tornado.c": {
+            "type": "projectile",
+            "damage": 5,
+            "relativePath": [[1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0],[-1,0]]
+        },
+        "tornado.wander": {
+            "type": "projectile",
+            "damage": 5,
+            "wander": true,
+            "wanderDistance": 15
+        }
+    },
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "tornado_idle",
+                    "duration": "0.6",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

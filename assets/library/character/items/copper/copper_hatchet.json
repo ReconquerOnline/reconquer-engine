@@ -1,0 +1,17 @@
+{
+    "itemId": "copper_hatchet",
+    "itemName": "Copper Hatchet",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 4,
+            "swm": 0
+        },
+        "accuracy": 15
+    },
+    "price": 5,
+    "attackParameters": {
+        "animation": "slash"
+    }
+}

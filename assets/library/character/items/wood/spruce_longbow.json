@@ -1,0 +1,26 @@
+{
+    "itemId": "spruce_longbow",
+    "itemName": "Spruce Longbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_longbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "SpruceInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 6,
+            "swbm": 1
+        },
+        "accuracy": 15,
+        "strength": 15,
+        "level": 5,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "longbow",
+        "distance": 8
+    },
+    "price": 15
+}

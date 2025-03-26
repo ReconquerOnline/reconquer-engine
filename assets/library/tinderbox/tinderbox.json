@@ -1,0 +1,18 @@
+{
+    "itemId": "tinderbox",
+    "itemName": "Tinderbox",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 60
+    },
+    "useTargetInteractions": [
+        "ignition_utility"
+    ],
+    "serverState": {
+        "tinderbox.500-500": {
+            "priv": {
+                "itemDistance": 1
+            }
+        }
+    }
+}

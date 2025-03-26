@@ -1,0 +1,151 @@
+{
+    "itemName": "Grain Plot",
+    "viewableAtDistance": true,
+    "behavior": {
+        "type": "farming_plot"
+    },
+    "examineMatch": [
+        {
+            "matchString": "sd=1",
+            "result": "It looks like the plants died."
+        },
+        {
+            "matchString": "sst=1",
+            "result": "Some seeds have been planted."
+        },
+        {
+            "matchString": "sst=2",
+            "result": "Something is growing."
+        },
+        {
+            "matchString": "sst=3",
+            "result": "Something is growing."
+        },
+        {
+            "matchString": "sst=4",
+            "result": "Something is growing."
+        },
+        {
+            "matchString": "",
+            "result": "This looks like the right soil for growing grains."
+        }
+    ],
+    "staticCollisionBox": [5, 2],
+    "state": [
+        {
+            "id": "sst",
+            "name": "stateStage",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "grain_plot_seeded",
+                "grain_plot_small",
+                "grain_plot_medium",
+                "grain_plot_tall",
+                "grain_plot_wheat",
+                "grain_plot_flax",
+                "grain_plot_sorghum",
+                "grain_plot_barley",
+                "grain_plot_rye",
+                "grain_plot_millet",
+                "grain_plot_oats",
+                "grain_plot_corn",
+                "grain_plot_rice",
+                "grain_plot_quinoa",
+                "grain_plot_lentils",
+                "grain_plot_chickpeas"
+            ]
+        },
+        {
+            "id": "swe",
+            "name": "stateWeeds",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "grain_plot_weeds"
+            ]
+        },
+        {
+            "id": "swa",
+            "name": "stateWater",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "grain_plot_water"
+            ]
+        },
+        {
+            "id": "sf",
+            "name": "stateFertilizer",
+            "behavior": "chooseMaterial",
+            "target": [
+                "grain_plot"
+            ],
+            "options": [
+                "DirtMaterial",
+                "DirtFertilizedMaterial"
+            ]
+        },
+        {
+            "id": "sd",
+            "name": "stateDead",
+            "behavior": "chooseMaterial",
+            "target": [
+                "grain_plot_small",
+                "grain_plot_medium",
+                "grain_plot_tall",
+                "grain_plot_wheat",
+                "grain_plot_flax",
+                "grain_plot_sorghum"
+            ],
+            "options": [
+                "GrassMaterial",
+                "MeatBurntMaterial"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "harvest",
+                        "interaction": "Harvest"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "weed",
+                        "interaction": "Weed"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "weed",
+                        "interaction": "Dig up"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "useTargetInteractions": ["farming_plot_water_utility", "farming_plot_fertilizer_utility", "grain_plot_utility"]
+}

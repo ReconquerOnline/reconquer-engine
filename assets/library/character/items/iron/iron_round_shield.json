@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_round_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_round_shield",
+    "itemName": "Iron Round Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 3,
+            "sshm": 2
+        },
+        "defense": 30,
+        "crushDefense": 30,
+        "stabDefense": -30
+    },
+    "price": 80
+}

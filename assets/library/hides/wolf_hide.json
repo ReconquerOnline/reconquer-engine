@@ -1,0 +1,32 @@
+{
+    "itemId": "wolf_hide",
+    "replaceMesh": "cow_hide",
+    "replaceMaterials": {
+        "CowHideMaterial": "DesertWolfDarkMaterial",
+        "CowHideBlackMaterial": "DesertWolfDarkMaterial"
+    },
+    "itemName": "Wolf Hide",
+    "useSourceInteractions": [
+        {
+            "type": "knife_utility",
+            "result": [
+                "wolf_gloves",
+                "wolf_boots"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "alsoConsumes": [
+            [
+                "thread",
+                5
+            ],
+            [
+                "dragon_hide",
+                1
+            ]],
+            "experience": 7,
+            "level": 25,
+            "skill": "crafting"
+        }
+    ]
+}

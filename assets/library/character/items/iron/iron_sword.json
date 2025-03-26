@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_sword",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_sword",
+    "itemName": "Iron Sword",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 12,
+            "swm": 2
+        },
+        "strength": 55
+    },
+    "attackParameters": {
+        "animation": "stab"
+    },
+    "price": 40
+}

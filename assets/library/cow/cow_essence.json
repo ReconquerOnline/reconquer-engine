@@ -1,0 +1,18 @@
+{
+    "itemId": "cow_essence",
+    "itemName": "Cow Essence",
+    "replaceMesh": "cow",
+    "replaceMaterials": {
+        "CowWhiteMaterial": "FurnaceFireMaterial",
+        "CowBlackMaterial": "FurnaceFireMaterial",
+        "CowPinkMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "cow"
+        }
+    ]
+}

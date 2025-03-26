@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="height: 512px; width: 512px;"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg25493"
+   sodipodi:docname="fidelity.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs25497">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1152">
+      <stop
+         style="stop-color:#bdc3c7;stop-opacity:1;"
+         offset="0"
+         id="stop1148" />
+      <stop
+         style="stop-color:#7f8c8d;stop-opacity:1;"
+         offset="1"
+         id="stop1150" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient31659">
+      <stop
+         style="stop-color:#f1c40f;stop-opacity:1;"
+         offset="0"
+         id="stop31655" />
+      <stop
+         style="stop-color:#f39c12;stop-opacity:1;"
+         offset="1"
+         id="stop31657" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient31659"
+       id="radialGradient31661"
+       cx="256"
+       cy="256"
+       fx="256"
+       fy="256"
+       r="192"
+       gradientTransform="matrix(1,0,0,1.2291667,0,-58.666667)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1152"
+       id="radialGradient1154"
+       cx="256.00041"
+       cy="256"
+       fx="256.00041"
+       fy="256"
+       r="192.00041"
+       gradientTransform="matrix(1,0,0,1.229164,0,-58.665996)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview25495"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.3545892"
+     inkscape:cx="318.67863"
+     inkscape:cy="370.85168"
+     inkscape:window-width="1278"
+     inkscape:window-height="1360"
+     inkscape:window-x="1266"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg25493" />
+  <path
+     style="fill:url(#radialGradient1154);fill-opacity:1;stroke-width:0"
+     d="m 64,124 c 85.85008,-6.77353 152.85873,-37.599442 192,-104 32.07466,49.3613 76.14451,93.20144 192,104 0.22507,196.05546 -45.90081,310.29621 -192,368 C 69.279971,405.15725 71.934728,285.07395 64,124"
+     id="path419"
+     sodipodi:nodetypes="ccccc" />
+  <g
+     class=""
+     style="fill-opacity:1;fill:url(#radialGradient31661);stroke:#000000;stroke-opacity:1;stroke-width:1;stroke-dasharray:none"
+     transform="translate(0,0)"
+     id="g25491">
+    <path
+       d="M256 20c-64 96-128 88-192 104 0 256 64 320 192 368 128-48 192-112 192-368-64-16-128-8-192-104zm0 32a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm.291 30.152a269.17 269.17 0 0 0 13.84 14.15c34.949 35.385 82.966 45.887 130.685 56.428 2.732 1.184 6.62.508 8.864 1.958-2.683 64.84-5.522 131.649-32.315 191.746-12.685 31.46-36.26 57.602-64.37 76.144-15.452 10.864-32.847 18.227-49.884 26.115-6.586 4.573-13.697-.448-20.242-2.46-43.648-17.847-84.444-48.619-105.056-92.266-29.065-62.018-32.949-131.823-35.815-199.393 57.423-8.808 112.578-27.8 152.441-70.418zM256 124l-27.512 68.78C211.228 189.067 190.45 182.15 160 172c0 32-16 48-32 64 0 16 64 32 80 32 13.173-8.782 22.72-15.138 30.646-19.1C234.19 277.441 218.65 337.35 192 364c32 16 48 32 64 48 16-16 32-32 64-48-26.65-26.65-42.19-86.559-46.646-115.1 7.926 3.962 17.473 10.318 30.646 19.1 16 0 80-16 80-32-16-16-32-32-32-64-30.45 10.15-51.228 17.068-68.488 20.78zm-172 8a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm344 0a9 9 0 1 1 0 18 9 9 0 0 1 0-18zM96 282a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm320 0a9 9 0 1 1 0 18 9 9 0 0 1 0-18zM160 410a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm192 0a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-96 50a9 9 0 1 1 0 18 9 9 0 0 1 0-18z"
+       fill="#fff"
+       fill-opacity="1"
+       id="path25489"
+       style="fill-opacity:1;fill:url(#radialGradient31661);stroke:#000000;stroke-opacity:1;stroke-width:1;stroke-dasharray:none" />
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+{
+    "itemId": "tornado_ball",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "arrow",
+        "class": "wind"
+    },
+    "shiftMesh":[ 0, -1, 0 ],
+    "scaleMesh": 0.3,
+    "replaceMesh": "tornado",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "tornado_idle",
+                    "duration": "0.6",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

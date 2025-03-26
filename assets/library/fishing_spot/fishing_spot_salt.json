@@ -1,0 +1,29 @@
+{
+    "dynamicCollisionSize": 1,
+    "replaceMesh": "fishing_spot",
+    "itemName": "Fishing Spot",
+    "interactions": [
+        {
+            "type": "fish",
+            "interaction": "Fish"
+        }
+    ],
+    "useTargetInteractions": [
+        "salt_water_source"
+    ],
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "fishing_spot_splash",
+                    "duration": "60",
+                    "loop": true,
+                    "randomOffset": true
+                }
+            ]
+        }
+    ]
+}

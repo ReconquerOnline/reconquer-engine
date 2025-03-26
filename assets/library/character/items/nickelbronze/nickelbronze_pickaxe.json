@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_pickaxe",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_pickaxe",
+    "itemName": "Cupric Pickaxe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 8,
+            "swm": 4
+        },
+        "strength": 45
+    },
+    "price": 16,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

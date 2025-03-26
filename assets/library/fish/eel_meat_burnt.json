@@ -1,0 +1,13 @@
+{
+    "itemId": "eel_meat_burnt",
+    "itemName": "Burnt Lava Eel",
+    "replaceMesh": "eel_meat_raw",
+    "replaceMaterials": {
+        "LavaMaterial": "MeatBurntMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

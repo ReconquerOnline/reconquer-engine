@@ -1,0 +1,11 @@
+{
+    "itemId": "white_flowers",
+    "itemName": "White Flowers",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 3600
+    },
+    "despawnConfig" : {
+        "despawnTime": 21600
+    }
+}

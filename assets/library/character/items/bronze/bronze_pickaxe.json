@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_pickaxe",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_pickaxe",
+    "itemName": "Bronze Pickaxe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 8,
+            "swm": 1
+        },
+        "strength": 35
+    },
+    "price": 15,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

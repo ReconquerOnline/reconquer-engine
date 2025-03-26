@@ -1,0 +1,25 @@
+{
+    "itemId": "juniper_bow",
+    "itemName": "Juniper Bow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_bow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "JuniperInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 1,
+            "swbm": 3
+        },
+        "accuracy": 25,
+        "level": 15,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "bow",
+        "distance": 5
+    },
+    "price": 7
+}

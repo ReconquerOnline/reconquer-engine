@@ -1,0 +1,33 @@
+{
+    "itemId": "rye",
+    "itemName": "Rye",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 90
+    },
+    "examineMatch": "A bundle of rye.",
+    "defaultMap": [
+        {
+            "result": [
+                "rye_seeds",
+                5
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "rye_seeds",
+                15
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

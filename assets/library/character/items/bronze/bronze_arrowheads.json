@@ -1,0 +1,48 @@
+{
+    "replaceMesh": "copper_arrowheads",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_arrowheads",
+    "itemName": "Bronze Arrow Heads",
+    "stackable": true,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_arrowheads_1",
+                "copper_arrowheads_2",
+                "copper_arrowheads_3",
+                "copper_arrowheads_4",
+                "copper_arrowheads_5"
+            ]
+        }
+    ],
+    "useSourceInteractions": [
+        {
+            "type": "headless_arrow_utility",
+            "result": "bronze_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 10,
+            "experience": 3
+        },
+        {
+            "type": "arrow_shaft_utility",
+            "result": "bronze_arrows",
+            "inputQuantity": 5,
+            "consumesTarget": true,
+            "quantity": 5,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 10,
+            "experience": 4,
+            "alsoConsumes": ["feathers", 5]
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "itemName": "Pack Mule",
+    "dynamicCollisionSize": 1,
+    "examineMatch": "He looks a little grumpy.",
+    "cameraHeight": 0.5,
+    "cameraAngle": 0.1,
+    "interactions": [
+        {
+            "type": "trade",
+            "interaction": "Store"
+        },
+        {
+            "type": "pat",
+            "interaction": "Pat"
+        }
+    ],
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "packmule_idle",
+                    "duration": "3.0",
+                    "loop": true
+                },
+                {
+                    "name": "packmule_walk",
+                    "duration": "0.6",
+                    "loop": true
+                }
+            ]
+        }
+    ],
+    "serverState": {
+        "packmule.a":{
+            "pub": {
+                "dn": "Pack Mule",
+                "mi0": [],
+                "mi1": [],
+                "mi2": [],
+                "mi3": [],
+                "free": true
+            },
+            "priv": {
+                "shop": true
+            }
+        }
+    }
+}

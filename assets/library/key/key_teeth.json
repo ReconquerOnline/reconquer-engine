@@ -1,0 +1,8 @@
+{
+    "itemId": "key_teeth",
+    "itemName": "Key Teeth",
+    "rotateThumbnail": true,
+    "useTargetInteractions": [
+        "key_teeth_source"
+    ]
+}

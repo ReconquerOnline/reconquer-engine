@@ -1,0 +1,25 @@
+{
+    "viewableAtDistance": true,
+    "itemName": "Bonfire",
+    "useTargetInteractions": [
+        "cooking_utility"
+    ],
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "bonfire_burn",
+                    "duration": "0.6",
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

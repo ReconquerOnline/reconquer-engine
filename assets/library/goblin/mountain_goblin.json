@@ -1,0 +1,154 @@
+{
+    "reverseRotation": [
+        -0.707,
+        0,
+        0,
+        0.707
+    ],
+    "behavior": {
+        "type": "monster",
+        "hitpoints": 15,
+        "respawnTime": 25,
+        "distance": 8,
+        "maxDistance": 12,
+        "frequency": 15,
+        "accuracy": 15,
+        "defense": 5,
+        "strength": 1,
+        "archery": 25,
+        "aggressionDistance": 5,
+        "dropTable": [
+            [
+                0,
+                [
+                    "valerian_seeds",
+                    5
+                ]
+            ],
+            [
+                200,
+                [
+                    "bronze_hammer",
+                    1
+                ]
+            ],
+            [
+                400,
+                [
+                    "bronze_ingot_large",
+                    1
+                ]
+            ],
+            [
+                500,
+                [
+                    "bronze_knife",
+                    1
+                ]
+            ],
+            [
+                700,
+                [
+                    "bronze_pickaxe",
+                    1
+                ]
+            ],
+            [
+                800,
+                [
+                    "bronze_ingot_huge",
+                    1
+                ]
+            ],
+            [
+                850,
+                [
+                    "bronze_saber",
+                    1
+                ]
+            ],
+            [
+                900,
+                [
+                    "bronze_round_shield",
+                    1
+                ]
+            ],
+            [
+                925,
+                [
+                    "bronze_plate_legs",
+                    1
+                ]
+            ],
+            [
+                950,
+                [
+                    "mountain_goblin_essence",
+                    1
+                ]
+            ]
+        ]
+    },
+    "replaceMesh": "goblin",
+    "replaceMaterials": {
+        "GoblinSkinMaterial": "ClothesWhiteMaterial",
+        "LeatherMaterial": "ClothesGrayMaterial"
+    },
+    "scaleMesh": 1.2,
+    "itemName": "Mountain Goblin",
+    "dynamicCollisionSize": 1,
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "goblin_idle",
+                    "duration": "6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_slash",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "goblin_die",
+                    "duration": "0.6",
+                    "loop": false
+                },
+                {
+                    "name": "goblin_bow",
+                    "useAnimation": "goblin_stomp",
+                    "duration": "2.4",
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "se",
+            "name": "stateEquipment",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "goblin_square_shield",
+                "goblin_kite_shield"
+            ]
+        }
+    ],
+    "spriteHeight": 1.4,
+    "serverState": {
+        "mountain_goblin": {
+            "priv": {
+                "i0": ["tornado_ball", 999999999]
+            }
+        }
+    }
+}

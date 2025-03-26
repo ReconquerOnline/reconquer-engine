@@ -1,0 +1,25 @@
+{
+    "itemId": "cedar_crossbow",
+    "itemName": "Cedar Crossbow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_crossbow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "CedarInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 2,
+            "swbm": 2
+        },
+        "strength": 20,
+        "level": 10,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "crossbow",
+        "distance": 5
+    },
+    "price": 12
+}

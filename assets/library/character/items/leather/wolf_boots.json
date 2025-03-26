@@ -1,0 +1,19 @@
+{
+    "itemId": "wolf_boots",
+    "itemName": "Wolf Boots",
+    "replaceMesh": "leather_boots",
+    "replaceMaterials": {
+        "LeatherMaterial": "DesertWolfDarkMaterial"
+    },
+    "price": 22,
+    "wearBehavior": {
+        "slot": "if",
+        "change": {
+            "sf": 1,
+            "sfm": 6
+        },
+        "defense": 30,
+        "skill": "defense",
+        "level": 25
+    }
+}

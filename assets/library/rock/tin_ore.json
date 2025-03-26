@@ -1,0 +1,13 @@
+{
+    "itemId": "tin_ore",
+    "itemName": "Tin Ore",
+    "useSourceInteractions": [
+        {
+            "type": "furnace_utility"
+        }
+    ],
+    "replaceMesh": "copper_ore",
+    "replaceMaterials": {
+        "CopperRockMaterial": "TinRockMaterial"
+    }
+}

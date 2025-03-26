@@ -1,0 +1,18 @@
+{
+    "itemId": "boar_essence",
+    "itemName": "Boar Essence",
+    "replaceMesh": "hog",
+    "replaceMaterials": {
+        "PigMaterial": "FurnaceFireMaterial",
+        "PigSecondaryMaterial": "FurnaceFireMaterial",
+        "PigTuskMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "boar"
+        }
+    ]
+}

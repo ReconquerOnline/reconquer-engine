@@ -1,0 +1,81 @@
+{
+    "viewableAtDistance": true,
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "attackCollision": true,
+    "itemName": "Juniper Tree",
+    "experience": 6,
+    "level": 20,
+    "state": [
+        {
+            "id": "sm",
+            "name": "stateMesh",
+            "behavior": "chooseMesh",
+            "options": [
+                "juniper_tree_0",
+                "juniper_tree_a",
+                "juniper_tree_b"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ],
+                [
+                    {
+                        "type": "chop",
+                        "interaction": "Chop"
+                    },
+                    {
+                        "type": "examine",
+                        "interaction": "Examine"
+                    }
+                ]
+            ]
+        }
+    ],
+    "behavior": {
+        "type": "regenerate",
+        "respawnTime": 70
+    },
+    "examineMatch": [
+        {
+            "matchString": "si=1",
+            "result": "A strong juniper tree."
+        },
+        {
+            "matchString": "",
+            "result": "A stump."
+        }
+    ],
+    "chopMatch": [
+        {
+            "matchString": "si=1",
+            "result": "juniper_wood",
+            "chance": 1
+        }
+    ],
+    "serverState": {
+        "juniper_tree.a": {
+            "pub": {
+                "sm": 1,
+                "si": 1
+            }
+        },
+        "juniper_tree.b": {
+            "pub": {
+                "sm": 2,
+                "si": 1
+            }
+        }
+    }
+}

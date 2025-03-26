@@ -1,0 +1,8 @@
+{
+    "itemId": "dragon_burnt",
+    "itemName": "Burnt Dragon",
+    "replaceMesh": "beef_raw",
+    "replaceMaterials": {
+        "BeefRawMaterial": "MeatBurntMaterial"
+    }
+}

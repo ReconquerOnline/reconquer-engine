@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_square_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_square_shield",
+    "itemName": "Brass Square Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 1,
+            "sshm": 3
+        },
+        "defense": 15,
+        "stabDefense": 15,
+        "slashDefense": -15
+    },
+    "price": 50
+}

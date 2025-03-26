@@ -1,0 +1,29 @@
+{
+    "itemId": "unstrung_cedar_bow",
+    "itemName": "Unstrung Cedar Bow",
+    "rotateThumbnail": true,
+    "replaceMesh": "unstrung_wooden_bow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "CedarInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "string_utility",
+            "result": "cedar_bow",
+            "consumesTarget": true,
+            "ticks": 4,
+            "animation": "carve",
+            "level": 15,
+            "experience": 4
+        },
+        {
+            "type": "knife_utility",
+            "result": "arrow_shafts",
+            "ticks": 4,
+            "animation": "carve",
+            "level": 15,
+            "experience": 4,
+            "alsoProduces": ["arrow_shafts", 7]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "itemId": "shrimp_meat_cooked",
+    "itemName": "Cooked Shrimp",
+    "eatBehavior": 2,
+    "replaceMesh": "shrimp_meat_raw",
+    "replaceMaterials": {
+        "ShrimpRawMaterial": "MeatCookedMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

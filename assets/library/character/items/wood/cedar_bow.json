@@ -1,0 +1,25 @@
+{
+    "itemId": "cedar_bow",
+    "itemName": "Cedar Bow",
+    "rotateThumbnail": true,
+    "replaceMesh": "wooden_bow",
+    "replaceMaterials": {
+        "PoplarInnerMaterial": "CedarInnerMaterial"
+    },
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 1,
+            "swbm": 2
+        },
+        "accuracy": 20,
+        "level": 10,
+        "skill": "archery"
+    },
+    "attackParameters": {
+        "animation": "bow",
+        "distance": 5
+    },
+    "price": 6
+}

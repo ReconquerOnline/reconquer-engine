@@ -1,0 +1,15 @@
+{
+    "itemId": "orange_hat",
+    "itemName": "Orange Hat",
+    "replaceMesh":"crown",
+    "replaceMaterials": {
+        "GoldMaterial": "ClothesOrangeMaterial"
+    },
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 6,
+            "shm": 14
+        }
+    }
+}

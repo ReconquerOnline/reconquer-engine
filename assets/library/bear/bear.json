@@ -1,0 +1,65 @@
+{
+    "behavior": {
+        "type": "monster",
+        "respawnTime": 30,
+        "distance": 10,
+        "maxDistance": 10,
+        "frequency": 15,
+        "hitpoints": 15,
+        "accuracy": 15,
+        "defense": 15,
+        "strength": 15,
+        "aggressionDistance": 5,
+        "dropTable": [
+            [
+                [
+                    0,
+                    "bear_raw"
+                ]
+            ],
+            [
+                [
+                    0,
+                    "bear_hide"
+                ]
+            ],
+            [
+                [
+                    950,
+                    "bear_essence"
+                ]
+            ]
+        ]
+    },
+    "dynamicCollisionSize": 2,
+    "itemName": "Bear",
+    "state": [
+        {
+            "id": "sa",
+            "name": "stateAnimation",
+            "behavior": "chooseAnimation",
+            "options": [
+                {
+                    "name": "bear_idle",
+                    "duration": "2.4",
+                    "loop": true
+                },
+                {
+                    "name": "bear_walk",
+                    "duration": "0.6",
+                    "loop": true
+                },
+                {
+                    "name": "bear_attack",
+                    "duration": "1.2",
+                    "loop": true
+                },
+                {
+                    "name": "bear_die",
+                    "duration": "1.2",
+                    "loop": false
+                }
+            ]
+        }
+    ]
+}

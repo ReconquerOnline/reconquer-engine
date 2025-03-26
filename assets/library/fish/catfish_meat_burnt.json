@@ -1,0 +1,15 @@
+{
+    "itemId": "catfish_meat_burnt",
+    "itemName": "Burnt Catfish",
+    "rotateThumbnail": true,
+    "replaceMesh": "catfish_meat_raw",
+    "replaceMaterials": {
+        "CatfishTopMaterial": "MeatBurntMaterial",
+        "CatfishBottomMaterial": "MeatBurntMaterial"
+    },
+    "useSourceInteractions":[
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

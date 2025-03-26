@@ -1,0 +1,8 @@
+{
+    "viewableAtDistance": true,
+    "replaceMesh": "fence_segment_metal_2",
+    "scaleMesh":[1,0.5,1],
+    "replaceMaterials":{
+        "SteelMaterial": "WoodLightMaterial"
+    }
+}

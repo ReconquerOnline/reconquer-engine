@@ -1,0 +1,14 @@
+{
+    "itemId": "bucket_of_salt_water",
+    "itemName": "Bucket of Salt Water",
+    "defaultMap": ["bucket", 1],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ],
+    "replaceMesh": "bucket_of_water"
+}

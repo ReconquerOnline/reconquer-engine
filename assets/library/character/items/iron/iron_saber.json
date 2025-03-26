@@ -1,0 +1,21 @@
+{
+    "replaceMesh": "copper_saber",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_saber",
+    "itemName": "Iron Saber",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 9,
+            "swm": 2
+        },
+        "strength": 55
+    },
+    "attackParameters": {
+        "animation": "slash"
+    },
+    "price": 40
+}

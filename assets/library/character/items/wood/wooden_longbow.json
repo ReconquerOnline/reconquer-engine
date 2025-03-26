@@ -1,0 +1,20 @@
+{
+    "itemId": "wooden_longbow",
+    "itemName": "Longbow",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 6,
+            "swbm": 0
+        },
+        "accuracy": 10,
+        "strength": 10
+    },
+    "attackParameters": {
+        "animation": "longbow",
+        "distance": 8
+    },
+    "price": 12
+}

@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_round_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_round_shield",
+    "itemName": "Bronze Round Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 3,
+            "sshm": 1
+        },
+        "defense": 20,
+        "crushDefense": 20,
+        "stabDefense": -20
+    },
+    "price": 60
+}

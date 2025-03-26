@@ -1,0 +1,11 @@
+{
+    "itemName": "Stove",
+    "useTargetInteractions": [
+        "cooking_utility"
+    ],
+    "staticCollisionBox": [
+        2,
+        1
+    ],
+    "examineMatch": "A red hot cooking stove"
+}

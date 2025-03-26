@@ -1,0 +1,21 @@
+{
+    "itemId": "boar_gloves",
+    "itemName": "Boar Gloves",
+    "rotateThumbnail": true,
+    "replaceMesh": "leather_gloves",
+    "replaceMaterials": {
+        "LeatherMaterial": "BoarMaterial"
+    },
+    "price": 6,
+    "wearBehavior": {
+        "slot": "ihan",
+        "change": {
+            "shan": 1,
+            "shanm": 3
+        },
+        "accuracy": 15,
+        "strength": 15,
+        "skill": "defense",
+        "level": 10
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "itemName": "Corn Half",
+    "itemId": "corn_half",
+    "eatBehavior": 8,
+    "replaceMesh": "bread_half"
+}

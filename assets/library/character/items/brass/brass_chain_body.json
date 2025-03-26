@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_chain_body",
+    "replaceMaterials": {
+        "CopperMaterial": "BrassMaterial"
+    },
+    "itemId": "brass_chain_body",
+    "itemName": "Brass Chain Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 1,
+            "ss": 1,
+            "sbm": 3
+        },
+        "accuracy": 10,
+        "strength": 10
+    },
+    "price": 30
+}

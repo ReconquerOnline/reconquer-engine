@@ -1,0 +1,17 @@
+{
+    "itemId": "copper_hammer",
+    "itemName": "Copper Hammer",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "change": {
+            "sw": 3,
+            "swm": 0
+        },
+        "accuracy": 15
+    },
+    "price": 5,
+    "attackParameters": {
+        "animation": "crush"
+    }
+}

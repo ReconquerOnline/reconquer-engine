@@ -1,0 +1,16 @@
+{
+    "staticCollisionBox": [
+        4,
+        1
+    ],
+    "itemName": "Altar",
+    "type": "altar",
+    "experience": 1,
+    "interactions": [
+        {
+            "type": "pray",
+            "interaction": "Pray at"
+        }
+    ],
+    "examineMatch": "A simple stone altar"
+}

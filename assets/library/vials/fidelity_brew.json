@@ -1,0 +1,24 @@
+{
+    "itemId": "fidelity_brew",
+    "itemName": "Fidelity Brew",
+    "replaceMesh": "poison_vial",
+    "defaultMap": ["empty_vial", 1],
+    "replaceMaterials": {
+        "PoisonMaterial": "GoldensealMaterial"
+    },
+    "eatBehavior": {
+        "interactionName": "Drink",
+        "produces": ["empty_vial", 1],
+        "boost": [
+            {"skill": "fidelity", "amount": 5}
+        ]
+    },
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Empty",
+            "animation": "idle",
+            "ticks": 1
+        }
+    ]
+}

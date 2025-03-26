@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_round_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_round_shield",
+    "itemName": "Cupric Round Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 3,
+            "sshm": 1
+        },
+        "defense": 25,
+        "crushDefense": 25,
+        "stabDefense": -25
+    },
+    "price": 64
+}

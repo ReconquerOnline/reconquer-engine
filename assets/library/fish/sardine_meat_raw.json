@@ -1,0 +1,17 @@
+{
+    "itemId": "sardine_meat_raw",
+    "itemName": "Raw Sardine",
+    "rotateThumbnail": true,
+    "useSourceInteractions": [
+        {
+            "type": "cooking_utility",
+            "success": "sardine_meat_cooked",
+            "failure": "sardine_meat_burnt",
+            "experience": 2,
+            "level": 1
+        },
+        {
+            "type": "farming_plot_fertilizer_utility"
+        }
+    ]
+}

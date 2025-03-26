@@ -1,0 +1,47 @@
+{
+    "itemName": "Canoe",
+    "replaceMesh": "dock",
+    "state": [
+        {
+            "id": "ss",
+            "name": "stateSailboat",
+            "behavior": "chooseMesh",
+            "options": [
+                null,
+                "dock_canoe",
+                "dock_sailboat"
+            ]
+        },
+        {
+            "id": "si",
+            "name": "stateInteraction",
+            "behavior": "chooseInteraction",
+            "options": [
+                [
+                    {
+                        "type": "q010_build",
+                        "interaction": "Build"
+                    }
+                ],
+                [
+                    {
+                        "type": "q010_sail",
+                        "interaction": "Travel"
+                    }
+                ]
+            ]
+        }
+    ],
+    "serverState": {
+        "dock_canoe.485-510": {
+            "pub": {
+                "cid": "dock_canoe"
+            }
+        },
+        "dock_canoe.485-512": {
+            "pub": {
+                "cid": "dock_canoe"
+            }
+        }
+    }
+}

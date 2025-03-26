@@ -1,0 +1,20 @@
+{
+    "replaceMesh": "copper_kite_shield",
+    "replaceMaterials": {
+        "CopperMaterial": "IronMaterial"
+    },
+    "itemId": "iron_kite_shield",
+    "itemName": "Iron Kite Shield",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ish",
+        "change": {
+            "ssh": 2,
+            "sshm": 2
+        },
+        "defense": 30,
+        "slashDefense": 30,
+        "crushDefense": -30
+    },
+    "price": 80
+}

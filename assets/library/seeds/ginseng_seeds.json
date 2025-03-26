@@ -1,0 +1,23 @@
+{
+    "itemId": "ginseng_seeds",
+    "itemName": "Ginseng Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial": "GinsengMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "herb_plot_utility",
+            "experience": 20,
+            "level": 50,
+            "quantity": 6,
+            "yield": 4,
+            "time": 100,
+            "finalState": 5,
+            "baseStateDead": 2,
+            "failureChance": 0.9,
+            "yieldsItem": "herb_ginseng"
+        }
+    ]
+}

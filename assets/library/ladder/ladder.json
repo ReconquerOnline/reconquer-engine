@@ -1,0 +1,238 @@
+{
+    "itemName": "Ladder",
+    "staticCollisionBox": [
+        1,
+        1
+    ],
+    "interactions": [
+        {
+            "type": "transport",
+            "interaction": "Climb Up"
+        }
+    ],
+    "serverState": {
+        "ladder.500-500": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 0,
+                    "deltaY": -1,
+                    "deltaF": 1,
+                    "rotation": 2
+                }
+            }
+        },
+        "ladder.499-506": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 0,
+                        "rotation": 1
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 499,
+                    "segY": 500,
+                    "x": 57,
+                    "y": 59,
+                    "rotation": 1,
+                    "floor": 0
+                }
+            }
+        },
+        "ladder.501-506": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 486,
+                    "segY": 511,
+                    "x": 6,
+                    "y": 9,
+                    "rotation": 2,
+                    "floor": 0
+                }
+            }
+        },
+        "ladder.496-495": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 0,
+                        "rotation": 3
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 496,
+                    "segY": 497,
+                    "x": 38,
+                    "y": 30,
+                    "rotation": 3,
+                    "floor": 0
+                }
+            }
+        },
+        "ladder.496-493": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 0,
+                        "rotation": 1
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 496,
+                    "segY": 495,
+                    "x": 16,
+                    "y": 30,
+                    "rotation": 1,
+                    "floor": 0
+                }
+            }
+        },
+        "ladder.496-489": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 0,
+                        "rotation": 1
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 486,
+                    "segY": 512,
+                    "x": 54,
+                    "y": 42,
+                    "rotation": 1,
+                    "floor": 0
+                }
+            }
+        },
+        "ladder.485-510a": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 1,
+                        "deltaY": 0,
+                        "rotation": 1
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 1,
+                    "deltaY": 0,
+                    "deltaF": 1,
+                    "rotation": 1
+                }
+            }
+        },
+        "ladder.485-510b": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": 1,
+                        "rotation": 0
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 0,
+                    "deltaY": 1,
+                    "deltaF": 1,
+                    "rotation": 0
+                }
+            }
+        },
+        "ladder.485-510c": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": -1,
+                        "rotation": 2
+                    }
+                ],
+                "endPoint": {
+                    "type": "relative",
+                    "deltaX": 0,
+                    "deltaY": -1,
+                    "deltaF": 1,
+                    "rotation": 2
+                }
+            }
+        },
+        "ladder.496-491a": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": -1,
+                        "deltaY": 0,
+                        "rotation": 3
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 485,
+                    "segY": 510,
+                    "x": 40,
+                    "y": 15,
+                    "rotation": 3,
+                    "floor": 0
+                }
+            }
+        },
+        "ladder.496-491b": {
+            "priv": {
+                "startPoints": [
+                    {
+                        "type": "relative",
+                        "deltaX": 0,
+                        "deltaY": 1,
+                        "rotation": 0
+                    }
+                ],
+                "endPoint": {
+                    "type": "absolute",
+                    "segX": 485,
+                    "segY": 510,
+                    "x": 45,
+                    "y": 10,
+                    "rotation": 0,
+                    "floor": 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "itemId": "lentils",
+    "itemName": "Lentils",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 150
+    },
+    "examineMatch": "A bundle of lentils.",
+    "defaultMap": [
+        {
+            "result": [
+                "lentil_seeds",
+                2
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "lentil_seeds",
+                9
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

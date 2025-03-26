@@ -1,0 +1,33 @@
+{
+    "itemId": "juniper_wood",
+    "itemName": "Juniper Wood",
+    "replaceMesh": "pine_wood",
+    "replaceMaterials": {
+        "PineInnerMaterial": "JuniperInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "ignition_utility",
+            "experience": 6,
+            "level": 20
+        },
+        {
+            "type": "nail_utility",
+            "experience": 6,
+            "level": 20,
+            "produces": "juniper_barricade"
+        },
+        {
+            "type": "knife_utility",
+            "result": [
+                "unstrung_juniper_bow",
+                "unstrung_juniper_crossbow",
+                "unstrung_juniper_longbow"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 5,
+            "level": 20
+        }
+    ]
+}

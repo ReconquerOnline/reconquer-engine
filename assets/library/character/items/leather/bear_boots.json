@@ -1,0 +1,19 @@
+{
+    "itemId": "bear_boots",
+    "itemName": "Bear Boots",
+    "replaceMesh": "leather_boots",
+    "replaceMaterials": {
+        "LeatherMaterial": "BearHideMaterial"
+    },
+    "price": 16,
+    "wearBehavior": {
+        "slot": "if",
+        "change": {
+            "sf": 1,
+            "sfm": 4
+        },
+        "defense": 20,
+        "skill": "defense",
+        "level": 15
+    }
+}

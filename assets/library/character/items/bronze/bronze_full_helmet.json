@@ -1,0 +1,17 @@
+{
+    "replaceMesh": "copper_full_helmet",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_full_helmet",
+    "itemName": "Bronze Helmet",
+    "wearBehavior": {
+        "slot": "ihe",
+        "change": {
+            "she": 1,
+            "shm": 1
+        },
+        "defense": 30
+    },
+    "price": 33
+}

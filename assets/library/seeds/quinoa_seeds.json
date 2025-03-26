@@ -1,0 +1,38 @@
+{
+    "itemId": "quinoa_seeds",
+    "itemName": "Quinoa Seeds",
+    "stackable": true,
+    "replaceMesh": "wheat_seeds",
+    "replaceMaterials": {
+        "WheatMaterial":"QuinoaMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "crushing_utility",
+            "result": [
+                "bucket_of_quinoa_flour"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 1,
+            "level": 1,
+            "skill": "cooking",
+            "quantity": 20,
+            "alsoConsumes": [
+                "bucket",
+                1
+            ]
+        },
+        {
+            "type": "grain_plot_utility",
+            "experience": 30,
+            "level": 70,
+            "quantity": 18,
+            "yield": 4,
+            "time": 65,
+            "finalState": 14,
+            "failureChance": 0.6,
+            "yieldsItem": "quinoa"
+        }
+    ]
+}

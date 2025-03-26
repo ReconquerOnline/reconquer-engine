@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "copper_spear",
+    "replaceMaterials": {
+        "CopperMaterial": "NickelBronzeMaterial"
+    },
+    "itemId": "nickelbronze_spear",
+    "itemName": "Cupric Spear",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 11,
+            "swm": 4
+        },
+        "accuracy": 45,
+        "strength": 45
+    },
+    "attackParameters": {
+        "animation": "2h_stab"
+    },
+    "price": 8
+}

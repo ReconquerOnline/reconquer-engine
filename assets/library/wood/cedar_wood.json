@@ -1,0 +1,33 @@
+{
+    "itemId": "cedar_wood",
+    "itemName": "Cedar Wood",
+    "replaceMesh": "pine_wood",
+    "replaceMaterials": {
+        "PineInnerMaterial": "CedarInnerMaterial"
+    },
+    "useSourceInteractions": [
+        {
+            "type": "ignition_utility",
+            "experience": 5,
+            "level": 15
+        },
+        {
+            "type": "nail_utility",
+            "experience": 5,
+            "level": 15,
+            "produces": "cedar_barricade"
+        },
+        {
+            "type": "knife_utility",
+            "result": [
+                "unstrung_cedar_bow",
+                "unstrung_cedar_crossbow",
+                "unstrung_cedar_longbow"
+            ],
+            "ticks": 4,
+            "animation": "carve",
+            "experience": 4,
+            "level": 15
+        }
+    ]
+}

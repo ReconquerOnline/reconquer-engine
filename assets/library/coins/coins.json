@@ -1,0 +1,24 @@
+{
+    "itemId": "coins",
+    "itemName": "Coins",
+    "stackable": true,
+    "unsellable": true,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "coins_1",
+                "coins_2",
+                "coins_3",
+                "coins_4",
+                "coins_5",
+                "coins_10",
+                "coins_20",
+                "coins_50",
+                "coins_100"
+            ]
+        }
+    ]
+}

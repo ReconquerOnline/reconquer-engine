@@ -1,0 +1,27 @@
+{
+    "replaceMesh": "copper_bolts",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_bolts",
+    "itemName": "Bronze Bolts",
+    "stackable": true,
+    "ammoParameters": {
+        "type": "bolt"
+    },
+    "price": 5,
+    "state": [
+        {
+            "id": "q",
+            "name": "quantity",
+            "behavior": "chooseMeshQuantity",
+            "options": [
+                "copper_bolts_1",
+                "copper_bolts_2",
+                "copper_bolts_3",
+                "copper_bolts_4",
+                "copper_bolts_5"
+            ]
+        }
+    ]
+}

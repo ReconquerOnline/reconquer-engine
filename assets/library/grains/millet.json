@@ -1,0 +1,33 @@
+{
+    "itemId": "millet",
+    "itemName": "Millet",
+    "behavior": {
+        "type": "respawn",
+        "respawnTime": 100
+    },
+    "examineMatch": "A bundle of millet.",
+    "defaultMap": [
+        {
+            "result": [
+                "millet_seeds",
+                4
+            ],
+            "chance": 0.5
+        },
+        {
+            "result": [
+                "millet_seeds",
+                14
+            ],
+            "chance": 0.9
+        }
+    ],
+    "inventoryInteractions": [
+        {
+            "type": "default",
+            "interaction": "Thresh",
+            "animation": "carve",
+            "ticks": 3
+        }
+    ]
+}

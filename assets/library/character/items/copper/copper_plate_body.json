@@ -1,0 +1,15 @@
+{
+    "itemId": "copper_plate_body",
+    "itemName": "Copper Plate Body",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "ib",
+        "change": {
+            "sb": 2,
+            "ss": 2,
+            "sbm": 0
+        },
+        "defense": 10
+    },
+    "price": 25
+}

@@ -1,0 +1,20 @@
+{
+    "itemId": "troll_essence",
+    "itemName": "Troll Essence",
+    "replaceMesh": "troll",
+    "replaceMaterials": {
+        "TrollSkinMaterial": "FurnaceFireMaterial",
+        "LeatherMaterial": "FurnaceFireMaterial"
+    },
+    "scaleMesh": 0.5,
+    "hideMeshes": [
+        "troll_sword"
+    ],
+    "stackable": true,
+    "useSourceInteractions":[
+        {
+            "type": "essence_forge_utility",
+            "generates": "troll"
+        }
+    ]
+}

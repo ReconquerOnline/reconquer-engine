@@ -1,0 +1,23 @@
+{
+    "replaceMesh": "copper_scythe",
+    "replaceMaterials": {
+        "CopperMaterial": "BronzeMaterial"
+    },
+    "itemId": "bronze_scythe",
+    "itemName": "Bronze Scythe",
+    "rotateThumbnail": true,
+    "wearBehavior": {
+        "slot": "iw",
+        "twoHand": true,
+        "change": {
+            "sw": 10,
+            "swm": 1
+        },
+        "accuracy": 35,
+        "strength": 35
+    },
+    "attackParameters": {
+        "animation": "2h_slash"
+    },
+    "price": 15
+}
