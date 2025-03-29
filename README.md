@@ -1,6 +1,6 @@
 ![alt text](https://github.com/ReconquerOnline/reconquer-engine/blob/master/header.png?raw=true)
 
-🚨 **IMPORTANT:** Before using or contributing, please read the [LICENSE](LICENSE) and [CONTRIBUTOR LICENSE AGREEMENT](CONTRIBUTOR_LICENSE_AGREEMENT.md).
+🚨 **IMPORTANT:** Before using or contributing, please read the [LICENSE](LICENSE.md) and [CONTRIBUTOR LICENSE AGREEMENT](CONTRIBUTOR_LICENSE_AGREEMENT.md).
 
 ## Overview
 
